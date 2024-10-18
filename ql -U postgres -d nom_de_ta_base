@@ -1,0 +1,11 @@
+ grantor  | grantee  | table_catalog | table_schema | table_name | privilege_type | is_grantable | with_hierarchy 
+----------+----------+---------------+--------------+------------+----------------+--------------+----------------
+ postgres | postgres | postgres      | public       | client     | INSERT         | YES          | NO
+ postgres | postgres | postgres      | public       | client     | SELECT         | YES          | YES
+ postgres | postgres | postgres      | public       | client     | UPDATE         | YES          | NO
+ postgres | postgres | postgres      | public       | client     | DELETE         | YES          | NO
+ postgres | postgres | postgres      | public       | client     | TRUNCATE       | YES          | NO
+ postgres | postgres | postgres      | public       | client     | REFERENCES     | YES          | NO
+ postgres | postgres | postgres      | public       | client     | TRIGGER        | YES          | NO
+(7 rows)
+

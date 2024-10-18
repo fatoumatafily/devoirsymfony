@@ -1,0 +1,453 @@
+{% extends 'base.html.twig' %} {% block title %}Dashboard Client{% endblock %}
+{% block container %}
+<!-- Nav -->
+<div class="navbar bg-gray-100 rounded mb-6 flex-none shadow-md">
+	<div class="flex-none" id="menu-burger">
+		<button class="btn btn-square btn-ghost">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewbox="0 0 24 24"
+				class="inline-block h-5 w-5 stroke-current"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M4 6h16M4 12h16M4 18h16"
+				></path>
+			</svg>
+		</button>
+	</div>
+	<div class="flex-1" id="input-title">
+		<a class="btn btn-ghost text-xl">GESTION BOUTIQUE</a>
+	</div>
+	<div class="flex-none gap-2">
+		<div class="form-control">
+			{# Formulaire de recherche #}
+
+			{{
+				form_start(searchForm, {
+					attr: { class: "flex gap-2.5 items-center" }
+				})
+			}}
+			{% set errors = form_errors(searchForm.searchTerm) %} {% if
+			errors|length > 0 %}
+			<div
+				id="error-alert"
+				data-errors="{{ errors|json_encode|e('html_attr') }}"
+			></div>
+			{% endif %}
+			{{
+				form_widget(searchForm.searchTerm, {
+					attr: {
+						class: "input input-bordered bg-gray-100 w-24 md:w-auto"
+					}
+				})
+			}}
+			{{ form_widget(searchForm.Rechercher) }}
+			{{ form_end(searchForm) }}
+			{# Fin du recherche #}
+		</div>
+		<div class="dropdown dropdown-end">
+			<div
+				tabindex="0"
+				role="button"
+				class="btn btn-ghost btn-circle avatar"
+			>
+				<div class="w-10 rounded-full">
+					<img
+						alt="Navbar component"
+						src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+					/>
+				</div>
+			</div>
+			<ul
+				tabindex="0"
+				class="menu menu-sm dropdown-content bg-gray-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+			>
+				<li>
+					<a class="justify-between"> Profile </a>
+				</li>
+				<li>
+					<a>Settings</a>
+				</li>
+				<li>
+					<a>Logout</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Client List and New Client in Short Supply Section -->
+<div class="grid grid-cols-2 gap-4 mb-6 flex-auto">
+	<!-- New Client Form -->
+	<div
+		class="bg-gray-100 text-gray-500 rounded-lg h-[450px] flex flex-col gap-2.5 shadow-md p-4 overflow-auto"
+	>
+		<h3 class="font-semibold text-lg mb-4 text-first">Nouveau Client</h3>
+		{{
+			form_start(clientForm, {
+				attr: {
+					class: "space-y-4 flex w-auto flex-col",
+					id: "client-form"
+				}
+			})
+		}}
+		{{
+			form_widget(clientForm.surname, {
+				attr: {
+					class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+				}
+			})
+		}}
+		{% set errors = form_errors(clientForm.surname) %} {% if errors|length >
+		0 %}
+		<div
+			id="error-alert"
+			data-errors="{{ errors|json_encode|e('html_attr') }}"
+		></div>
+		{% endif %}
+		{{
+			form_widget(clientForm.tel, {
+				attr: {
+					class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+				}
+			})
+		}}
+		{% set errors = form_errors(clientForm.tel) %} {% if errors|length > 0
+		%}
+		<div
+			id="error-alert"
+			data-errors="{{ errors|json_encode|e('html_attr') }}"
+		></div>
+		{% endif %}
+		{{
+			form_widget(clientForm.address, {
+				attr: {
+					class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+				}
+			})
+		}}
+		{% set errors = form_errors(clientForm.tel) %} {% if errors|length > 0
+		%}
+		<div
+			id="error-alert"
+			data-errors="{{ errors|json_encode|e('html_attr') }}"
+		></div>
+		{% endif %}
+		{{
+			form_widget(clientForm.cumulMontantDu, {
+				attr: {
+					class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+				}
+			})
+		}}
+		{% set errors = form_errors(clientForm.cumulMontantDu) %} {% if
+		errors|length > 0 %}
+		<div
+			id="error-alert"
+			data-errors="{{ errors|json_encode|e('html_attr') }}"
+		></div>
+		{% endif %}
+		<label for="client_createUser" class="flex item-center gap-2.5">
+			Créer un compte utilisateur
+			{{
+				form_widget(clientForm.createUser, {
+					attr: {
+						class: "checkbox",
+						id: "client_createUser"
+					}
+				})
+			}}
+		</label>
+		<div id="user-form-fields" style="display: none">
+			{{ dump(clientForm) }}
+			{% if clientForm.utilisateur is defined %}
+			<label
+				class="input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			>
+				Email
+				{{
+					form_widget(clientForm.utilisateur.email, {
+						attr: {
+							class: "grow"
+						}
+					})
+				}}
+			</label>
+			{% set errors = form_errors(clientForm.utilisateur.email) %} {% if
+			errors|length > 0 %}
+			<div
+				id="error-alert"
+				data-errors="{{ errors|json_encode|e('html_attr') }}"
+			></div>
+			{% endif %}
+			<label
+				class="input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			>
+				Login
+				{{
+					form_widget(clientForm.utilisateur.login, {
+						attr: {
+							class: "grow"
+						}
+					})
+				}}
+			</label>
+			{% set errors = form_errors(clientForm.utilisateur.email) %} {% if
+			errors|length > 0 %}
+			<div
+				id="error-alert"
+				data-errors="{{ errors|json_encode|e('html_attr') }}"
+			></div>
+			{% endif %}
+			<label
+				class="input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			>
+				Password
+				{{
+					form_widget(clientForm.utilisateur.password, {
+						attr: {
+							class: "grow"
+						}
+					})
+				}}
+			</label>
+			{% set errors = form_errors(clientForm.utilisateur.email) %} {% if
+			errors|length > 0 %}
+			<div
+				id="error-alert"
+				data-errors="{{ errors|json_encode|e('html_attr') }}"
+			></div>
+			{% endif %} {% endif %}
+		</div>
+		{{
+			form_widget(clientForm.Enregistrer, {
+				attr: {
+					class: "btn btn-active bg-first border-first text-gray-100"
+				}
+			})
+		}}
+		{{ form_end(clientForm) }}
+	</div>
+	<!-- Client List -->
+	<div
+		class="bg-gray-100 rounded-lg h-[450px] flex flex-col gap-2.5 shadow-md p-4 overflow-auto"
+	>
+		<h3 class="font-semibold text-lg flex-none mb-4">Liste des Clients</h3>
+
+		<div class="w-full flex-auto overflow-auto space-y-4">
+			<table class="bg-gray-100 rounded-lg w-full">
+				<thead>
+					<tr
+						class="bg-gray-300 text-gray-600 text-left text-sm py-2.5"
+					>
+						<th class="py-0 px-4">#</th>
+						<th class="py-0 px-4">Surname</th>
+						<th class="py-0 px-4">Téléphone</th>
+						<th class="py-0 px-4">Adresse</th>
+						<th class="py-0 px-4">Montant Dette</th>
+						<th class="py-0 px-4">Utilisateur</th>
+						<th class="py-0 px-4">Date</th>
+						<th class="py-0 px-4">Status</th>
+						<th class="py-0 px-4">Action</th>
+					</tr>
+				</thead>
+				<tbody id="client-list">
+					{% if datas %} {% for item in datas %}
+
+					<tr class="text-gray-500 border-b-first">
+						<td class="py-0 px-4">{{ item.id }}</td>
+						<td class="py-0 px-4">
+							{{ item.surname }}
+						</td>
+						<td class="py-0 px-4">{{ item.tel }}</td>
+						<td class="py-0 px-4">
+							{{ item.address }}
+						</td>
+						<td class="py-0 px-4">
+							{{ item.cumulMontantDu }}
+						</td>
+
+						{% if item.utilisateur %}
+						<td class="py-0 px-4">
+							{{ item.utilisateur.login }}
+						</td>
+						{% else %}
+						<td class="py-0 px-4">N/A</td>
+						{% endif %}
+
+						<td class="py-0 px-4">
+							{{ item.createAt | date('F j, Y') }}
+						</td>
+
+						<td class="py-0 px-4">
+							{% if item.isStatus == 1 %} Actif {% else %}
+							Déactiver {% endif %}
+						</td>
+						<td>
+							<a
+								class="btn btn-active btn-ghost"
+								href="{{
+									path('dettes.details', {
+										id: item.id
+									})
+								}}"
+							>
+								Détails
+							</a>
+						</td>
+					</tr>
+					{% endfor %} {% endif %}
+				</tbody>
+			</table>
+		</div>
+
+		<!-- Pagination -->
+		<div class="join self-center flex-none">
+			{% if currentPage > 1 %}
+			<a
+				href="{{ path('clients.index', { page: currentPage - 1 }) }}"
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>Précédent</a
+			>
+			{% else %}
+			<span
+				class="join-item btn bg-gray-100 text-gray-400 cursor-not-allowed"
+				>Précédent</span
+			>
+			{% endif %} {% set pageRange = 2 %} {% set startPage = max(1,
+			currentPage - pageRange) %} {% set endPage = min(maxPages,
+			currentPage + pageRange) %} {% if startPage > 1 %}
+			<a
+				href="{{ path('clients.index', { page: 1 }) }}"
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>1</a
+			>
+			{% if startPage > 2 %}
+			<span
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>...</span
+			>
+			{% endif %} {% endif %} {% for i in startPage..endPage %} {% if i ==
+			currentPage %}
+			<span
+				class="join-item btn btn-active bg-first text-gray-100 hover:bg-first"
+				>{{ i }}</span
+			>
+			{% else %}
+			<a
+				href="{{ path('clients.index', { page: i }) }}"
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>{{ i }}</a
+			>
+			{% endif %} {% endfor %} {% if endPage < maxPages %} {% if endPage <
+			maxPages - 1 %}
+			<span
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>...</span
+			>
+			{% endif %}
+			<a
+				href="{{ path('clients.index', { page: maxPages }) }}"
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>{{ maxPages }}</a
+			>
+			{% endif %} {% if currentPage < maxPages %}
+			<a
+				href="{{ path('clients.index', { page: currentPage + 1 }) }}"
+				class="join-item btn bg-gray-100 text-first hover:bg-first hover:text-gray-100"
+				>Suivant</a
+			>
+			{% else %}
+			<span
+				class="join-item btn bg-gray-100 text-gray-400 cursor-not-allowed"
+				>Suivant</span
+			>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-200 p-4 text-center flex-none rounded-t">
+	<p>SMRS &copy; 2024 Gestion Boutique. Tous droits réservés.</p>
+</footer>
+{% endblock %} {% block script %}
+<script>
+	// Client configuration
+	const menuBurger = document.querySelector("#menu-burger");
+	const inputTitle = document.querySelector("#input-title a");
+	const sideMenu = document.querySelector("#side-menu");
+
+	menuBurger.addEventListener("click", () => {
+		sideMenu.classList.toggle("hidden");
+		inputTitle.classList.toggle("hidden");
+	});
+
+	document.addEventListener("DOMContentLoaded", function () {
+		const createUserCheckbox = document.querySelector("#client_createUser");
+		const userFormFields = document.querySelector("#user-form-fields");
+		const clientForm = document.querySelector("#client-form");
+		const clientList = document.querySelector("#client-list");
+
+		createUserCheckbox.addEventListener("change", function () {
+			userFormFields.style.display = this.checked ? "block" : "none";
+		});
+
+		clientForm.addEventListener("submit", function (e) {
+			e.preventDefault();
+			const formData = new FormData(clientForm);
+
+			fetch("{{ path('clients.index') }}", {
+				method: "POST",
+				body: formData,
+				headers: {
+					"X-Requested-With": "XMLHttpRequest",
+				},
+			})
+				.then((response) => response.json())
+				.then((data) => {
+					if (data.errors) {
+						const errorAlertElement = document.getElementById('error-alert');
+						if (errorAlertElement) {
+							const errorAlert = new ErrorAlert(data.errors);
+							errorAlertElement.innerHTML = errorAlert.render();
+						}
+					} else if (data.client) {
+						// Logique pour ajouter le client dans le tableau
+						const newRow = document.createElement("tr");
+						newRow.innerHTML = `
+							<td class="py-0 px-4">${data.client.id}</td>
+							<td class="py-0 px-4">${data.client.surname}</td>
+							<td class="py-0 px-4">${data.client.tel}</td>
+							<td class="py-0 px-4">${data.client.address}</td>
+							<td class="py-0 px-4">${data.client.cumulMontantDu}</td>
+							<td class="py-0 px-4">${data.client.utilisateur}</td>
+							<td class="py-0 px-4">${data.client.createAt}</td>
+							<td class="py-0 px-4">${data.client.isStatus ? "Actif" : "Déactiver"}</td>
+							<td>
+								<a class="btn btn-active btn-ghost" href="/dettes/details/${data.client.id}">
+									Détails
+								</a>
+							</td>
+						`;
+						clientList.appendChild(newRow);
+						clientForm.reset();
+					}
+				})				
+				.catch((error) => {
+					console.error("Error:", error);
+					const errorAlertElement = document.getElementById('error-alert');
+					if (errorAlertElement) {
+						const errorAlert = new ErrorAlert([error.message || 'An error occurred']);
+						errorAlertElement.innerHTML = errorAlert.render();
+					}
+				});
+				
+		});
+	});
+</script>
+{% endblock %}

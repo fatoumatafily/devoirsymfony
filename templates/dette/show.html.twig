@@ -1,0 +1,181 @@
+{% extends 'base.html.twig' %} {% block title %}Dashboard Dette Client{% endblock %}
+{% block container %}
+<!-- Nav -->
+<div class="navbar bg-gray-100 rounded mb-6 flex-none shadow-md">
+	<div class="flex-none" id="menu-burger">
+		<button class="btn btn-square btn-ghost">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewbox="0 0 24 24"
+				class="inline-block h-5 w-5 stroke-current"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M4 6h16M4 12h16M4 18h16"
+				></path>
+			</svg>
+		</button>
+	</div>
+	<div class="flex-1" id="input-title">
+		<a class="btn btn-ghost text-xl">GESTION BOUTIQUE</a>
+	</div>
+	<div class="flex-none gap-2">
+		<div class="dropdown dropdown-end">
+			<div
+				tabindex="0"
+				role="button"
+				class="btn btn-ghost btn-circle avatar"
+			>
+				<div class="w-10 rounded-full">
+					<img
+						alt="Navbar component"
+						src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+					/>
+				</div>
+			</div>
+			<ul
+				tabindex="0"
+				class="menu menu-sm dropdown-content bg-gray-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+			>
+				<li>
+					<a class="justify-between"> Profile </a>
+				</li>
+				<li>
+					<a>Settings</a>
+				</li>
+				<li>
+					<a>Logout</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Client List Dette and New Client in Short Supply Section -->
+<div class="grid grid-cols-2 gap-4 mb-6 flex-auto">
+	<!-- New Dette Form -->
+	<div
+		class="bg-gray-100 text-gray-500 rounded-lg h-[450px] flex flex-col gap-2.5 shadow-md p-4 overflow-auto"
+	>
+		<h3 class="font-semibold text-lg mb-4 text-first">Nouvelle Dette</h3>
+		{{
+			form_start(detteForm, {
+				attr: { class: "space-y-4 flex w-auto flex-col" }
+			})
+		}}
+		{{
+			form_widget(detteForm.montantTotal, {
+				attr: {
+					class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+				}
+			})
+		}}
+		{% set errors = form_errors(detteForm.montantTotal) %} {% if errors|length >
+		0 %}
+		<div
+			id="error-alert"
+			data-errors="{{ errors|json_encode|e('html_attr') }}"
+		></div>
+		{% endif %}
+		{{
+			form_widget(detteForm.montantVerser, {
+				attr: {
+					class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+				}
+			})
+		}}
+		{% set errors = form_errors(detteForm.montantVerser) %} {% if errors|length > 0
+		%}
+		<div
+			id="error-alert"
+			data-errors="{{ errors|json_encode|e('html_attr') }}"
+		></div>
+		{% endif %}
+		{{
+			form_widget(detteForm.Enregistrer, {
+				attr: {
+					class: "btn btn-active bg-first border-first text-gray-100"
+				}
+			})
+		}}
+		{{ form_end(detteForm) }}
+	</div>
+
+	<!-- Client List Dette -->
+	<div
+		class="bg-gray-100 rounded-lg h-[450px] flex flex-col gap-2.5 shadow-md p-4 overflow-auto"
+	>
+		<h3 class="flex items-center gap-2 font-semibold text-lg flex-none mb-4">Liste Dettes du <span class="badge badge-info bg-first text-gray-100">{{ client.surname }}</span></h3>
+		<div class="w-full flex-auto overflow-auto space-y-4">
+			<table class="bg-gray-100 rounded-lg w-full">
+				<thead>
+					<tr class="bg-gray-300 text-gray-600 text-left text-sm">
+						<th class="py-0 px-4">#</th>
+						<th class="py-0 px-4">Montant Total</th>
+						<th class="py-0 px-4">Montant Verser</th>
+						<th class="py-0 px-4">Montant Restant</th>
+						<th class="py-0 px-4">Date</th>
+						<th class="py-0 px-4">Status</th>
+						<th class="py-0 px-4">Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% if datas %} {% for item in datas %}
+
+					<tr class="text-gray-500 border-b-first">
+						<td class="py-0 px-4">{{ item.id }}</td>
+						<td class="py-0 px-4">
+							{{ item.montantTotal }}
+						</td>
+						<td class="py-0 px-4">{{ item.montantVerser }}</td>
+						<td class="py-0 px-4">
+							{{ item.montantTotal - item.montantVerser }}
+						</td>
+						<td class="py-0 px-4">
+							{{ item.createAt | date('F j, Y') }}
+						</td>
+
+						<td class="py-0 px-4">
+							{% if (item.montantTotal - item.montantVerser) == 0 %} 
+							<span class="badge badge-success inline-block text-gray-100">Soldée</span>
+							{% else %}
+							<span class="badge badge-success badge-outline inline-block">En Cours</span>
+							{% endif %}
+						</td>
+						<td>
+							<a
+								class="btn btn-active btn-ghost"
+								href="#"
+							>
+								Delete
+							</a>
+						</td>
+					</tr>
+					{% endfor %} {% endif %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-200 p-4 text-center flex-none rounded-t">
+	<p>SMRS &copy; 2024 Gestion Boutique. Tous droits réservés.</p>
+</footer>
+{% endblock %} {% block script %}
+<script>
+    // Client configuration
+    const menuBurger = document.querySelector("#menu-burger");
+    const inputTitle = document.querySelector("#input-title a");
+    const sideMenu = document.querySelector("#side-menu");
+
+    // Gestion du clic sur le bouton menu burger
+    menuBurger.addEventListener("click", () => {
+        sideMenu.classList.toggle("hidden");
+        inputTitle.classList.toggle("hidden");
+    });
+</script>
+{% endblock %}
