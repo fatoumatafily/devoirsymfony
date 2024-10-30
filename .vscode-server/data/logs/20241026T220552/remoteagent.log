@@ -1,0 +1,23 @@
+2024-10-26 22:05:52.426 [info] 
+
+
+
+
+2024-10-26 22:05:52.480 [info] Extension host agent started.
+2024-10-26 22:05:52.636 [info] Started initializing default profile extensions in extensions installation folder. file:///home/yafily/.vscode-server/extensions
+2024-10-26 22:05:52.768 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/yafily/.vscode-server/extensions
+2024-10-26 22:05:52.863 [info] [127.0.0.1][1aa0574c][ManagementConnection] New connection established.
+2024-10-26 22:05:53.275 [info] Installing extensions...
+2024-10-26 22:05:54.136 [info] [127.0.0.1][4f5a8d8d][ExtensionHostConnection] New connection established.
+2024-10-26 22:05:54.202 [info] [127.0.0.1][4f5a8d8d][ExtensionHostConnection] <2086> Launched Extension Host Process.
+2024-10-26 22:05:56.399 [info] Installing extension 'ms-ceintl.vscode-language-pack-fr'...
+2024-10-26 22:05:56.753 [info] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+2024-10-26 22:05:56.827 [info] Installing extension: ms-ceintl.vscode-language-pack-fr {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/yafily/.vscode-server/extensions/extensions.json","external":"file:///home/yafily/.vscode-server/extensions/extensions.json","path":"/home/yafily/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-26 22:06:03.989 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-fr: Success. Executed: true. Duration: 5684ms.
+2024-10-26 22:06:04.668 [info] Extracted extension to file:///home/yafily/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.94.2024101609: ms-ceintl.vscode-language-pack-fr
+2024-10-26 22:06:04.685 [info] Renamed to /home/yafily/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.94.2024101609
+2024-10-26 22:06:04.727 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+2024-10-26 22:06:04.825 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr file:///home/yafily/.vscode-server/extensions/extensions.json
+2024-10-26 22:06:04.828 [info] Extension 'ms-ceintl.vscode-language-pack-fr' v1.94.2024101609 was successfully installed.
+2024-10-26 22:23:17.249 [info] [127.0.0.1][1aa0574c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-26 22:23:17.894 [info] [127.0.0.1][4f5a8d8d][ExtensionHostConnection] <2086> Extension Host Process exited with code: 0, signal: null.

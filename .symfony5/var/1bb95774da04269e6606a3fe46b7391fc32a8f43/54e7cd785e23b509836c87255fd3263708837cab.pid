@@ -1,0 +1,16 @@
+{
+    "dir": "/mnt/c/Users/bmd-tech/Downloads/boutiquedette",
+    "watch": null,
+    "pid": 1802,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "/usr/bin/php8.3",
+        "-S",
+        "127.0.0.1:41121",
+        "-d",
+        "variables_order=EGPCS",
+        "/home/yafily/.symfony5/php/1bb95774da04269e6606a3fe46b7391fc32a8f43-router.php"
+    ],
+    "name": "PHP"
+}

@@ -1,0 +1,37 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.9.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/yafily/.cache/typescript/5.6/.npmrc
+5 silly config load:file:/home/yafily/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/yafily/.npm/_logs/2024-10-26T22_35_33_249Z-
+10 verbose logfile /home/yafily/.npm/_logs/2024-10-26T22_35_33_249Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2076704768 maxSize:519176192 maxEntrySize:259588096
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/npm 495ms
+16 http fetch GET 200 https://registry.npmjs.org/types-registry 581ms (cache miss)
+17 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+18 silly idealTree buildDeps
+19 silly fetch manifest types-registry@0.1.691
+20 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/types-registry 396ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+23 silly placeDep ROOT types-registry@0.1.691 OK for:  want: 0.1.691
+24 silly reify moves {}
+25 silly audit bulk request { 'types-registry': [ '0.1.691' ] }
+26 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.691.tgz. Extracting by manifest.
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 381ms
+28 silly audit report {}
+29 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.691.tgz 616ms (cache miss)
+30 silly ADD node_modules/types-registry
+31 verbose cwd /home/yafily/.cache/typescript/5.6
+32 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+33 verbose node v22.9.0
+34 verbose npm  v10.9.0
+35 verbose exit 0
+36 info ok

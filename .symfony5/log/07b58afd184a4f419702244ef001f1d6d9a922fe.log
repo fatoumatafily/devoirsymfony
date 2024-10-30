@@ -1,0 +1,6 @@
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-18T02:42:49Z","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-18T02:43:15Z","message":"Using PHP version 8.3.6 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.3.6","path":"/usr/bin/php8.3","port":44063,"time":"2024-10-18T02:43:15Z","message":"listening"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":502,"method":"GET","scheme":"https","host":"127.0.0.1:8001","time":"2024-10-18T02:43:44Z","message":"/"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8001","time":"2024-10-18T02:44:49Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8001","time":"2024-10-18T02:45:02Z","message":"/_wdt/addd6b?XDEBUG_IGNORE=1"}

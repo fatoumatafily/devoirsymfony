@@ -1,0 +1,16 @@
+{
+    "dir": "/mnt/c/Users/bmd-tech/Downloads/boutiquedettelegui",
+    "watch": null,
+    "pid": 719,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "/usr/bin/php8.3",
+        "-S",
+        "127.0.0.1:44063",
+        "-d",
+        "variables_order=EGPCS",
+        "/home/yafily/.symfony5/php/07b58afd184a4f419702244ef001f1d6d9a922fe-router.php"
+    ],
+    "name": "PHP"
+}

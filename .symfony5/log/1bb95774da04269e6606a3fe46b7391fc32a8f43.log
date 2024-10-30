@@ -1,0 +1,32 @@
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-18T09:54:43Z","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-18T09:54:52Z","message":"Using PHP version 8.3.6 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.3.6","path":"/usr/bin/php8.3","port":41121,"time":"2024-10-18T09:54:53Z","message":"listening"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:55:53Z","message":"/build/app.5b378ccd.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:55:56Z","message":"/client"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:56:10Z","message":"/"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:56:28Z","message":"/build/app.5b378ccd.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:56:30Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:56:48Z","message":"/_wdt/8ddd15?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:57:01Z","message":"/_wdt/9843ef?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:57:12Z","message":"/_wdt/ecdb51?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:58:32Z","message":"/build/app.5b378ccd.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:58:35Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T09:59:08Z","message":"/_wdt/95b929?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:03:42Z","message":"/build/app.5b378ccd.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:03:42Z","message":"/build/app.7aa605ce.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:03:42Z","message":"/build/runtime.7b7fe445.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:03:42Z","message":"/build/554.7c69eb66.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:04:03Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:05:26Z","message":"/_wdt/fa120e?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:09:02Z","message":"/build/runtime.7b7fe445.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:09:02Z","message":"/build/app.5b378ccd.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:09:02Z","message":"/build/app.7aa605ce.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:09:02Z","message":"/build/554.7c69eb66.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:09:05Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:09:16Z","message":"/_wdt/64a7a4?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:17:19Z","message":"/build/runtime.7b7fe445.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:17:19Z","message":"/build/app.5b378ccd.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:17:22Z","message":"/build/554.7c69eb66.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:17:22Z","message":"/build/app.7aa605ce.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:17:48Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-18T10:18:50Z","message":"/_wdt/79b945?XDEBUG_IGNORE=1"}

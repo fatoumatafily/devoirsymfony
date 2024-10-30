@@ -1,0 +1,64 @@
+2024-10-26 22:06:13.519 [info] [main] Niveau du journal : Info
+2024-10-26 22:06:13.519 [info] [main] Validation du git trouvé dans : «git»
+2024-10-26 22:06:13.519 [info] [main] Utilisation de git "2.43.0" de "git»
+2024-10-26 22:06:13.519 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-26 22:06:13.519 [info] > git rev-parse --show-toplevel [291ms]
+2024-10-26 22:06:14.093 [info] > git rev-parse --git-dir --git-common-dir [556ms]
+2024-10-26 22:06:14.212 [info] [Model][openRepository] Opened repository: /home/yafily/Gestion-Dette-Boutiquier-Symfony-cour_3
+2024-10-26 22:06:14.379 [info] > git config --get commit.template [111ms]
+2024-10-26 22:06:14.458 [info] > git rev-parse --show-toplevel [138ms]
+2024-10-26 22:06:14.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [90ms]
+2024-10-26 22:06:14.586 [info] > git rev-parse --show-toplevel [92ms]
+2024-10-26 22:06:14.617 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [35ms]
+2024-10-26 22:06:14.633 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2024-10-26 22:06:14.670 [info] [Model][openRepository] Opened repository: /home/yafily/Gestion-Dette-Boutiquier-Symfony-cour_3/Gestion-Dette-Boutiquier-Symfony-cour_3
+2024-10-26 22:06:15.114 [info] > git check-ignore -v -z --stdin [36ms]
+2024-10-26 22:06:15.129 [info] > git rev-parse --show-toplevel [383ms]
+2024-10-26 22:06:15.131 [info] > git config --get commit.template [428ms]
+2024-10-26 22:06:15.206 [info] > git rev-parse --show-toplevel [55ms]
+2024-10-26 22:06:15.260 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-26 22:06:15.309 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [106ms]
+2024-10-26 22:06:15.324 [info] > git rev-parse --show-toplevel [32ms]
+2024-10-26 22:06:15.430 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2024-10-26 22:06:15.433 [info] > git rev-parse --show-toplevel [90ms]
+2024-10-26 22:06:15.508 [info] > git rev-parse --show-toplevel [29ms]
+2024-10-26 22:06:15.557 [info] > git rev-parse --show-toplevel [18ms]
+2024-10-26 22:06:15.594 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 22:06:15.646 [info] > git check-ignore -v -z --stdin [18ms]
+2024-10-26 22:06:15.661 [info] > git rev-parse --show-toplevel [48ms]
+2024-10-26 22:06:15.682 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-26 22:06:15.700 [info] > git check-ignore -v -z --stdin [65ms]
+2024-10-26 22:06:15.702 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-26 22:06:15.747 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-26 22:06:15.938 [info] > git status -z -uall [1402ms]
+2024-10-26 22:06:16.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [255ms]
+2024-10-26 22:06:16.319 [info] > git config --get commit.template [47ms]
+2024-10-26 22:06:16.350 [info] > git config --local branch.main.vscode-merge-base [34ms]
+2024-10-26 22:06:16.351 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-26 22:06:16.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-10-26 22:06:16.405 [info] > git reflog main --grep-reflog=branch: Created from *. [38ms]
+2024-10-26 22:06:16.422 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2024-10-26 22:06:16.437 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [17ms]
+2024-10-26 22:06:16.437 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-26 22:06:16.437 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-26 22:06:16.468 [info] > git status -z -uall [82ms]
+2024-10-26 22:06:16.520 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2024-10-26 22:06:16.544 [info] > git merge-base refs/heads/main refs/remotes/origin/main [90ms]
+2024-10-26 22:06:16.570 [info] > git status -z -uall [1209ms]
+2024-10-26 22:06:16.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [100ms]
+2024-10-26 22:06:16.737 [info] > git diff --name-status -z --diff-filter=ADMR d7da7d2ff037147afde39fbf5b4fb0c8b765402c...refs/remotes/origin/main [179ms]
+2024-10-26 22:06:16.739 [info] > git diff --name-status -z --diff-filter=ADMR d7da7d2ff037147afde39fbf5b4fb0c8b765402c...refs/remotes/origin/main [196ms]
+2024-10-26 22:06:16.777 [info] > git config --local branch.main.vscode-merge-base [40ms]
+2024-10-26 22:06:16.778 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-26 22:06:16.788 [info] > git config --get commit.template [66ms]
+2024-10-26 22:06:16.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-26 22:06:16.808 [info] > git reflog main --grep-reflog=branch: Created from *. [22ms]
+2024-10-26 22:06:16.872 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [55ms]
+2024-10-26 22:06:16.872 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-26 22:06:16.872 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-26 22:06:16.893 [info] > git status -z -uall [60ms]
+2024-10-26 22:06:16.895 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2024-10-26 22:06:16.934 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-10-26 22:06:16.968 [info] > git merge-base refs/heads/main refs/remotes/origin/main [79ms]
+2024-10-26 22:06:16.999 [info] > git diff --name-status -z --diff-filter=ADMR d7da7d2ff037147afde39fbf5b4fb0c8b765402c...refs/remotes/origin/main [32ms]
+2024-10-26 22:06:17.042 [info] > git diff --name-status -z --diff-filter=ADMR d7da7d2ff037147afde39fbf5b4fb0c8b765402c...refs/remotes/origin/main [55ms]

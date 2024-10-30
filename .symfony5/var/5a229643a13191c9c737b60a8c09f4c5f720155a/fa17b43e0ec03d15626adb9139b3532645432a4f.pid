@@ -1,0 +1,16 @@
+{
+    "dir": "/mnt/c/Users/bmd-tech/Downloads/Gestion-Dette-Boutiquier-Symfony-master",
+    "watch": null,
+    "pid": 2421,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "/usr/bin/php8.3",
+        "-S",
+        "127.0.0.1:38135",
+        "-d",
+        "variables_order=EGPCS",
+        "/home/yafily/.symfony5/php/5a229643a13191c9c737b60a8c09f4c5f720155a-router.php"
+    ],
+    "name": "PHP"
+}

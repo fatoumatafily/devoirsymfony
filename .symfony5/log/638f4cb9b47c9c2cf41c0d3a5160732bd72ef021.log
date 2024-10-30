@@ -1,0 +1,4 @@
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-26T22:30:10Z","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-26T22:30:11Z","message":"Using PHP version 8.3.6 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.3.6","path":"/usr/bin/php8.3","port":43421,"time":"2024-10-26T22:30:11Z","message":"listening"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T22:30:26Z","message":"/"}

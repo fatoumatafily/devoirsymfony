@@ -1,0 +1,36 @@
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-26T19:48:12Z","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2024-10-26T19:49:28Z","message":"Using PHP version 8.3.6 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.3.6","path":"/usr/bin/php8.3","port":43361,"time":"2024-10-26T19:49:29Z","message":"listening"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:53:19Z","message":"/"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:53:51Z","message":"/_wdt/1f667a?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:55:41Z","message":"/build/app.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:55:54Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:56:27Z","message":"/assets/styles/app-58e9b28aad507918590523053f3de055.css"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:56:43Z","message":"/assets/app-596aa33a03c1fc758c062d3ad67ef9d6.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:56:44Z","message":"/build/runtime.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:56:44Z","message":"/build/vendors-node_modules_core-js_modules_es_array_is-array_js-node_modules_core-js_modules_es_arr-0b7823.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":304,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:56:45Z","message":"/build/app.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:56:58Z","message":"/assets/bootstrap-1008a6d9e56925bf725d0c6e71894752.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:57:09Z","message":"/assets/controllers/error_alert-497b3cd64eeb9f0995974f8de1984ba0.js"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T19:57:40Z","message":"/_wdt/f78020?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:01:07Z","message":"/dette/details/31%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:01:20Z","message":"/_wdt/9fa02e?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:02:25Z","message":"/client"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:02:34Z","message":"/_wdt/bbcee1?XDEBUG_IGNORE=1"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:03:16Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:03:28Z","message":"/_wdt/4104a1?XDEBUG_IGNORE=1"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:06:20Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:06:40Z","message":"/_wdt/adc8ab?XDEBUG_IGNORE=1"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:21:57Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:22:12Z","message":"/_wdt/1f1542?XDEBUG_IGNORE=1"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:29:10Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:29:24Z","message":"/_wdt/724f4c?XDEBUG_IGNORE=1"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:33:19Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T20:33:34Z","message":"/_wdt/f71cb4?XDEBUG_IGNORE=1"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:26:55Z","message":"/dette/details/25%3F"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:28:31Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:28:48Z","message":"/_wdt/dff8c0?XDEBUG_IGNORE=1"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:29:07Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:29:19Z","message":"/_wdt/4e99f8?XDEBUG_IGNORE=1"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:37:30Z","message":"/dette/details/25%3F"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8000","time":"2024-10-26T21:37:41Z","message":"/_wdt/6b3b18?XDEBUG_IGNORE=1"}

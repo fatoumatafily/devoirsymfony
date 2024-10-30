@@ -1,0 +1,2041 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.9.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/yafily/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install @symfony/webpack-encore
+7 verbose argv "install" "--global" "@symfony/webpack-encore"
+8 verbose logfile logs-max:10 dir:/home/yafily/.npm/_logs/2024-10-18T09_13_08_886Z-
+9 verbose logfile /home/yafily/.npm/_logs/2024-10-18T09_13_08_886Z-debug-0.log
+10 silly packumentCache heap:2076704768 maxSize:519176192 maxEntrySize:259588096
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @symfony/webpack-encore@*
+15 silly packumentCache full:https://registry.npmjs.org/@symfony%2fwebpack-encore cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@symfony%2fwebpack-encore 165ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@symfony%2fwebpack-encore set size:384260 disposed:false
+18 silly placeDep ROOT @symfony/webpack-encore@5.0.1 OK for:  want: *
+19 silly fetch manifest @babel/core@^7.17.0
+20 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+21 silly fetch manifest @babel/preset-env@^7.16.0
+22 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-env cache-miss
+23 silly fetch manifest webpack@^5.72
+24 silly packumentCache full:https://registry.npmjs.org/webpack cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@babel%2fpreset-env 86ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-env set size:1008806 disposed:false
+27 silly fetch manifest webpack-cli@^5.1.4
+28 silly packumentCache full:https://registry.npmjs.org/webpack-cli cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 199ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:663190 disposed:false
+31 silly fetch manifest @nuxt/friendly-errors-webpack-plugin@^2.5.1
+32 silly packumentCache full:https://registry.npmjs.org/@nuxt%2ffriendly-errors-webpack-plugin cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/webpack 323ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/webpack set size:4680522 disposed:false
+35 silly fetch manifest babel-loader@^9.1.3
+36 silly packumentCache full:https://registry.npmjs.org/babel-loader cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/webpack-cli 560ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/webpack-cli set size:827602 disposed:false
+39 silly fetch manifest css-loader@^7.1.0
+40 silly packumentCache full:https://registry.npmjs.org/css-loader cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@nuxt%2ffriendly-errors-webpack-plugin 569ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@nuxt%2ffriendly-errors-webpack-plugin set size:29707 disposed:false
+43 silly fetch manifest css-minimizer-webpack-plugin@^7.0.0
+44 silly packumentCache full:https://registry.npmjs.org/css-minimizer-webpack-plugin cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/babel-loader 240ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/babel-loader set size:248162 disposed:false
+47 silly fetch manifest fastest-levenshtein@^1.0.16
+48 silly packumentCache full:https://registry.npmjs.org/fastest-levenshtein cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/css-loader 128ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/css-loader set size:512155 disposed:false
+51 silly fetch manifest mini-css-extract-plugin@^2.6.0
+52 silly packumentCache full:https://registry.npmjs.org/mini-css-extract-plugin cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/css-minimizer-webpack-plugin 164ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/css-minimizer-webpack-plugin set size:163189 disposed:false
+55 silly fetch manifest picocolors@^1.1.0
+56 silly packumentCache full:https://registry.npmjs.org/picocolors cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/fastest-levenshtein 150ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/fastest-levenshtein set size:59475 disposed:false
+59 silly fetch manifest pretty-error@^4.0.0
+60 silly packumentCache full:https://registry.npmjs.org/pretty-error cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/mini-css-extract-plugin 105ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/mini-css-extract-plugin set size:379657 disposed:false
+63 silly fetch manifest resolve-url-loader@^5.0.0
+64 silly packumentCache full:https://registry.npmjs.org/resolve-url-loader cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/picocolors 103ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/picocolors set size:16648 disposed:false
+67 silly fetch manifest semver@^7.3.2
+68 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/pretty-error 95ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/pretty-error set size:81783 disposed:false
+71 silly fetch manifest style-loader@^3.3.0
+72 silly packumentCache full:https://registry.npmjs.org/style-loader cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 91ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/resolve-url-loader set size:274156 disposed:false
+75 silly fetch manifest tapable@^2.2.1
+76 silly packumentCache full:https://registry.npmjs.org/tapable cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/semver 118ms (cache hit)
+78 silly packumentCache full:https://registry.npmjs.org/semver set size:215945 disposed:false
+79 silly fetch manifest terser-webpack-plugin@^5.3.0
+80 silly packumentCache full:https://registry.npmjs.org/terser-webpack-plugin cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/style-loader 132ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/style-loader set size:213969 disposed:false
+83 silly fetch manifest tmp@^0.2.1
+84 silly packumentCache full:https://registry.npmjs.org/tmp cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/tapable 151ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/tapable set size:195640 disposed:false
+87 silly fetch manifest yargs-parser@^21.0.0
+88 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/terser-webpack-plugin 122ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/terser-webpack-plugin set size:339698 disposed:false
+91 http fetch GET 200 https://registry.npmjs.org/tmp 106ms (cache hit)
+92 silly packumentCache full:https://registry.npmjs.org/tmp set size:70665 disposed:false
+93 http fetch GET 200 https://registry.npmjs.org/yargs-parser 75ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:355061 disposed:false
+95 silly fetch manifest @rspack/core@0.x || 1.x
+96 silly packumentCache full:https://registry.npmjs.org/@rspack%2fcore cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/@rspack%2fcore 81ms (cache hit)
+98 silly packumentCache full:https://registry.npmjs.org/@rspack%2fcore set size:4026092 disposed:false
+99 silly fetch manifest @swc/helpers@>=0.5.1
+100 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 33ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:594797 disposed:false
+103 silly placeDep node_modules/@symfony/webpack-encore @babel/core@7.25.8 OK for: @symfony/webpack-encore@5.0.1 want: ^7.17.0
+104 silly placeDep node_modules/@symfony/webpack-encore @babel/preset-env@7.25.8 OK for: @symfony/webpack-encore@5.0.1 want: ^7.16.0
+105 silly placeDep node_modules/@symfony/webpack-encore @nuxt/friendly-errors-webpack-plugin@2.6.0 OK for: @symfony/webpack-encore@5.0.1 want: ^2.5.1
+106 silly placeDep node_modules/@symfony/webpack-encore webpack@5.95.0 OK for: @nuxt/friendly-errors-webpack-plugin@2.6.0 want: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
+107 silly placeDep node_modules/@symfony/webpack-encore babel-loader@9.2.1 OK for: @symfony/webpack-encore@5.0.1 want: ^9.1.3
+108 silly placeDep node_modules/@symfony/webpack-encore css-loader@7.1.2 OK for: @symfony/webpack-encore@5.0.1 want: ^7.1.0
+109 silly placeDep node_modules/@symfony/webpack-encore css-minimizer-webpack-plugin@7.0.0 OK for: @symfony/webpack-encore@5.0.1 want: ^7.0.0
+110 silly placeDep node_modules/@symfony/webpack-encore fastest-levenshtein@1.0.16 OK for: @symfony/webpack-encore@5.0.1 want: ^1.0.16
+111 silly placeDep node_modules/@symfony/webpack-encore mini-css-extract-plugin@2.9.1 OK for: @symfony/webpack-encore@5.0.1 want: ^2.6.0
+112 silly placeDep node_modules/@symfony/webpack-encore picocolors@1.1.1 OK for: @symfony/webpack-encore@5.0.1 want: ^1.1.0
+113 silly placeDep node_modules/@symfony/webpack-encore pretty-error@4.0.0 OK for: @symfony/webpack-encore@5.0.1 want: ^4.0.0
+114 silly placeDep node_modules/@symfony/webpack-encore resolve-url-loader@5.0.0 OK for: @symfony/webpack-encore@5.0.1 want: ^5.0.0
+115 silly placeDep node_modules/@symfony/webpack-encore semver@7.6.3 OK for: @symfony/webpack-encore@5.0.1 want: ^7.3.2
+116 silly placeDep node_modules/@symfony/webpack-encore style-loader@3.3.4 OK for: @symfony/webpack-encore@5.0.1 want: ^3.3.0
+117 silly placeDep node_modules/@symfony/webpack-encore tapable@2.2.1 OK for: @symfony/webpack-encore@5.0.1 want: ^2.2.1
+118 silly placeDep node_modules/@symfony/webpack-encore terser-webpack-plugin@5.3.10 OK for: @symfony/webpack-encore@5.0.1 want: ^5.3.0
+119 silly placeDep node_modules/@symfony/webpack-encore tmp@0.2.3 OK for: @symfony/webpack-encore@5.0.1 want: ^0.2.1
+120 silly placeDep node_modules/@symfony/webpack-encore webpack-cli@5.1.4 OK for: @symfony/webpack-encore@5.0.1 want: ^5.1.4
+121 silly placeDep node_modules/@symfony/webpack-encore yargs-parser@21.1.1 OK for: @symfony/webpack-encore@5.0.1 want: ^21.0.0
+122 silly fetch manifest @ampproject/remapping@^2.2.0
+123 silly packumentCache full:https://registry.npmjs.org/@ampproject%2fremapping cache-miss
+124 silly fetch manifest @babel/code-frame@^7.25.7
+125 silly packumentCache full:https://registry.npmjs.org/@babel%2fcode-frame cache-miss
+126 silly fetch manifest @babel/generator@^7.25.7
+127 silly packumentCache full:https://registry.npmjs.org/@babel%2fgenerator cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/@ampproject%2fremapping 90ms (cache hit)
+129 silly packumentCache full:https://registry.npmjs.org/@ampproject%2fremapping set size:88598 disposed:false
+130 silly fetch manifest @babel/helper-compilation-targets@^7.25.7
+131 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-compilation-targets cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 116ms (cache hit)
+133 silly packumentCache full:https://registry.npmjs.org/@babel%2fcode-frame set size:159715 disposed:false
+134 silly fetch manifest @babel/helper-module-transforms@^7.25.7
+135 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-module-transforms cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/@babel%2fgenerator -793ms (cache hit)
+137 silly packumentCache full:https://registry.npmjs.org/@babel%2fgenerator set size:443797 disposed:false
+138 silly fetch manifest @babel/helpers@^7.25.7
+139 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelpers cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-compilation-targets -852ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-compilation-targets set size:180554 disposed:false
+142 silly fetch manifest @babel/parser@^7.25.8
+143 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelpers 59ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelpers set size:337636 disposed:false
+146 silly fetch manifest @babel/template@^7.25.7
+147 silly packumentCache full:https://registry.npmjs.org/@babel%2ftemplate cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-module-transforms -822ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-module-transforms set size:295858 disposed:false
+150 silly fetch manifest @babel/traverse@^7.25.7
+151 silly packumentCache full:https://registry.npmjs.org/@babel%2ftraverse cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 96ms (cache hit)
+153 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser set size:637529 disposed:false
+154 silly fetch manifest @babel/types@^7.25.8
+155 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/@babel%2ftemplate 128ms (cache hit)
+157 silly packumentCache full:https://registry.npmjs.org/@babel%2ftemplate set size:190772 disposed:false
+158 silly fetch manifest convert-source-map@^2.0.0
+159 silly packumentCache full:https://registry.npmjs.org/convert-source-map cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/@babel%2ftraverse 144ms (cache hit)
+161 silly packumentCache full:https://registry.npmjs.org/@babel%2ftraverse set size:482868 disposed:false
+162 silly fetch manifest debug@^4.1.0
+163 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 114ms (cache hit)
+165 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes set size:423488 disposed:false
+166 silly fetch manifest gensync@^1.0.0-beta.2
+167 silly packumentCache full:https://registry.npmjs.org/gensync cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/convert-source-map 110ms (cache hit)
+169 silly packumentCache full:https://registry.npmjs.org/convert-source-map set size:66997 disposed:false
+170 silly fetch manifest json5@^2.2.3
+171 silly packumentCache full:https://registry.npmjs.org/json5 cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/debug 98ms (cache hit)
+173 silly packumentCache full:https://registry.npmjs.org/debug set size:188929 disposed:false
+174 silly fetch manifest semver@^6.3.1
+175 silly packumentCache full:https://registry.npmjs.org/semver cache-hit
+176 silly fetch manifest @babel/compat-data@^7.25.8
+177 silly packumentCache full:https://registry.npmjs.org/@babel%2fcompat-data cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/gensync 136ms (cache hit)
+179 silly packumentCache full:https://registry.npmjs.org/gensync set size:15068 disposed:false
+180 silly fetch manifest @babel/helper-plugin-utils@^7.25.7
+181 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-plugin-utils cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/json5 119ms (cache hit)
+183 silly packumentCache full:https://registry.npmjs.org/json5 set size:86136 disposed:false
+184 silly fetch manifest @babel/helper-validator-option@^7.25.7
+185 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-option cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/@babel%2fcompat-data 102ms (cache hit)
+187 silly packumentCache full:https://registry.npmjs.org/@babel%2fcompat-data set size:246164 disposed:false
+188 silly fetch manifest @babel/plugin-bugfix-firefox-class-in-computed-class-key@^7.25.7
+189 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-firefox-class-in-computed-class-key cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-plugin-utils 92ms (cache hit)
+191 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-plugin-utils set size:133727 disposed:false
+192 silly fetch manifest @babel/plugin-bugfix-safari-class-field-initializer-scope@^7.25.7
+193 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-class-field-initializer-scope cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-option 73ms (cache hit)
+195 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-option set size:67242 disposed:false
+196 silly fetch manifest @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.25.7
+197 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-firefox-class-in-computed-class-key 61ms (cache hit)
+199 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-firefox-class-in-computed-class-key set size:27932 disposed:false
+200 silly fetch manifest @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.25.7
+201 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-class-field-initializer-scope 60ms (cache hit)
+203 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-class-field-initializer-scope set size:7564 disposed:false
+204 silly fetch manifest @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@^7.25.7
+205 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-static-class-fields-redefine-readonly cache-miss
+206 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression 54ms (cache hit)
+207 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression set size:82771 disposed:false
+208 silly fetch manifest @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2
+209 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining 48ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining set size:97639 disposed:false
+212 silly fetch manifest @babel/plugin-syntax-import-assertions@^7.25.7
+213 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-static-class-fields-redefine-readonly 41ms (cache hit)
+215 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-static-class-fields-redefine-readonly set size:34907 disposed:false
+216 silly fetch manifest @babel/plugin-syntax-import-attributes@^7.25.7
+217 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-attributes cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object 44ms (cache hit)
+219 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object set size:80252 disposed:false
+220 silly fetch manifest @babel/plugin-syntax-unicode-sets-regex@^7.18.6
+221 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-unicode-sets-regex cache-miss
+222 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions 42ms (cache hit)
+223 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions set size:74625 disposed:false
+224 silly fetch manifest @babel/plugin-transform-arrow-functions@^7.25.7
+225 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-arrow-functions cache-miss
+226 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-import-attributes 56ms (cache hit)
+227 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-attributes set size:41627 disposed:false
+228 silly fetch manifest @babel/plugin-transform-async-generator-functions@^7.25.8
+229 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-async-generator-functions cache-miss
+230 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-unicode-sets-regex 51ms (cache hit)
+231 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-unicode-sets-regex set size:22903 disposed:false
+232 silly fetch manifest @babel/plugin-transform-async-to-generator@^7.25.7
+233 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-async-to-generator cache-miss
+234 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-arrow-functions 52ms (cache hit)
+235 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-arrow-functions set size:174204 disposed:false
+236 silly fetch manifest @babel/plugin-transform-block-scoped-functions@^7.25.7
+237 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions cache-miss
+238 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-async-generator-functions 41ms (cache hit)
+239 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-async-generator-functions set size:72894 disposed:false
+240 silly fetch manifest @babel/plugin-transform-block-scoping@^7.25.7
+241 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-block-scoping cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-async-to-generator 47ms (cache hit)
+243 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-async-to-generator set size:200619 disposed:false
+244 silly fetch manifest @babel/plugin-transform-class-properties@^7.25.7
+245 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-properties cache-miss
+246 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions 55ms (cache hit)
+247 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions set size:166098 disposed:false
+248 silly fetch manifest @babel/plugin-transform-class-static-block@^7.25.8
+249 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-static-block cache-miss
+250 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoping 60ms (cache hit)
+251 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-block-scoping set size:268340 disposed:false
+252 silly fetch manifest @babel/plugin-transform-classes@^7.25.7
+253 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-classes cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-class-properties 75ms (cache hit)
+255 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-properties set size:46569 disposed:false
+256 silly fetch manifest @babel/plugin-transform-computed-properties@^7.25.7
+257 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-computed-properties cache-miss
+258 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-class-static-block 60ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-static-block set size:54239 disposed:false
+260 silly fetch manifest @babel/plugin-transform-destructuring@^7.25.7
+261 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-destructuring cache-miss
+262 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-classes 59ms (cache hit)
+263 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-classes set size:283354 disposed:false
+264 silly fetch manifest @babel/plugin-transform-dotall-regex@^7.25.7
+265 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex cache-miss
+266 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-computed-properties 66ms (cache hit)
+267 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-computed-properties set size:179876 disposed:false
+268 silly fetch manifest @babel/plugin-transform-duplicate-keys@^7.25.7
+269 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys cache-miss
+270 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-destructuring 69ms (cache hit)
+271 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-destructuring set size:250315 disposed:false
+272 silly fetch manifest @babel/plugin-transform-duplicate-named-capturing-groups-regex@^7.25.7
+273 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-named-capturing-groups-regex cache-miss
+274 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys 82ms (cache hit)
+275 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys set size:169094 disposed:false
+276 silly fetch manifest @babel/plugin-transform-dynamic-import@^7.25.8
+277 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dynamic-import cache-miss
+278 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex 132ms (cache hit)
+279 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex set size:178174 disposed:false
+280 silly fetch manifest @babel/plugin-transform-exponentiation-operator@^7.25.7
+281 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator cache-miss
+282 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-named-capturing-groups-regex 132ms (cache hit)
+283 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-named-capturing-groups-regex set size:8132 disposed:false
+284 silly fetch manifest @babel/plugin-transform-export-namespace-from@^7.25.8
+285 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-export-namespace-from cache-miss
+286 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-dynamic-import 99ms (cache hit)
+287 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dynamic-import set size:45160 disposed:false
+288 silly fetch manifest @babel/plugin-transform-for-of@^7.25.7
+289 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-for-of cache-miss
+290 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator 84ms (cache hit)
+291 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator set size:172705 disposed:false
+292 silly fetch manifest @babel/plugin-transform-function-name@^7.25.7
+293 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-function-name cache-miss
+294 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-export-namespace-from 84ms (cache hit)
+295 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-export-namespace-from set size:48596 disposed:false
+296 silly fetch manifest @babel/plugin-transform-json-strings@^7.25.8
+297 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-json-strings cache-miss
+298 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-for-of 89ms (cache hit)
+299 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-for-of set size:200621 disposed:false
+300 silly fetch manifest @babel/plugin-transform-literals@^7.25.7
+301 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-literals cache-miss
+302 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-function-name 105ms (cache hit)
+303 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-function-name set size:185506 disposed:false
+304 silly fetch manifest @babel/plugin-transform-logical-assignment-operators@^7.25.8
+305 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-logical-assignment-operators cache-miss
+306 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-json-strings 106ms (cache hit)
+307 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-json-strings set size:47912 disposed:false
+308 silly fetch manifest @babel/plugin-transform-member-expression-literals@^7.25.7
+309 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals cache-miss
+310 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-literals 97ms (cache hit)
+311 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-literals set size:165246 disposed:false
+312 silly fetch manifest @babel/plugin-transform-modules-amd@^7.25.7
+313 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd cache-miss
+314 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-logical-assignment-operators 93ms (cache hit)
+315 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-logical-assignment-operators set size:52780 disposed:false
+316 silly fetch manifest @babel/plugin-transform-modules-commonjs@^7.25.7
+317 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-commonjs cache-miss
+318 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals 83ms (cache hit)
+319 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals set size:166346 disposed:false
+320 silly fetch manifest @babel/plugin-transform-modules-systemjs@^7.25.7
+321 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs cache-miss
+322 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd 93ms (cache hit)
+323 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd set size:206732 disposed:false
+324 silly fetch manifest @babel/plugin-transform-modules-umd@^7.25.7
+325 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd cache-miss
+326 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-commonjs 105ms (cache hit)
+327 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-commonjs set size:263354 disposed:false
+328 silly fetch manifest @babel/plugin-transform-named-capturing-groups-regex@^7.25.7
+329 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-named-capturing-groups-regex cache-miss
+330 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs 107ms (cache hit)
+331 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs set size:256540 disposed:false
+332 silly fetch manifest @babel/plugin-transform-new-target@^7.25.7
+333 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-new-target cache-miss
+334 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd 173ms (cache hit)
+335 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd set size:184042 disposed:false
+336 silly fetch manifest @babel/plugin-transform-nullish-coalescing-operator@^7.25.8
+337 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-nullish-coalescing-operator cache-miss
+338 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-named-capturing-groups-regex 177ms (cache hit)
+339 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-named-capturing-groups-regex set size:145437 disposed:false
+340 silly fetch manifest @babel/plugin-transform-numeric-separator@^7.25.8
+341 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-numeric-separator cache-miss
+342 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-new-target 163ms (cache hit)
+343 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-new-target set size:178764 disposed:false
+344 silly fetch manifest @babel/plugin-transform-object-rest-spread@^7.25.8
+345 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-object-rest-spread cache-miss
+346 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-numeric-separator 63ms (cache hit)
+347 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-numeric-separator set size:50236 disposed:false
+348 silly fetch manifest @babel/plugin-transform-object-super@^7.25.7
+349 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-object-super cache-miss
+350 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-nullish-coalescing-operator 99ms (cache hit)
+351 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-nullish-coalescing-operator set size:49701 disposed:false
+352 silly fetch manifest @babel/plugin-transform-optional-catch-binding@^7.25.8
+353 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-catch-binding cache-miss
+354 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-object-rest-spread 76ms (cache hit)
+355 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-object-rest-spread set size:57906 disposed:false
+356 silly fetch manifest @babel/plugin-transform-optional-chaining@^7.25.8
+357 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining cache-miss
+358 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-object-super 73ms (cache hit)
+359 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-object-super set size:168031 disposed:false
+360 silly fetch manifest @babel/plugin-transform-parameters@^7.25.7
+361 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-parameters cache-miss
+362 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-optional-catch-binding 81ms (cache hit)
+363 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-catch-binding set size:48711 disposed:false
+364 silly fetch manifest @babel/plugin-transform-private-methods@^7.25.7
+365 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-private-methods cache-miss
+366 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining 87ms (cache hit)
+367 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining set size:66779 disposed:false
+368 silly fetch manifest @babel/plugin-transform-private-property-in-object@^7.25.8
+369 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-private-property-in-object cache-miss
+370 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-parameters 60ms (cache hit)
+371 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-parameters set size:237272 disposed:false
+372 silly fetch manifest @babel/plugin-transform-property-literals@^7.25.7
+373 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-property-literals cache-miss
+374 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-private-property-in-object 55ms (cache hit)
+375 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-private-property-in-object set size:54959 disposed:false
+376 silly fetch manifest @babel/plugin-transform-regenerator@^7.25.7
+377 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-regenerator cache-miss
+378 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-private-methods 81ms (cache hit)
+379 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-private-methods set size:44795 disposed:false
+380 silly fetch manifest @babel/plugin-transform-reserved-words@^7.25.7
+381 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words cache-miss
+382 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-regenerator 46ms (cache hit)
+383 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-regenerator set size:207972 disposed:false
+384 silly fetch manifest @babel/plugin-transform-shorthand-properties@^7.25.7
+385 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-shorthand-properties cache-miss
+386 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-property-literals 86ms (cache hit)
+387 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-property-literals set size:162431 disposed:false
+388 silly fetch manifest @babel/plugin-transform-spread@^7.25.7
+389 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-spread cache-miss
+390 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words 95ms (cache hit)
+391 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words set size:162228 disposed:false
+392 silly fetch manifest @babel/plugin-transform-sticky-regex@^7.25.7
+393 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-sticky-regex cache-miss
+394 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-shorthand-properties 90ms (cache hit)
+395 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-shorthand-properties set size:162580 disposed:false
+396 silly fetch manifest @babel/plugin-transform-template-literals@^7.25.7
+397 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-template-literals cache-miss
+398 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-spread 89ms (cache hit)
+399 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-spread set size:187417 disposed:false
+400 silly fetch manifest @babel/plugin-transform-typeof-symbol@^7.25.7
+401 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol cache-miss
+402 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-sticky-regex 114ms (cache hit)
+403 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-sticky-regex set size:164201 disposed:false
+404 silly fetch manifest @babel/plugin-transform-unicode-escapes@^7.25.7
+405 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes cache-miss
+406 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol 85ms (cache hit)
+407 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol set size:185195 disposed:false
+408 silly fetch manifest @babel/plugin-transform-unicode-property-regex@^7.25.7
+409 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-property-regex cache-miss
+410 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-template-literals 177ms (cache hit)
+411 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-template-literals set size:183821 disposed:false
+412 silly fetch manifest @babel/plugin-transform-unicode-regex@^7.25.7
+413 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-regex cache-miss
+414 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes 142ms (cache hit)
+415 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes set size:86573 disposed:false
+416 silly fetch manifest @babel/plugin-transform-unicode-sets-regex@^7.25.7
+417 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-sets-regex cache-miss
+418 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-property-regex 118ms (cache hit)
+419 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-property-regex set size:47151 disposed:false
+420 silly fetch manifest @babel/preset-modules@0.1.6-no-external-plugins
+421 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-modules cache-miss
+422 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-sets-regex 59ms (cache hit)
+423 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-sets-regex set size:49527 disposed:false
+424 silly fetch manifest babel-plugin-polyfill-corejs2@^0.4.10
+425 silly packumentCache full:https://registry.npmjs.org/babel-plugin-polyfill-corejs2 cache-miss
+426 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-regex 109ms (cache hit)
+427 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-regex set size:176416 disposed:false
+428 silly fetch manifest babel-plugin-polyfill-corejs3@^0.10.6
+429 silly packumentCache full:https://registry.npmjs.org/babel-plugin-polyfill-corejs3 cache-miss
+430 http fetch GET 200 https://registry.npmjs.org/@babel%2fpreset-modules 85ms (cache hit)
+431 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-modules set size:44615 disposed:false
+432 silly fetch manifest babel-plugin-polyfill-regenerator@^0.6.1
+433 silly packumentCache full:https://registry.npmjs.org/babel-plugin-polyfill-regenerator cache-miss
+434 http fetch GET 200 https://registry.npmjs.org/babel-plugin-polyfill-corejs2 95ms (cache hit)
+435 silly packumentCache full:https://registry.npmjs.org/babel-plugin-polyfill-corejs2 set size:103988 disposed:false
+436 silly fetch manifest core-js-compat@^3.38.1
+437 silly packumentCache full:https://registry.npmjs.org/core-js-compat cache-miss
+438 http fetch GET 200 https://registry.npmjs.org/babel-plugin-polyfill-corejs3 98ms (cache hit)
+439 silly packumentCache full:https://registry.npmjs.org/babel-plugin-polyfill-corejs3 set size:131328 disposed:false
+440 silly fetch manifest chalk@^2.4.2
+441 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+442 http fetch GET 200 https://registry.npmjs.org/babel-plugin-polyfill-regenerator 114ms (cache hit)
+443 silly packumentCache full:https://registry.npmjs.org/babel-plugin-polyfill-regenerator set size:83188 disposed:false
+444 silly fetch manifest consola@^3.2.3
+445 silly packumentCache full:https://registry.npmjs.org/consola cache-miss
+446 http fetch GET 200 https://registry.npmjs.org/core-js-compat 126ms (cache hit)
+447 silly packumentCache full:https://registry.npmjs.org/core-js-compat set size:326659 disposed:false
+448 silly fetch manifest error-stack-parser@^2.1.4
+449 silly packumentCache full:https://registry.npmjs.org/error-stack-parser cache-miss
+450 http fetch GET 200 https://registry.npmjs.org/chalk 130ms (cache hit)
+451 silly packumentCache full:https://registry.npmjs.org/chalk set size:141429 disposed:false
+452 silly fetch manifest string-width@^4.2.3
+453 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+454 http fetch GET 200 https://registry.npmjs.org/consola 147ms (cache hit)
+455 silly packumentCache full:https://registry.npmjs.org/consola set size:345622 disposed:false
+456 silly fetch manifest @types/estree@^1.0.5
+457 silly packumentCache full:https://registry.npmjs.org/@types%2festree cache-miss
+458 http fetch GET 200 https://registry.npmjs.org/string-width 100ms (cache hit)
+459 silly packumentCache full:https://registry.npmjs.org/string-width set size:61460 disposed:false
+460 silly fetch manifest @webassemblyjs/ast@^1.12.1
+461 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fast cache-miss
+462 http fetch GET 200 https://registry.npmjs.org/error-stack-parser 147ms (cache hit)
+463 silly packumentCache full:https://registry.npmjs.org/error-stack-parser set size:89379 disposed:false
+464 silly fetch manifest @webassemblyjs/wasm-edit@^1.12.1
+465 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-edit cache-miss
+466 http fetch GET 200 https://registry.npmjs.org/@types%2festree 79ms (cache hit)
+467 silly packumentCache full:https://registry.npmjs.org/@types%2festree set size:71093 disposed:false
+468 silly fetch manifest @webassemblyjs/wasm-parser@^1.12.1
+469 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-parser cache-miss
+470 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwasm-edit 108ms (cache hit)
+471 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-edit set size:197148 disposed:false
+472 silly fetch manifest acorn@^8.7.1
+473 silly packumentCache full:https://registry.npmjs.org/acorn cache-miss
+474 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fast 159ms (cache hit)
+475 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fast set size:193812 disposed:false
+476 silly fetch manifest acorn-import-attributes@^1.9.5
+477 silly packumentCache full:https://registry.npmjs.org/acorn-import-attributes cache-miss
+478 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwasm-parser 145ms (cache hit)
+479 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-parser set size:208108 disposed:false
+480 silly fetch manifest browserslist@^4.21.10
+481 silly packumentCache full:https://registry.npmjs.org/browserslist cache-miss
+482 http fetch GET 200 https://registry.npmjs.org/acorn-import-attributes 61ms (cache hit)
+483 silly packumentCache full:https://registry.npmjs.org/acorn-import-attributes set size:16911 disposed:false
+484 silly fetch manifest chrome-trace-event@^1.0.2
+485 silly packumentCache full:https://registry.npmjs.org/chrome-trace-event cache-miss
+486 http fetch GET 200 https://registry.npmjs.org/acorn 110ms (cache hit)
+487 silly packumentCache full:https://registry.npmjs.org/acorn set size:372489 disposed:false
+488 silly fetch manifest enhanced-resolve@^5.17.1
+489 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve cache-miss
+490 http fetch GET 200 https://registry.npmjs.org/browserslist 132ms (cache hit)
+491 silly packumentCache full:https://registry.npmjs.org/browserslist set size:469020 disposed:false
+492 silly fetch manifest es-module-lexer@^1.2.1
+493 silly packumentCache full:https://registry.npmjs.org/es-module-lexer cache-miss
+494 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 130ms (cache hit)
+495 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve set size:325934 disposed:false
+496 silly fetch manifest eslint-scope@5.1.1
+497 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-miss
+498 http fetch GET 200 https://registry.npmjs.org/chrome-trace-event 230ms (cache hit)
+499 silly packumentCache full:https://registry.npmjs.org/chrome-trace-event set size:20859 disposed:false
+500 silly fetch manifest events@^3.2.0
+501 silly packumentCache full:https://registry.npmjs.org/events cache-miss
+502 http fetch GET 200 https://registry.npmjs.org/es-module-lexer 119ms (cache hit)
+503 silly packumentCache full:https://registry.npmjs.org/es-module-lexer set size:195704 disposed:false
+504 silly fetch manifest glob-to-regexp@^0.4.1
+505 silly packumentCache full:https://registry.npmjs.org/glob-to-regexp cache-miss
+506 http fetch GET 200 https://registry.npmjs.org/eslint-scope 155ms (cache hit)
+507 silly packumentCache full:https://registry.npmjs.org/eslint-scope set size:76211 disposed:false
+508 silly fetch manifest graceful-fs@^4.2.11
+509 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+510 http fetch GET 200 https://registry.npmjs.org/events 157ms (cache hit)
+511 silly packumentCache full:https://registry.npmjs.org/events set size:35240 disposed:false
+512 silly fetch manifest json-parse-even-better-errors@^2.3.1
+513 silly packumentCache full:https://registry.npmjs.org/json-parse-even-better-errors cache-miss
+514 http fetch GET 200 https://registry.npmjs.org/glob-to-regexp 87ms (cache hit)
+515 silly packumentCache full:https://registry.npmjs.org/glob-to-regexp set size:15844 disposed:false
+516 silly fetch manifest loader-runner@^4.2.0
+517 silly packumentCache full:https://registry.npmjs.org/loader-runner cache-miss
+518 http fetch GET 200 https://registry.npmjs.org/graceful-fs 95ms (cache hit)
+519 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+520 silly fetch manifest mime-types@^2.1.27
+521 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+522 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 86ms (cache hit)
+523 silly packumentCache full:https://registry.npmjs.org/json-parse-even-better-errors set size:31937 disposed:false
+524 silly fetch manifest neo-async@^2.6.2
+525 silly packumentCache full:https://registry.npmjs.org/neo-async cache-miss
+526 http fetch GET 200 https://registry.npmjs.org/loader-runner 114ms (cache hit)
+527 silly packumentCache full:https://registry.npmjs.org/loader-runner set size:37134 disposed:false
+528 silly fetch manifest schema-utils@^3.2.0
+529 silly packumentCache full:https://registry.npmjs.org/schema-utils cache-miss
+530 http fetch GET 200 https://registry.npmjs.org/mime-types 84ms (cache hit)
+531 silly packumentCache full:https://registry.npmjs.org/mime-types set size:129792 disposed:false
+532 silly fetch manifest tapable@^2.1.1
+533 silly packumentCache full:https://registry.npmjs.org/tapable cache-hit
+534 silly fetch manifest terser-webpack-plugin@^5.3.10
+535 silly packumentCache full:https://registry.npmjs.org/terser-webpack-plugin cache-hit
+536 silly fetch manifest watchpack@^2.4.1
+537 silly packumentCache full:https://registry.npmjs.org/watchpack cache-miss
+538 http fetch GET 200 https://registry.npmjs.org/neo-async 143ms (cache hit)
+539 silly packumentCache full:https://registry.npmjs.org/neo-async set size:155670 disposed:false
+540 silly fetch manifest webpack-sources@^3.2.3
+541 silly packumentCache full:https://registry.npmjs.org/webpack-sources cache-miss
+542 http fetch GET 200 https://registry.npmjs.org/schema-utils 162ms (cache hit)
+543 silly packumentCache full:https://registry.npmjs.org/schema-utils set size:165155 disposed:false
+544 silly fetch manifest find-cache-dir@^4.0.0
+545 silly packumentCache full:https://registry.npmjs.org/find-cache-dir cache-miss
+546 http fetch GET 200 https://registry.npmjs.org/watchpack 162ms (cache hit)
+547 silly packumentCache full:https://registry.npmjs.org/watchpack set size:134337 disposed:false
+548 silly fetch manifest schema-utils@^4.0.0
+549 silly packumentCache full:https://registry.npmjs.org/schema-utils cache-hit
+550 silly fetch manifest icss-utils@^5.1.0
+551 silly packumentCache full:https://registry.npmjs.org/icss-utils cache-miss
+552 http fetch GET 200 https://registry.npmjs.org/webpack-sources 132ms (cache hit)
+553 silly packumentCache full:https://registry.npmjs.org/webpack-sources set size:212090 disposed:false
+554 silly fetch manifest postcss@^8.4.33
+555 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+556 http fetch GET 200 https://registry.npmjs.org/find-cache-dir 105ms (cache hit)
+557 silly packumentCache full:https://registry.npmjs.org/find-cache-dir set size:33831 disposed:false
+558 silly fetch manifest postcss-modules-extract-imports@^3.1.0
+559 silly packumentCache full:https://registry.npmjs.org/postcss-modules-extract-imports cache-miss
+560 http fetch GET 200 https://registry.npmjs.org/icss-utils 80ms (cache hit)
+561 silly packumentCache full:https://registry.npmjs.org/icss-utils set size:31661 disposed:false
+562 silly fetch manifest postcss-modules-local-by-default@^4.0.5
+563 silly packumentCache full:https://registry.npmjs.org/postcss-modules-local-by-default cache-miss
+564 http fetch GET 200 https://registry.npmjs.org/postcss 113ms (cache hit)
+565 silly packumentCache full:https://registry.npmjs.org/postcss set size:669232 disposed:false
+566 silly fetch manifest postcss-modules-scope@^3.2.0
+567 silly packumentCache full:https://registry.npmjs.org/postcss-modules-scope cache-miss
+568 http fetch GET 200 https://registry.npmjs.org/postcss-modules-extract-imports 220ms (cache hit)
+569 silly packumentCache full:https://registry.npmjs.org/postcss-modules-extract-imports set size:57788 disposed:false
+570 silly fetch manifest postcss-modules-values@^4.0.0
+571 silly packumentCache full:https://registry.npmjs.org/postcss-modules-values cache-miss
+572 http fetch GET 200 https://registry.npmjs.org/postcss-modules-local-by-default 219ms (cache hit)
+573 silly packumentCache full:https://registry.npmjs.org/postcss-modules-local-by-default set size:109670 disposed:false
+574 silly fetch manifest postcss-value-parser@^4.2.0
+575 silly packumentCache full:https://registry.npmjs.org/postcss-value-parser cache-miss
+576 http fetch GET 200 https://registry.npmjs.org/postcss-modules-scope 231ms (cache hit)
+577 silly packumentCache full:https://registry.npmjs.org/postcss-modules-scope set size:77453 disposed:false
+578 silly fetch manifest semver@^7.5.4
+579 silly packumentCache full:https://registry.npmjs.org/semver cache-hit
+580 silly fetch manifest @jridgewell/trace-mapping@^0.3.25
+581 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-miss
+582 http fetch GET 200 https://registry.npmjs.org/postcss-modules-values 182ms (cache hit)
+583 silly packumentCache full:https://registry.npmjs.org/postcss-modules-values set size:56722 disposed:false
+584 silly fetch manifest cssnano@^7.0.1
+585 silly packumentCache full:https://registry.npmjs.org/cssnano cache-miss
+586 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser 152ms (cache hit)
+587 silly packumentCache full:https://registry.npmjs.org/postcss-value-parser set size:73484 disposed:false
+588 silly fetch manifest jest-worker@^29.7.0
+589 silly packumentCache full:https://registry.npmjs.org/jest-worker cache-miss
+590 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 85ms (cache hit)
+591 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping set size:146917 disposed:false
+592 silly fetch manifest postcss@^8.4.38
+593 silly packumentCache full:https://registry.npmjs.org/postcss cache-hit
+594 silly fetch manifest schema-utils@^4.2.0
+595 silly packumentCache full:https://registry.npmjs.org/schema-utils cache-hit
+596 silly fetch manifest serialize-javascript@^6.0.2
+597 silly packumentCache full:https://registry.npmjs.org/serialize-javascript cache-miss
+598 http fetch GET 200 https://registry.npmjs.org/cssnano 112ms (cache hit)
+599 silly packumentCache full:https://registry.npmjs.org/cssnano set size:448658 disposed:false
+600 silly fetch manifest lodash@^4.17.20
+601 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+602 http fetch GET 200 https://registry.npmjs.org/jest-worker 163ms (cache hit)
+603 silly packumentCache full:https://registry.npmjs.org/jest-worker set size:431747 disposed:false
+604 silly fetch manifest renderkid@^3.0.0
+605 silly packumentCache full:https://registry.npmjs.org/renderkid cache-miss
+606 http fetch GET 200 https://registry.npmjs.org/serialize-javascript 156ms (cache hit)
+607 silly packumentCache full:https://registry.npmjs.org/serialize-javascript set size:67681 disposed:false
+608 silly fetch manifest adjust-sourcemap-loader@^4.0.0
+609 silly packumentCache full:https://registry.npmjs.org/adjust-sourcemap-loader cache-miss
+610 http fetch GET 200 https://registry.npmjs.org/lodash 99ms (cache hit)
+611 silly packumentCache full:https://registry.npmjs.org/lodash set size:242337 disposed:false
+612 silly fetch manifest convert-source-map@^1.7.0
+613 silly packumentCache full:https://registry.npmjs.org/convert-source-map cache-hit
+614 silly fetch manifest loader-utils@^2.0.0
+615 silly packumentCache full:https://registry.npmjs.org/loader-utils cache-miss
+616 http fetch GET 200 https://registry.npmjs.org/renderkid 107ms (cache hit)
+617 silly packumentCache full:https://registry.npmjs.org/renderkid set size:64761 disposed:false
+618 silly fetch manifest postcss@^8.2.14
+619 silly packumentCache full:https://registry.npmjs.org/postcss cache-hit
+620 silly fetch manifest source-map@0.6.1
+621 silly packumentCache full:https://registry.npmjs.org/source-map cache-miss
+622 http fetch GET 200 https://registry.npmjs.org/adjust-sourcemap-loader 132ms (cache hit)
+623 silly packumentCache full:https://registry.npmjs.org/adjust-sourcemap-loader set size:35662 disposed:false
+624 silly fetch manifest terser@^5.26.0
+625 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+626 http fetch GET 200 https://registry.npmjs.org/loader-utils 98ms (cache hit)
+627 silly packumentCache full:https://registry.npmjs.org/loader-utils set size:168663 disposed:false
+628 silly fetch manifest jest-worker@^27.4.5
+629 silly packumentCache full:https://registry.npmjs.org/jest-worker cache-hit
+630 silly fetch manifest schema-utils@^3.1.1
+631 silly packumentCache full:https://registry.npmjs.org/schema-utils cache-hit
+632 silly fetch manifest serialize-javascript@^6.0.1
+633 silly packumentCache full:https://registry.npmjs.org/serialize-javascript cache-hit
+634 silly fetch manifest @jridgewell/trace-mapping@^0.3.20
+635 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-hit
+636 silly fetch manifest envinfo@^7.7.3
+637 silly packumentCache full:https://registry.npmjs.org/envinfo cache-miss
+638 http fetch GET 200 https://registry.npmjs.org/source-map 130ms (cache hit)
+639 silly packumentCache full:https://registry.npmjs.org/source-map set size:243251 disposed:false
+640 silly fetch manifest rechoir@^0.8.0
+641 silly packumentCache full:https://registry.npmjs.org/rechoir cache-miss
+642 http fetch GET 200 https://registry.npmjs.org/terser 157ms (cache hit)
+643 silly packumentCache full:https://registry.npmjs.org/terser set size:734683 disposed:false
+644 silly fetch manifest colorette@^2.0.14
+645 silly packumentCache full:https://registry.npmjs.org/colorette cache-miss
+646 http fetch GET 200 https://registry.npmjs.org/rechoir 107ms (cache hit)
+647 silly packumentCache full:https://registry.npmjs.org/rechoir set size:32264 disposed:false
+648 silly fetch manifest commander@^10.0.1
+649 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+650 http fetch GET 200 https://registry.npmjs.org/envinfo 144ms (cache hit)
+651 silly packumentCache full:https://registry.npmjs.org/envinfo set size:257481 disposed:false
+652 silly fetch manifest interpret@^3.1.1
+653 silly packumentCache full:https://registry.npmjs.org/interpret cache-miss
+654 http fetch GET 200 https://registry.npmjs.org/colorette 78ms (cache hit)
+655 silly packumentCache full:https://registry.npmjs.org/colorette set size:92733 disposed:false
+656 silly fetch manifest cross-spawn@^7.0.3
+657 silly packumentCache full:https://registry.npmjs.org/cross-spawn cache-miss
+658 http fetch GET 200 https://registry.npmjs.org/commander 99ms (cache hit)
+659 silly packumentCache full:https://registry.npmjs.org/commander set size:942287 disposed:false
+660 silly fetch manifest import-local@^3.0.2
+661 silly packumentCache full:https://registry.npmjs.org/import-local cache-miss
+662 http fetch GET 200 https://registry.npmjs.org/interpret 145ms (cache hit)
+663 silly packumentCache full:https://registry.npmjs.org/interpret set size:99864 disposed:false
+664 silly fetch manifest webpack-merge@^5.7.3
+665 silly packumentCache full:https://registry.npmjs.org/webpack-merge cache-miss
+666 http fetch GET 200 https://registry.npmjs.org/cross-spawn 160ms (cache hit)
+667 silly packumentCache full:https://registry.npmjs.org/cross-spawn set size:104585 disposed:false
+668 silly fetch manifest @webpack-cli/info@^2.0.2
+669 silly packumentCache full:https://registry.npmjs.org/@webpack-cli%2finfo cache-miss
+670 http fetch GET 200 https://registry.npmjs.org/import-local 103ms (cache hit)
+671 silly packumentCache full:https://registry.npmjs.org/import-local set size:24258 disposed:false
+672 silly fetch manifest @webpack-cli/serve@^2.0.5
+673 silly packumentCache full:https://registry.npmjs.org/@webpack-cli%2fserve cache-miss
+674 http fetch GET 200 https://registry.npmjs.org/webpack-merge 82ms (cache hit)
+675 silly packumentCache full:https://registry.npmjs.org/webpack-merge set size:237952 disposed:false
+676 silly fetch manifest @discoveryjs/json-ext@^0.5.0
+677 silly packumentCache full:https://registry.npmjs.org/@discoveryjs%2fjson-ext cache-miss
+678 http fetch GET 200 https://registry.npmjs.org/@webpack-cli%2fserve 69ms (cache hit)
+679 silly packumentCache full:https://registry.npmjs.org/@webpack-cli%2fserve set size:91980 disposed:false
+680 silly fetch manifest @webpack-cli/configtest@^2.1.1
+681 silly packumentCache full:https://registry.npmjs.org/@webpack-cli%2fconfigtest cache-miss
+682 http fetch GET 200 https://registry.npmjs.org/@discoveryjs%2fjson-ext 58ms (cache hit)
+683 silly packumentCache full:https://registry.npmjs.org/@discoveryjs%2fjson-ext set size:70389 disposed:false
+684 http fetch GET 200 https://registry.npmjs.org/@webpack-cli%2finfo 108ms (cache hit)
+685 silly packumentCache full:https://registry.npmjs.org/@webpack-cli%2finfo set size:89805 disposed:false
+686 http fetch GET 200 https://registry.npmjs.org/@webpack-cli%2fconfigtest 29ms (cache hit)
+687 silly packumentCache full:https://registry.npmjs.org/@webpack-cli%2fconfigtest set size:29117 disposed:false
+688 silly fetch manifest @babel/core@^7.0.0
+689 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-hit
+690 silly placeDep node_modules/@symfony/webpack-encore @ampproject/remapping@2.3.0 OK for: @babel/core@7.25.8 want: ^2.2.0
+691 silly placeDep node_modules/@symfony/webpack-encore @babel/code-frame@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+692 silly placeDep node_modules/@symfony/webpack-encore @babel/generator@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+693 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-compilation-targets@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+694 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-module-transforms@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+695 silly placeDep node_modules/@symfony/webpack-encore @babel/helpers@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+696 silly placeDep node_modules/@symfony/webpack-encore @babel/parser@7.25.8 OK for: @babel/core@7.25.8 want: ^7.25.8
+697 silly placeDep node_modules/@symfony/webpack-encore @babel/template@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+698 silly placeDep node_modules/@symfony/webpack-encore @babel/traverse@7.25.7 OK for: @babel/core@7.25.8 want: ^7.25.7
+699 silly placeDep node_modules/@symfony/webpack-encore @babel/types@7.25.8 OK for: @babel/core@7.25.8 want: ^7.25.8
+700 silly placeDep node_modules/@symfony/webpack-encore convert-source-map@2.0.0 OK for: @babel/core@7.25.8 want: ^2.0.0
+701 silly placeDep node_modules/@symfony/webpack-encore debug@4.3.7 OK for: @babel/core@7.25.8 want: ^4.1.0
+702 silly placeDep node_modules/@symfony/webpack-encore gensync@1.0.0-beta.2 OK for: @babel/core@7.25.8 want: ^1.0.0-beta.2
+703 silly placeDep node_modules/@symfony/webpack-encore json5@2.2.3 OK for: @babel/core@7.25.8 want: ^2.2.3
+704 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@babel/core semver@6.3.1 OK for: @babel/core@7.25.8 want: ^6.3.1
+705 silly fetch manifest @jridgewell/gen-mapping@^0.3.5
+706 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping cache-miss
+707 silly fetch manifest @jridgewell/trace-mapping@^0.3.24
+708 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-hit
+709 silly fetch manifest @babel/highlight@^7.25.7
+710 silly packumentCache full:https://registry.npmjs.org/@babel%2fhighlight cache-miss
+711 silly fetch manifest @babel/types@^7.25.7
+712 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes cache-hit
+713 silly fetch manifest @jridgewell/gen-mapping@^0.3.5
+714 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping cache-miss
+715 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 65ms (cache hit)
+716 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping set size:88307 disposed:false
+717 silly fetch manifest jsesc@^3.0.2
+718 silly packumentCache full:https://registry.npmjs.org/jsesc cache-miss
+719 http fetch GET 200 https://registry.npmjs.org/@babel%2fhighlight 69ms (cache hit)
+720 silly packumentCache full:https://registry.npmjs.org/@babel%2fhighlight set size:152582 disposed:false
+721 silly fetch manifest @babel/compat-data@^7.25.7
+722 silly packumentCache full:https://registry.npmjs.org/@babel%2fcompat-data cache-hit
+723 silly fetch manifest browserslist@^4.24.0
+724 silly packumentCache full:https://registry.npmjs.org/browserslist cache-hit
+725 silly fetch manifest lru-cache@^5.1.1
+726 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+727 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 81ms (cache hit)
+728 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping set size:88307 disposed:false
+729 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping dispose
+730 silly fetch manifest @babel/helper-module-imports@^7.25.7
+731 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-module-imports cache-miss
+732 http fetch GET 200 https://registry.npmjs.org/jsesc 49ms (cache hit)
+733 silly packumentCache full:https://registry.npmjs.org/jsesc set size:59783 disposed:false
+734 silly fetch manifest @babel/helper-simple-access@^7.25.7
+735 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-simple-access cache-miss
+736 http fetch GET 200 https://registry.npmjs.org/lru-cache 41ms (cache hit)
+737 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:384588 disposed:false
+738 silly fetch manifest @babel/helper-validator-identifier@^7.25.7
+739 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier cache-miss
+740 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-module-imports 74ms (cache hit)
+741 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-module-imports set size:163741 disposed:false
+742 silly fetch manifest debug@^4.3.1
+743 silly packumentCache full:https://registry.npmjs.org/debug cache-hit
+744 silly fetch manifest globals@^11.1.0
+745 silly packumentCache full:https://registry.npmjs.org/globals cache-miss
+746 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-simple-access 100ms (cache hit)
+747 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-simple-access set size:173606 disposed:false
+748 silly fetch manifest @babel/helper-string-parser@^7.25.7
+749 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-string-parser cache-miss
+750 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 74ms (cache hit)
+751 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier set size:87956 disposed:false
+752 silly fetch manifest to-fast-properties@^2.0.0
+753 silly packumentCache full:https://registry.npmjs.org/to-fast-properties cache-miss
+754 http fetch GET 200 https://registry.npmjs.org/globals 68ms (cache hit)
+755 silly packumentCache full:https://registry.npmjs.org/globals set size:257906 disposed:false
+756 silly fetch manifest ms@^2.1.3
+757 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+758 http fetch GET 200 https://registry.npmjs.org/to-fast-properties 63ms (cache hit)
+759 silly packumentCache full:https://registry.npmjs.org/to-fast-properties set size:17311 disposed:false
+760 http fetch GET 200 https://registry.npmjs.org/ms 44ms (cache hit)
+761 silly packumentCache full:https://registry.npmjs.org/ms set size:84885 disposed:false
+762 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-string-parser 102ms (cache hit)
+763 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-string-parser set size:55552 disposed:false
+764 silly placeDep node_modules/@symfony/webpack-encore @jridgewell/gen-mapping@0.3.5 OK for: @ampproject/remapping@2.3.0 want: ^0.3.5
+765 silly placeDep node_modules/@symfony/webpack-encore @jridgewell/trace-mapping@0.3.25 OK for: @ampproject/remapping@2.3.0 want: ^0.3.24
+766 silly fetch manifest @jridgewell/set-array@^1.2.1
+767 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fset-array cache-miss
+768 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.10
+769 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+770 silly fetch manifest @jridgewell/resolve-uri@^3.1.0
+771 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri cache-miss
+772 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fset-array 37ms (cache hit)
+773 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fset-array set size:25503 disposed:false
+774 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.14
+775 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+776 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 41ms (cache hit)
+777 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:54548 disposed:false
+778 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 44ms (cache hit)
+779 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri set size:57361 disposed:false
+780 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 24ms (cache hit)
+781 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:54548 disposed:false
+782 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec dispose
+783 silly placeDep node_modules/@symfony/webpack-encore @babel/highlight@7.25.7 OK for: @babel/code-frame@7.25.7 want: ^7.25.7
+784 silly fetch manifest js-tokens@^4.0.0
+785 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+786 http fetch GET 200 https://registry.npmjs.org/js-tokens 11ms (cache hit)
+787 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:39096 disposed:false
+788 silly placeDep node_modules/@symfony/webpack-encore jsesc@3.0.2 OK for: @babel/generator@7.25.7 want: ^3.0.2
+789 silly placeDep node_modules/@symfony/webpack-encore @babel/compat-data@7.25.8 OK for: @babel/helper-compilation-targets@7.25.7 want: ^7.25.7
+790 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-validator-option@7.25.7 OK for: @babel/helper-compilation-targets@7.25.7 want: ^7.25.7
+791 silly placeDep node_modules/@symfony/webpack-encore browserslist@4.24.0 OK for: @babel/helper-compilation-targets@7.25.7 want: ^4.24.0
+792 silly placeDep node_modules/@symfony/webpack-encore lru-cache@5.1.1 OK for: @babel/helper-compilation-targets@7.25.7 want: ^5.1.1
+793 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@babel/helper-compilation-targets semver@6.3.1 OK for: @babel/helper-compilation-targets@7.25.7 want: ^6.3.1
+794 silly fetch manifest caniuse-lite@^1.0.30001663
+795 silly packumentCache full:https://registry.npmjs.org/caniuse-lite cache-miss
+796 silly fetch manifest electron-to-chromium@^1.5.28
+797 silly packumentCache full:https://registry.npmjs.org/electron-to-chromium cache-miss
+798 silly fetch manifest node-releases@^2.0.18
+799 silly packumentCache full:https://registry.npmjs.org/node-releases cache-miss
+800 http fetch GET 200 https://registry.npmjs.org/node-releases 54ms (cache hit)
+801 silly packumentCache full:https://registry.npmjs.org/node-releases set size:258940 disposed:false
+802 silly fetch manifest update-browserslist-db@^1.1.0
+803 silly packumentCache full:https://registry.npmjs.org/update-browserslist-db cache-miss
+804 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 83ms (cache hit)
+805 silly packumentCache full:https://registry.npmjs.org/caniuse-lite set size:2090152 disposed:false
+806 silly fetch manifest yallist@^3.0.2
+807 silly packumentCache full:https://registry.npmjs.org/yallist cache-miss
+808 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium 153ms (cache hit)
+809 silly packumentCache full:https://registry.npmjs.org/electron-to-chromium set size:4295175 disposed:false
+810 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 211ms (cache hit)
+811 silly packumentCache full:https://registry.npmjs.org/update-browserslist-db set size:48451 disposed:false
+812 http fetch GET 200 https://registry.npmjs.org/yallist 152ms (cache hit)
+813 silly packumentCache full:https://registry.npmjs.org/yallist set size:34610 disposed:false
+814 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-module-imports@7.25.7 OK for: @babel/helper-module-transforms@7.25.7 want: ^7.25.7
+815 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-simple-access@7.25.7 OK for: @babel/helper-module-transforms@7.25.7 want: ^7.25.7
+816 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-validator-identifier@7.25.7 OK for: @babel/helper-module-transforms@7.25.7 want: ^7.25.7
+817 silly placeDep node_modules/@symfony/webpack-encore chalk@2.4.2 OK for: @babel/highlight@7.25.7 want: ^2.4.2
+818 silly placeDep node_modules/@symfony/webpack-encore js-tokens@4.0.0 OK for: @babel/highlight@7.25.7 want: ^4.0.0
+819 silly fetch manifest ansi-styles@^3.2.1
+820 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+821 silly fetch manifest supports-color@^5.3.0
+822 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+823 silly fetch manifest escape-string-regexp@^1.0.5
+824 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+825 http fetch GET 200 https://registry.npmjs.org/ansi-styles 42ms (cache hit)
+826 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+827 http fetch GET 200 https://registry.npmjs.org/supports-color 47ms (cache hit)
+828 silly packumentCache full:https://registry.npmjs.org/supports-color set size:113904 disposed:false
+829 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 59ms (cache hit)
+830 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:22244 disposed:false
+831 silly fetch manifest @babel/core@^7.0.0-0
+832 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-hit
+833 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-plugin-utils@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+834 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+835 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-bugfix-safari-class-field-initializer-scope@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+836 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+837 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+838 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+839 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2 OK for: @babel/preset-env@7.25.8 want: 7.21.0-placeholder-for-preset-env.2
+840 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-syntax-import-assertions@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+841 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-syntax-import-attributes@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+842 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-syntax-unicode-sets-regex@7.18.6 OK for: @babel/preset-env@7.25.8 want: ^7.18.6
+843 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-arrow-functions@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+844 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-async-generator-functions@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+845 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-async-to-generator@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+846 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-block-scoped-functions@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+847 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-block-scoping@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+848 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-class-properties@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+849 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-class-static-block@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+850 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-classes@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+851 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-computed-properties@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+852 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-destructuring@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+853 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-dotall-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+854 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-duplicate-keys@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+855 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-duplicate-named-capturing-groups-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+856 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-dynamic-import@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+857 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-exponentiation-operator@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+858 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-export-namespace-from@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+859 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-for-of@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+860 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-function-name@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+861 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-json-strings@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+862 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-literals@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+863 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-logical-assignment-operators@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+864 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-member-expression-literals@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+865 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-modules-amd@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+866 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-modules-commonjs@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+867 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-modules-systemjs@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+868 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-modules-umd@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+869 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-named-capturing-groups-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+870 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-new-target@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+871 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-nullish-coalescing-operator@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+872 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-numeric-separator@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+873 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-object-rest-spread@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+874 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-object-super@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+875 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-optional-catch-binding@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+876 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-optional-chaining@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+877 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-parameters@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+878 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-private-methods@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+879 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-private-property-in-object@7.25.8 OK for: @babel/preset-env@7.25.8 want: ^7.25.8
+880 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-property-literals@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+881 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-regenerator@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+882 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-reserved-words@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+883 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-shorthand-properties@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+884 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-spread@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+885 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-sticky-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+886 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-template-literals@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+887 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-typeof-symbol@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+888 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-unicode-escapes@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+889 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-unicode-property-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+890 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-unicode-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+891 silly placeDep node_modules/@symfony/webpack-encore @babel/plugin-transform-unicode-sets-regex@7.25.7 OK for: @babel/preset-env@7.25.8 want: ^7.25.7
+892 silly placeDep node_modules/@symfony/webpack-encore @babel/preset-modules@0.1.6-no-external-plugins OK for: @babel/preset-env@7.25.8 want: 0.1.6-no-external-plugins
+893 silly placeDep node_modules/@symfony/webpack-encore babel-plugin-polyfill-corejs2@0.4.11 OK for: @babel/preset-env@7.25.8 want: ^0.4.10
+894 silly placeDep node_modules/@symfony/webpack-encore babel-plugin-polyfill-corejs3@0.10.6 OK for: @babel/preset-env@7.25.8 want: ^0.10.6
+895 silly placeDep node_modules/@symfony/webpack-encore babel-plugin-polyfill-regenerator@0.6.2 OK for: @babel/preset-env@7.25.8 want: ^0.6.1
+896 silly placeDep node_modules/@symfony/webpack-encore core-js-compat@3.38.1 OK for: @babel/preset-env@7.25.8 want: ^3.38.1
+897 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@babel/preset-env semver@6.3.1 OK for: @babel/preset-env@7.25.8 want: ^6.3.1
+898 silly fetch manifest @babel/helper-skip-transparent-expression-wrappers@^7.25.7
+899 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-skip-transparent-expression-wrappers cache-miss
+900 silly fetch manifest @babel/plugin-transform-optional-chaining@^7.25.7
+901 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining cache-hit
+902 silly fetch manifest @babel/helper-create-regexp-features-plugin@^7.18.6
+903 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin cache-miss
+904 silly fetch manifest @babel/helper-remap-async-to-generator@^7.25.7
+905 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator cache-miss
+906 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-skip-transparent-expression-wrappers 35ms (cache hit)
+907 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-skip-transparent-expression-wrappers set size:67409 disposed:false
+908 silly fetch manifest @babel/helper-remap-async-to-generator@^7.25.7
+909 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator cache-miss
+910 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin 48ms (cache hit)
+911 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin set size:139996 disposed:false
+912 silly fetch manifest @babel/helper-create-class-features-plugin@^7.25.7
+913 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin cache-miss
+914 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator 62ms (cache hit)
+915 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator set size:186822 disposed:false
+916 silly fetch manifest @babel/helper-create-class-features-plugin@^7.25.7
+917 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin cache-miss
+918 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator 82ms (cache hit)
+919 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator set size:186822 disposed:false
+920 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator dispose
+921 silly fetch manifest @babel/helper-annotate-as-pure@^7.25.7
+922 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure cache-miss
+923 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin 80ms (cache hit)
+924 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin set size:318094 disposed:false
+925 silly fetch manifest @babel/helper-replace-supers@^7.25.7
+926 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-replace-supers cache-miss
+927 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin 95ms (cache hit)
+928 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin set size:318094 disposed:false
+929 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin dispose
+930 silly fetch manifest @babel/helper-create-regexp-features-plugin@^7.25.7
+931 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin cache-hit
+932 silly fetch manifest @babel/helper-builder-binary-assignment-operator-visitor@^7.25.7
+933 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor cache-miss
+934 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-replace-supers 71ms (cache hit)
+935 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-replace-supers set size:224121 disposed:false
+936 silly fetch manifest @babel/helper-annotate-as-pure@^7.25.7
+937 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure cache-miss
+938 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor 58ms (cache hit)
+939 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor set size:175475 disposed:false
+940 silly fetch manifest regenerator-transform@^0.15.2
+941 silly packumentCache full:https://registry.npmjs.org/regenerator-transform cache-miss
+942 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure 134ms (cache hit)
+943 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure set size:141971 disposed:false
+944 silly fetch manifest esutils@^2.0.2
+945 silly packumentCache full:https://registry.npmjs.org/esutils cache-miss
+946 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure 84ms (cache hit)
+947 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure set size:141971 disposed:false
+948 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure dispose
+949 silly fetch manifest @babel/helper-define-polyfill-provider@^0.6.2
+950 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider cache-miss
+951 http fetch GET 200 https://registry.npmjs.org/regenerator-transform 84ms (cache hit)
+952 silly packumentCache full:https://registry.npmjs.org/regenerator-transform set size:74678 disposed:false
+953 silly fetch manifest @babel/helper-define-polyfill-provider@^0.6.2
+954 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider cache-miss
+955 http fetch GET 200 https://registry.npmjs.org/esutils 68ms (cache hit)
+956 silly packumentCache full:https://registry.npmjs.org/esutils set size:29522 disposed:false
+957 silly fetch manifest core-js-compat@^3.38.0
+958 silly packumentCache full:https://registry.npmjs.org/core-js-compat cache-hit
+959 silly fetch manifest @babel/helper-define-polyfill-provider@^0.6.2
+960 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider cache-miss
+961 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider 62ms (cache hit)
+962 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider set size:95995 disposed:false
+963 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider 43ms (cache hit)
+964 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider set size:95995 disposed:false
+965 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider dispose
+966 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider 63ms (cache hit)
+967 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider set size:95995 disposed:true
+968 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider dispose
+969 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-skip-transparent-expression-wrappers@7.25.7 OK for: @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.25.7 want: ^7.25.7
+970 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-create-regexp-features-plugin@7.25.7 OK for: @babel/plugin-syntax-unicode-sets-regex@7.18.6 want: ^7.18.6
+971 silly fetch manifest regexpu-core@^6.1.1
+972 silly packumentCache full:https://registry.npmjs.org/regexpu-core cache-miss
+973 http fetch GET 200 https://registry.npmjs.org/regexpu-core 15ms (cache hit)
+974 silly packumentCache full:https://registry.npmjs.org/regexpu-core set size:146646 disposed:false
+975 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-annotate-as-pure@7.25.7 OK for: @babel/helper-create-regexp-features-plugin@7.25.7 want: ^7.25.7
+976 silly placeDep node_modules/@symfony/webpack-encore regexpu-core@6.1.1 OK for: @babel/helper-create-regexp-features-plugin@7.25.7 want: ^6.1.1
+977 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@babel/helper-create-regexp-features-plugin semver@6.3.1 OK for: @babel/helper-create-regexp-features-plugin@7.25.7 want: ^6.3.1
+978 silly fetch manifest regenerate@^1.4.2
+979 silly packumentCache full:https://registry.npmjs.org/regenerate cache-miss
+980 silly fetch manifest regenerate-unicode-properties@^10.2.0
+981 silly packumentCache full:https://registry.npmjs.org/regenerate-unicode-properties cache-miss
+982 silly fetch manifest regjsgen@^0.8.0
+983 silly packumentCache full:https://registry.npmjs.org/regjsgen cache-miss
+984 http fetch GET 200 https://registry.npmjs.org/regenerate 39ms (cache hit)
+985 silly packumentCache full:https://registry.npmjs.org/regenerate set size:56872 disposed:false
+986 silly fetch manifest regjsparser@^0.11.0
+987 silly packumentCache full:https://registry.npmjs.org/regjsparser cache-miss
+988 http fetch GET 200 https://registry.npmjs.org/regenerate-unicode-properties 47ms (cache hit)
+989 silly packumentCache full:https://registry.npmjs.org/regenerate-unicode-properties set size:74332 disposed:false
+990 silly fetch manifest unicode-match-property-ecmascript@^2.0.0
+991 silly packumentCache full:https://registry.npmjs.org/unicode-match-property-ecmascript cache-miss
+992 http fetch GET 200 https://registry.npmjs.org/regjsgen 50ms (cache hit)
+993 silly packumentCache full:https://registry.npmjs.org/regjsgen set size:26409 disposed:false
+994 silly fetch manifest unicode-match-property-value-ecmascript@^2.1.0
+995 silly packumentCache full:https://registry.npmjs.org/unicode-match-property-value-ecmascript cache-miss
+996 http fetch GET 200 https://registry.npmjs.org/unicode-match-property-ecmascript 26ms (cache hit)
+997 silly packumentCache full:https://registry.npmjs.org/unicode-match-property-ecmascript set size:16934 disposed:false
+998 http fetch GET 200 https://registry.npmjs.org/unicode-match-property-value-ecmascript 23ms (cache hit)
+999 silly packumentCache full:https://registry.npmjs.org/unicode-match-property-value-ecmascript set size:24390 disposed:false
+1000 http fetch GET 200 https://registry.npmjs.org/regjsparser 39ms (cache hit)
+1001 silly packumentCache full:https://registry.npmjs.org/regjsparser set size:75959 disposed:false
+1002 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-remap-async-to-generator@7.25.7 OK for: @babel/plugin-transform-async-generator-functions@7.25.8 want: ^7.25.7
+1003 silly fetch manifest @babel/helper-wrap-function@^7.25.7
+1004 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-wrap-function cache-miss
+1005 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-wrap-function 30ms (cache hit)
+1006 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-wrap-function set size:184070 disposed:false
+1007 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-wrap-function@7.25.7 OK for: @babel/helper-remap-async-to-generator@7.25.7 want: ^7.25.7
+1008 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-create-class-features-plugin@7.25.7 OK for: @babel/plugin-transform-class-properties@7.25.7 want: ^7.25.7
+1009 silly fetch manifest @babel/helper-member-expression-to-functions@^7.25.7
+1010 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-member-expression-to-functions cache-miss
+1011 silly fetch manifest @babel/helper-optimise-call-expression@^7.25.7
+1012 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-optimise-call-expression cache-miss
+1013 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-member-expression-to-functions 30ms (cache hit)
+1014 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-member-expression-to-functions set size:187698 disposed:false
+1015 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-optimise-call-expression 36ms (cache hit)
+1016 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-optimise-call-expression set size:153776 disposed:false
+1017 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-member-expression-to-functions@7.25.7 OK for: @babel/helper-create-class-features-plugin@7.25.7 want: ^7.25.7
+1018 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-optimise-call-expression@7.25.7 OK for: @babel/helper-create-class-features-plugin@7.25.7 want: ^7.25.7
+1019 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-replace-supers@7.25.7 OK for: @babel/helper-create-class-features-plugin@7.25.7 want: ^7.25.7
+1020 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@babel/helper-create-class-features-plugin semver@6.3.1 OK for: @babel/helper-create-class-features-plugin@7.25.7 want: ^6.3.1
+1021 silly placeDep node_modules/@symfony/webpack-encore globals@11.12.0 OK for: @babel/plugin-transform-classes@7.25.7 want: ^11.1.0
+1022 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-builder-binary-assignment-operator-visitor@7.25.7 OK for: @babel/plugin-transform-exponentiation-operator@7.25.7 want: ^7.25.7
+1023 silly placeDep node_modules/@symfony/webpack-encore regenerator-transform@0.15.2 OK for: @babel/plugin-transform-regenerator@7.25.7 want: ^0.15.2
+1024 silly fetch manifest @babel/runtime@^7.8.4
+1025 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+1026 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 34ms (cache hit)
+1027 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:2667578 disposed:false
+1028 silly placeDep node_modules/@symfony/webpack-encore esutils@2.0.3 OK for: @babel/preset-modules@0.1.6-no-external-plugins want: ^2.0.2
+1029 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-string-parser@7.25.7 OK for: @babel/types@7.25.8 want: ^7.25.7
+1030 silly placeDep node_modules/@symfony/webpack-encore to-fast-properties@2.0.0 OK for: @babel/types@7.25.8 want: ^2.0.0
+1031 silly placeDep node_modules/@symfony/webpack-encore @jridgewell/set-array@1.2.1 OK for: @jridgewell/gen-mapping@0.3.5 want: ^1.2.1
+1032 silly placeDep node_modules/@symfony/webpack-encore @jridgewell/sourcemap-codec@1.5.0 OK for: @jridgewell/gen-mapping@0.3.5 want: ^1.4.10
+1033 silly placeDep node_modules/@symfony/webpack-encore @jridgewell/resolve-uri@3.1.2 OK for: @jridgewell/trace-mapping@0.3.25 want: ^3.1.0
+1034 silly placeDep node_modules/@symfony/webpack-encore consola@3.2.3 OK for: @nuxt/friendly-errors-webpack-plugin@2.6.0 want: ^3.2.3
+1035 silly placeDep node_modules/@symfony/webpack-encore error-stack-parser@2.1.4 OK for: @nuxt/friendly-errors-webpack-plugin@2.6.0 want: ^2.1.4
+1036 silly placeDep node_modules/@symfony/webpack-encore string-width@4.2.3 OK for: @nuxt/friendly-errors-webpack-plugin@2.6.0 want: ^4.2.3
+1037 silly fetch manifest stackframe@^1.3.4
+1038 silly packumentCache full:https://registry.npmjs.org/stackframe cache-miss
+1039 silly fetch manifest strip-ansi@^6.0.1
+1040 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+1041 silly fetch manifest emoji-regex@^8.0.0
+1042 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+1043 http fetch GET 200 https://registry.npmjs.org/stackframe 48ms (cache hit)
+1044 silly packumentCache full:https://registry.npmjs.org/stackframe set size:54134 disposed:false
+1045 silly fetch manifest is-fullwidth-code-point@^3.0.0
+1046 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+1047 http fetch GET 200 https://registry.npmjs.org/emoji-regex 51ms (cache hit)
+1048 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:85187 disposed:false
+1049 http fetch GET 200 https://registry.npmjs.org/strip-ansi 60ms (cache hit)
+1050 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+1051 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 30ms (cache hit)
+1052 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+1053 silly placeDep node_modules/@symfony/webpack-encore find-cache-dir@4.0.0 OK for: babel-loader@9.2.1 want: ^4.0.0
+1054 silly placeDep node_modules/@symfony/webpack-encore schema-utils@4.2.0 OK for: babel-loader@9.2.1 want: ^4.0.0
+1055 silly fetch manifest common-path-prefix@^3.0.0
+1056 silly packumentCache full:https://registry.npmjs.org/common-path-prefix cache-miss
+1057 silly fetch manifest pkg-dir@^7.0.0
+1058 silly packumentCache full:https://registry.npmjs.org/pkg-dir cache-miss
+1059 silly fetch manifest @types/json-schema@^7.0.9
+1060 silly packumentCache full:https://registry.npmjs.org/@types%2fjson-schema cache-miss
+1061 http fetch GET 200 https://registry.npmjs.org/common-path-prefix 25ms (cache hit)
+1062 silly packumentCache full:https://registry.npmjs.org/common-path-prefix set size:9154 disposed:false
+1063 silly fetch manifest ajv@^8.9.0
+1064 silly packumentCache full:https://registry.npmjs.org/ajv cache-miss
+1065 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 27ms (cache hit)
+1066 silly packumentCache full:https://registry.npmjs.org/@types%2fjson-schema set size:44653 disposed:false
+1067 silly fetch manifest ajv-formats@^2.1.1
+1068 silly packumentCache full:https://registry.npmjs.org/ajv-formats cache-miss
+1069 http fetch GET 200 https://registry.npmjs.org/pkg-dir 44ms (cache hit)
+1070 silly packumentCache full:https://registry.npmjs.org/pkg-dir set size:28205 disposed:false
+1071 silly fetch manifest ajv-keywords@^5.1.0
+1072 silly packumentCache full:https://registry.npmjs.org/ajv-keywords cache-miss
+1073 http fetch GET 200 https://registry.npmjs.org/ajv 58ms (cache hit)
+1074 silly packumentCache full:https://registry.npmjs.org/ajv set size:1126072 disposed:false
+1075 http fetch GET 200 https://registry.npmjs.org/ajv-formats 98ms (cache hit)
+1076 silly packumentCache full:https://registry.npmjs.org/ajv-formats set size:141264 disposed:false
+1077 http fetch GET 200 https://registry.npmjs.org/ajv-keywords 95ms (cache hit)
+1078 silly packumentCache full:https://registry.npmjs.org/ajv-keywords set size:310004 disposed:false
+1079 silly fetch manifest @babel/core@^7.4.0 || ^8.0.0-0 <8.0.0
+1080 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-hit
+1081 silly placeDep node_modules/@symfony/webpack-encore @babel/helper-define-polyfill-provider@0.6.2 OK for: babel-plugin-polyfill-corejs2@0.4.11 want: ^0.6.2
+1082 silly placeDep node_modules/@symfony/webpack-encore/node_modules/babel-plugin-polyfill-corejs2 semver@6.3.1 OK for: babel-plugin-polyfill-corejs2@0.4.11 want: ^6.3.1
+1083 silly fetch manifest lodash.debounce@^4.0.8
+1084 silly packumentCache full:https://registry.npmjs.org/lodash.debounce cache-miss
+1085 silly fetch manifest resolve@^1.14.2
+1086 silly packumentCache full:https://registry.npmjs.org/resolve cache-miss
+1087 http fetch GET 200 https://registry.npmjs.org/lodash.debounce 46ms (cache hit)
+1088 silly packumentCache full:https://registry.npmjs.org/lodash.debounce set size:44123 disposed:false
+1089 http fetch GET 200 https://registry.npmjs.org/resolve 51ms (cache hit)
+1090 silly packumentCache full:https://registry.npmjs.org/resolve set size:288408 disposed:false
+1091 silly placeDep node_modules/@symfony/webpack-encore lodash.debounce@4.0.8 OK for: @babel/helper-define-polyfill-provider@0.6.2 want: ^4.0.8
+1092 silly placeDep node_modules/@symfony/webpack-encore resolve@1.22.8 OK for: @babel/helper-define-polyfill-provider@0.6.2 want: ^1.14.2
+1093 silly fetch manifest is-core-module@^2.13.0
+1094 silly packumentCache full:https://registry.npmjs.org/is-core-module cache-miss
+1095 silly fetch manifest path-parse@^1.0.7
+1096 silly packumentCache full:https://registry.npmjs.org/path-parse cache-miss
+1097 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+1098 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag cache-miss
+1099 http fetch GET 200 https://registry.npmjs.org/is-core-module 77ms (cache hit)
+1100 silly packumentCache full:https://registry.npmjs.org/is-core-module set size:66526 disposed:false
+1101 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 81ms (cache hit)
+1102 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag set size:6802 disposed:false
+1103 http fetch GET 200 https://registry.npmjs.org/path-parse 85ms (cache hit)
+1104 silly packumentCache full:https://registry.npmjs.org/path-parse set size:14523 disposed:false
+1105 silly fetch manifest browserslist@>= 4.21.0
+1106 silly packumentCache full:https://registry.npmjs.org/browserslist cache-hit
+1107 silly placeDep node_modules/@symfony/webpack-encore caniuse-lite@1.0.30001669 OK for: browserslist@4.24.0 want: ^1.0.30001663
+1108 silly placeDep node_modules/@symfony/webpack-encore electron-to-chromium@1.5.41 OK for: browserslist@4.24.0 want: ^1.5.28
+1109 silly placeDep node_modules/@symfony/webpack-encore node-releases@2.0.18 OK for: browserslist@4.24.0 want: ^2.0.18
+1110 silly placeDep node_modules/@symfony/webpack-encore update-browserslist-db@1.1.1 OK for: browserslist@4.24.0 want: ^1.1.0
+1111 silly fetch manifest escalade@^3.2.0
+1112 silly packumentCache full:https://registry.npmjs.org/escalade cache-miss
+1113 http fetch GET 200 https://registry.npmjs.org/escalade 21ms (cache hit)
+1114 silly packumentCache full:https://registry.npmjs.org/escalade set size:33724 disposed:false
+1115 silly placeDep node_modules/@symfony/webpack-encore ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+1116 silly placeDep node_modules/@symfony/webpack-encore escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+1117 silly placeDep node_modules/@symfony/webpack-encore supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+1118 silly fetch manifest color-convert@^1.9.0
+1119 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+1120 silly fetch manifest has-flag@^3.0.0
+1121 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+1122 http fetch GET 200 https://registry.npmjs.org/color-convert 39ms (cache hit)
+1123 silly packumentCache full:https://registry.npmjs.org/color-convert set size:61781 disposed:false
+1124 http fetch GET 200 https://registry.npmjs.org/has-flag 59ms (cache hit)
+1125 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+1126 silly placeDep node_modules/@symfony/webpack-encore color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+1127 silly fetch manifest color-name@1.1.3
+1128 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+1129 http fetch GET 200 https://registry.npmjs.org/color-name 33ms (cache hit)
+1130 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+1131 silly placeDep node_modules/@symfony/webpack-encore color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+1132 silly placeDep node_modules/@symfony/webpack-encore icss-utils@5.1.0 OK for: css-loader@7.1.2 want: ^5.1.0
+1133 silly placeDep node_modules/@symfony/webpack-encore postcss@8.4.47 OK for: icss-utils@5.1.0 want: ^8.1.0
+1134 silly placeDep node_modules/@symfony/webpack-encore postcss-modules-extract-imports@3.1.0 OK for: css-loader@7.1.2 want: ^3.1.0
+1135 silly placeDep node_modules/@symfony/webpack-encore postcss-modules-local-by-default@4.0.5 OK for: css-loader@7.1.2 want: ^4.0.5
+1136 silly placeDep node_modules/@symfony/webpack-encore postcss-modules-scope@3.2.0 OK for: css-loader@7.1.2 want: ^3.2.0
+1137 silly placeDep node_modules/@symfony/webpack-encore postcss-modules-values@4.0.0 OK for: css-loader@7.1.2 want: ^4.0.0
+1138 silly placeDep node_modules/@symfony/webpack-encore postcss-value-parser@4.2.0 OK for: css-loader@7.1.2 want: ^4.2.0
+1139 silly fetch manifest nanoid@^3.3.7
+1140 silly packumentCache full:https://registry.npmjs.org/nanoid cache-miss
+1141 silly fetch manifest source-map-js@^1.2.1
+1142 silly packumentCache full:https://registry.npmjs.org/source-map-js cache-miss
+1143 silly fetch manifest postcss-selector-parser@^6.0.2
+1144 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser cache-miss
+1145 http fetch GET 200 https://registry.npmjs.org/nanoid 74ms (cache hit)
+1146 silly packumentCache full:https://registry.npmjs.org/nanoid set size:271372 disposed:false
+1147 silly fetch manifest postcss-value-parser@^4.1.0
+1148 silly packumentCache full:https://registry.npmjs.org/postcss-value-parser cache-hit
+1149 silly fetch manifest postcss-selector-parser@^6.0.4
+1150 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser cache-miss
+1151 http fetch GET 200 https://registry.npmjs.org/source-map-js 110ms (cache hit)
+1152 silly packumentCache full:https://registry.npmjs.org/source-map-js set size:62640 disposed:false
+1153 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 124ms (cache hit)
+1154 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser set size:168339 disposed:false
+1155 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 127ms (cache hit)
+1156 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser set size:168339 disposed:false
+1157 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser dispose
+1158 silly placeDep node_modules/@symfony/webpack-encore cssnano@7.0.6 OK for: css-minimizer-webpack-plugin@7.0.0 want: ^7.0.1
+1159 silly placeDep node_modules/@symfony/webpack-encore jest-worker@29.7.0 OK for: css-minimizer-webpack-plugin@7.0.0 want: ^29.7.0
+1160 silly placeDep node_modules/@symfony/webpack-encore serialize-javascript@6.0.2 OK for: css-minimizer-webpack-plugin@7.0.0 want: ^6.0.2
+1161 silly fetch manifest lilconfig@^3.1.2
+1162 silly packumentCache full:https://registry.npmjs.org/lilconfig cache-miss
+1163 silly fetch manifest cssnano-preset-default@^7.0.6
+1164 silly packumentCache full:https://registry.npmjs.org/cssnano-preset-default cache-miss
+1165 silly fetch manifest jest-util@^29.7.0
+1166 silly packumentCache full:https://registry.npmjs.org/jest-util cache-miss
+1167 http fetch GET 200 https://registry.npmjs.org/cssnano-preset-default 63ms (cache hit)
+1168 silly packumentCache full:https://registry.npmjs.org/cssnano-preset-default set size:303065 disposed:false
+1169 silly fetch manifest @types/node@*
+1170 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+1171 http fetch GET 200 https://registry.npmjs.org/lilconfig 96ms (cache hit)
+1172 silly packumentCache full:https://registry.npmjs.org/lilconfig set size:43850 disposed:false
+1173 silly fetch manifest merge-stream@^2.0.0
+1174 silly packumentCache full:https://registry.npmjs.org/merge-stream cache-miss
+1175 http fetch GET 200 https://registry.npmjs.org/jest-util 112ms (cache hit)
+1176 silly packumentCache full:https://registry.npmjs.org/jest-util set size:560743 disposed:false
+1177 silly fetch manifest supports-color@^8.0.0
+1178 silly packumentCache full:https://registry.npmjs.org/supports-color cache-hit
+1179 silly fetch manifest randombytes@^2.1.0
+1180 silly packumentCache full:https://registry.npmjs.org/randombytes cache-miss
+1181 http fetch GET 200 https://registry.npmjs.org/merge-stream 113ms (cache hit)
+1182 silly packumentCache full:https://registry.npmjs.org/merge-stream set size:22180 disposed:false
+1183 http fetch GET 200 https://registry.npmjs.org/randombytes 61ms (cache hit)
+1184 silly packumentCache full:https://registry.npmjs.org/randombytes set size:17505 disposed:false
+1185 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 492ms (cache hit)
+1186 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:9202530 disposed:false
+1187 silly fetch manifest postcss@^8.4.31
+1188 silly packumentCache full:https://registry.npmjs.org/postcss cache-hit
+1189 silly placeDep node_modules/@symfony/webpack-encore cssnano-preset-default@7.0.6 OK for: cssnano@7.0.6 want: ^7.0.6
+1190 silly placeDep node_modules/@symfony/webpack-encore lilconfig@3.1.2 OK for: cssnano@7.0.6 want: ^3.1.2
+1191 silly fetch manifest css-declaration-sorter@^7.2.0
+1192 silly packumentCache full:https://registry.npmjs.org/css-declaration-sorter cache-miss
+1193 silly fetch manifest postcss-calc@^10.0.2
+1194 silly packumentCache full:https://registry.npmjs.org/postcss-calc cache-miss
+1195 silly fetch manifest cssnano-utils@^5.0.0
+1196 silly packumentCache full:https://registry.npmjs.org/cssnano-utils cache-miss
+1197 http fetch GET 200 https://registry.npmjs.org/postcss-calc 50ms (cache hit)
+1198 silly packumentCache full:https://registry.npmjs.org/postcss-calc set size:91734 disposed:false
+1199 silly fetch manifest postcss-colormin@^7.0.2
+1200 silly packumentCache full:https://registry.npmjs.org/postcss-colormin cache-miss
+1201 http fetch GET 200 https://registry.npmjs.org/css-declaration-sorter 60ms (cache hit)
+1202 silly packumentCache full:https://registry.npmjs.org/css-declaration-sorter set size:126890 disposed:false
+1203 silly fetch manifest postcss-convert-values@^7.0.4
+1204 silly packumentCache full:https://registry.npmjs.org/postcss-convert-values cache-miss
+1205 http fetch GET 200 https://registry.npmjs.org/cssnano-utils 88ms (cache hit)
+1206 silly packumentCache full:https://registry.npmjs.org/cssnano-utils set size:105005 disposed:false
+1207 silly fetch manifest postcss-discard-comments@^7.0.3
+1208 silly packumentCache full:https://registry.npmjs.org/postcss-discard-comments cache-miss
+1209 http fetch GET 200 https://registry.npmjs.org/postcss-convert-values 59ms (cache hit)
+1210 silly packumentCache full:https://registry.npmjs.org/postcss-convert-values set size:184723 disposed:false
+1211 silly fetch manifest postcss-discard-duplicates@^7.0.1
+1212 silly packumentCache full:https://registry.npmjs.org/postcss-discard-duplicates cache-miss
+1213 http fetch GET 200 https://registry.npmjs.org/postcss-colormin 106ms (cache hit)
+1214 silly packumentCache full:https://registry.npmjs.org/postcss-colormin set size:174626 disposed:false
+1215 silly fetch manifest postcss-discard-empty@^7.0.0
+1216 silly packumentCache full:https://registry.npmjs.org/postcss-discard-empty cache-miss
+1217 http fetch GET 200 https://registry.npmjs.org/postcss-discard-comments 90ms (cache hit)
+1218 silly packumentCache full:https://registry.npmjs.org/postcss-discard-comments set size:139687 disposed:false
+1219 silly fetch manifest postcss-discard-overridden@^7.0.0
+1220 silly packumentCache full:https://registry.npmjs.org/postcss-discard-overridden cache-miss
+1221 http fetch GET 200 https://registry.npmjs.org/postcss-discard-duplicates 108ms (cache hit)
+1222 silly packumentCache full:https://registry.npmjs.org/postcss-discard-duplicates set size:128255 disposed:false
+1223 silly fetch manifest postcss-merge-longhand@^7.0.4
+1224 silly packumentCache full:https://registry.npmjs.org/postcss-merge-longhand cache-miss
+1225 http fetch GET 200 https://registry.npmjs.org/postcss-discard-overridden 69ms (cache hit)
+1226 silly packumentCache full:https://registry.npmjs.org/postcss-discard-overridden set size:160019 disposed:false
+1227 silly fetch manifest postcss-merge-rules@^7.0.4
+1228 silly packumentCache full:https://registry.npmjs.org/postcss-merge-rules cache-miss
+1229 http fetch GET 200 https://registry.npmjs.org/postcss-discard-empty 123ms (cache hit)
+1230 silly packumentCache full:https://registry.npmjs.org/postcss-discard-empty set size:128770 disposed:false
+1231 silly fetch manifest postcss-minify-font-values@^7.0.0
+1232 silly packumentCache full:https://registry.npmjs.org/postcss-minify-font-values cache-miss
+1233 http fetch GET 200 https://registry.npmjs.org/postcss-minify-font-values 39ms (cache hit)
+1234 silly packumentCache full:https://registry.npmjs.org/postcss-minify-font-values set size:158291 disposed:false
+1235 silly fetch manifest postcss-minify-gradients@^7.0.0
+1236 silly packumentCache full:https://registry.npmjs.org/postcss-minify-gradients cache-miss
+1237 http fetch GET 200 https://registry.npmjs.org/postcss-merge-rules 69ms (cache hit)
+1238 silly packumentCache full:https://registry.npmjs.org/postcss-merge-rules set size:198982 disposed:false
+1239 silly fetch manifest postcss-minify-params@^7.0.2
+1240 silly packumentCache full:https://registry.npmjs.org/postcss-minify-params cache-miss
+1241 http fetch GET 200 https://registry.npmjs.org/postcss-merge-longhand 114ms (cache hit)
+1242 silly packumentCache full:https://registry.npmjs.org/postcss-merge-longhand set size:180213 disposed:false
+1243 silly fetch manifest postcss-minify-selectors@^7.0.4
+1244 silly packumentCache full:https://registry.npmjs.org/postcss-minify-selectors cache-miss
+1245 http fetch GET 200 https://registry.npmjs.org/postcss-minify-gradients 71ms (cache hit)
+1246 silly packumentCache full:https://registry.npmjs.org/postcss-minify-gradients set size:147245 disposed:false
+1247 silly fetch manifest postcss-normalize-charset@^7.0.0
+1248 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-charset cache-miss
+1249 http fetch GET 200 https://registry.npmjs.org/postcss-minify-params 60ms (cache hit)
+1250 silly packumentCache full:https://registry.npmjs.org/postcss-minify-params set size:150344 disposed:false
+1251 silly fetch manifest postcss-normalize-display-values@^7.0.0
+1252 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-display-values cache-miss
+1253 http fetch GET 200 https://registry.npmjs.org/postcss-minify-selectors 68ms (cache hit)
+1254 silly packumentCache full:https://registry.npmjs.org/postcss-minify-selectors set size:168223 disposed:false
+1255 silly fetch manifest postcss-normalize-positions@^7.0.0
+1256 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-positions cache-miss
+1257 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-display-values 44ms (cache hit)
+1258 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-display-values set size:112940 disposed:false
+1259 silly fetch manifest postcss-normalize-repeat-style@^7.0.0
+1260 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-repeat-style cache-miss
+1261 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-charset 72ms (cache hit)
+1262 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-charset set size:113895 disposed:false
+1263 silly fetch manifest postcss-normalize-string@^7.0.0
+1264 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-string cache-miss
+1265 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-positions 46ms (cache hit)
+1266 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-positions set size:119290 disposed:false
+1267 silly fetch manifest postcss-normalize-timing-functions@^7.0.0
+1268 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-timing-functions cache-miss
+1269 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-repeat-style 49ms (cache hit)
+1270 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-repeat-style set size:119333 disposed:false
+1271 silly fetch manifest postcss-normalize-unicode@^7.0.2
+1272 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-unicode cache-miss
+1273 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-string 49ms (cache hit)
+1274 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-string set size:122215 disposed:false
+1275 silly fetch manifest postcss-normalize-url@^7.0.0
+1276 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-url cache-miss
+1277 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-timing-functions 56ms (cache hit)
+1278 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-timing-functions set size:113445 disposed:false
+1279 silly fetch manifest postcss-normalize-whitespace@^7.0.0
+1280 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-whitespace cache-miss
+1281 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-unicode 53ms (cache hit)
+1282 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-unicode set size:111064 disposed:false
+1283 silly fetch manifest postcss-ordered-values@^7.0.1
+1284 silly packumentCache full:https://registry.npmjs.org/postcss-ordered-values cache-miss
+1285 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-url 58ms (cache hit)
+1286 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-url set size:168717 disposed:false
+1287 silly fetch manifest postcss-reduce-initial@^7.0.2
+1288 silly packumentCache full:https://registry.npmjs.org/postcss-reduce-initial cache-miss
+1289 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-whitespace 58ms (cache hit)
+1290 silly packumentCache full:https://registry.npmjs.org/postcss-normalize-whitespace set size:119523 disposed:false
+1291 silly fetch manifest postcss-reduce-transforms@^7.0.0
+1292 silly packumentCache full:https://registry.npmjs.org/postcss-reduce-transforms cache-miss
+1293 http fetch GET 200 https://registry.npmjs.org/postcss-ordered-values 61ms (cache hit)
+1294 silly packumentCache full:https://registry.npmjs.org/postcss-ordered-values set size:175620 disposed:false
+1295 silly fetch manifest postcss-svgo@^7.0.1
+1296 silly packumentCache full:https://registry.npmjs.org/postcss-svgo cache-miss
+1297 http fetch GET 200 https://registry.npmjs.org/postcss-reduce-transforms 45ms (cache hit)
+1298 silly packumentCache full:https://registry.npmjs.org/postcss-reduce-transforms set size:125678 disposed:false
+1299 silly fetch manifest postcss-unique-selectors@^7.0.3
+1300 silly packumentCache full:https://registry.npmjs.org/postcss-unique-selectors cache-miss
+1301 http fetch GET 200 https://registry.npmjs.org/postcss-reduce-initial 79ms (cache hit)
+1302 silly packumentCache full:https://registry.npmjs.org/postcss-reduce-initial set size:123882 disposed:false
+1303 http fetch GET 200 https://registry.npmjs.org/postcss-svgo 60ms (cache hit)
+1304 silly packumentCache full:https://registry.npmjs.org/postcss-svgo set size:209318 disposed:false
+1305 http fetch GET 200 https://registry.npmjs.org/postcss-unique-selectors 56ms (cache hit)
+1306 silly packumentCache full:https://registry.npmjs.org/postcss-unique-selectors set size:122097 disposed:false
+1307 silly placeDep node_modules/@symfony/webpack-encore css-declaration-sorter@7.2.0 OK for: cssnano-preset-default@7.0.6 want: ^7.2.0
+1308 silly placeDep node_modules/@symfony/webpack-encore cssnano-utils@5.0.0 OK for: cssnano-preset-default@7.0.6 want: ^5.0.0
+1309 silly placeDep node_modules/@symfony/webpack-encore postcss-calc@10.0.2 OK for: cssnano-preset-default@7.0.6 want: ^10.0.2
+1310 silly placeDep node_modules/@symfony/webpack-encore postcss-colormin@7.0.2 OK for: cssnano-preset-default@7.0.6 want: ^7.0.2
+1311 silly placeDep node_modules/@symfony/webpack-encore postcss-convert-values@7.0.4 OK for: cssnano-preset-default@7.0.6 want: ^7.0.4
+1312 silly placeDep node_modules/@symfony/webpack-encore postcss-discard-comments@7.0.3 OK for: cssnano-preset-default@7.0.6 want: ^7.0.3
+1313 silly placeDep node_modules/@symfony/webpack-encore postcss-discard-duplicates@7.0.1 OK for: cssnano-preset-default@7.0.6 want: ^7.0.1
+1314 silly placeDep node_modules/@symfony/webpack-encore postcss-discard-empty@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1315 silly placeDep node_modules/@symfony/webpack-encore postcss-discard-overridden@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1316 silly placeDep node_modules/@symfony/webpack-encore postcss-merge-longhand@7.0.4 OK for: cssnano-preset-default@7.0.6 want: ^7.0.4
+1317 silly placeDep node_modules/@symfony/webpack-encore postcss-merge-rules@7.0.4 OK for: cssnano-preset-default@7.0.6 want: ^7.0.4
+1318 silly placeDep node_modules/@symfony/webpack-encore postcss-minify-font-values@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1319 silly placeDep node_modules/@symfony/webpack-encore postcss-minify-gradients@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1320 silly placeDep node_modules/@symfony/webpack-encore postcss-minify-params@7.0.2 OK for: cssnano-preset-default@7.0.6 want: ^7.0.2
+1321 silly placeDep node_modules/@symfony/webpack-encore postcss-minify-selectors@7.0.4 OK for: cssnano-preset-default@7.0.6 want: ^7.0.4
+1322 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-charset@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1323 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-display-values@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1324 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-positions@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1325 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-repeat-style@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1326 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-string@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1327 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-timing-functions@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1328 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-unicode@7.0.2 OK for: cssnano-preset-default@7.0.6 want: ^7.0.2
+1329 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-url@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1330 silly placeDep node_modules/@symfony/webpack-encore postcss-normalize-whitespace@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1331 silly placeDep node_modules/@symfony/webpack-encore postcss-ordered-values@7.0.1 OK for: cssnano-preset-default@7.0.6 want: ^7.0.1
+1332 silly placeDep node_modules/@symfony/webpack-encore postcss-reduce-initial@7.0.2 OK for: cssnano-preset-default@7.0.6 want: ^7.0.2
+1333 silly placeDep node_modules/@symfony/webpack-encore postcss-reduce-transforms@7.0.0 OK for: cssnano-preset-default@7.0.6 want: ^7.0.0
+1334 silly placeDep node_modules/@symfony/webpack-encore postcss-svgo@7.0.1 OK for: cssnano-preset-default@7.0.6 want: ^7.0.1
+1335 silly placeDep node_modules/@symfony/webpack-encore postcss-unique-selectors@7.0.3 OK for: cssnano-preset-default@7.0.6 want: ^7.0.3
+1336 silly fetch manifest postcss-selector-parser@^6.1.2
+1337 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser cache-hit
+1338 silly fetch manifest caniuse-api@^3.0.0
+1339 silly packumentCache full:https://registry.npmjs.org/caniuse-api cache-miss
+1340 silly fetch manifest colord@^2.9.3
+1341 silly packumentCache full:https://registry.npmjs.org/colord cache-miss
+1342 silly fetch manifest stylehacks@^7.0.4
+1343 silly packumentCache full:https://registry.npmjs.org/stylehacks cache-miss
+1344 http fetch GET 200 https://registry.npmjs.org/colord 34ms (cache hit)
+1345 silly packumentCache full:https://registry.npmjs.org/colord set size:256634 disposed:false
+1346 silly fetch manifest caniuse-api@^3.0.0
+1347 silly packumentCache full:https://registry.npmjs.org/caniuse-api cache-miss
+1348 http fetch GET 200 https://registry.npmjs.org/caniuse-api 52ms (cache hit)
+1349 silly packumentCache full:https://registry.npmjs.org/caniuse-api set size:37772 disposed:false
+1350 silly fetch manifest cssesc@^3.0.0
+1351 silly packumentCache full:https://registry.npmjs.org/cssesc cache-miss
+1352 http fetch GET 200 https://registry.npmjs.org/stylehacks 55ms (cache hit)
+1353 silly packumentCache full:https://registry.npmjs.org/stylehacks set size:133628 disposed:false
+1354 silly fetch manifest svgo@^3.3.2
+1355 silly packumentCache full:https://registry.npmjs.org/svgo cache-miss
+1356 http fetch GET 200 https://registry.npmjs.org/caniuse-api 37ms (cache hit)
+1357 silly packumentCache full:https://registry.npmjs.org/caniuse-api set size:37772 disposed:false
+1358 silly packumentCache full:https://registry.npmjs.org/caniuse-api dispose
+1359 http fetch GET 200 https://registry.npmjs.org/cssesc 36ms (cache hit)
+1360 silly packumentCache full:https://registry.npmjs.org/cssesc set size:18815 disposed:false
+1361 http fetch GET 200 https://registry.npmjs.org/svgo 32ms (cache hit)
+1362 silly packumentCache full:https://registry.npmjs.org/svgo set size:267054 disposed:false
+1363 silly placeDep node_modules/@symfony/webpack-encore ms@2.1.3 OK for: debug@4.3.7 want: ^2.1.3
+1364 silly placeDep node_modules/@symfony/webpack-encore stackframe@1.3.4 OK for: error-stack-parser@2.1.4 want: ^1.3.4
+1365 silly placeDep node_modules/@symfony/webpack-encore common-path-prefix@3.0.0 OK for: find-cache-dir@4.0.0 want: ^3.0.0
+1366 silly placeDep node_modules/@symfony/webpack-encore pkg-dir@7.0.0 OK for: find-cache-dir@4.0.0 want: ^7.0.0
+1367 silly fetch manifest find-up@^6.3.0
+1368 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+1369 http fetch GET 200 https://registry.npmjs.org/find-up 12ms (cache hit)
+1370 silly packumentCache full:https://registry.npmjs.org/find-up set size:38503 disposed:false
+1371 silly placeDep node_modules/@symfony/webpack-encore @types/node@22.7.6 OK for: jest-worker@29.7.0 want: *
+1372 silly placeDep node_modules/@symfony/webpack-encore jest-util@29.7.0 OK for: jest-worker@29.7.0 want: ^29.7.0
+1373 silly placeDep node_modules/@symfony/webpack-encore merge-stream@2.0.0 OK for: jest-worker@29.7.0 want: ^2.0.0
+1374 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-worker supports-color@8.1.1 OK for: jest-worker@29.7.0 want: ^8.0.0
+1375 silly fetch manifest undici-types@~6.19.2
+1376 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+1377 silly fetch manifest chalk@^4.0.0
+1378 silly packumentCache full:https://registry.npmjs.org/chalk cache-hit
+1379 silly fetch manifest ci-info@^3.2.0
+1380 silly packumentCache full:https://registry.npmjs.org/ci-info cache-miss
+1381 silly fetch manifest picomatch@^2.2.3
+1382 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+1383 http fetch GET 200 https://registry.npmjs.org/undici-types 63ms (cache hit)
+1384 silly packumentCache full:https://registry.npmjs.org/undici-types set size:108442 disposed:false
+1385 silly fetch manifest @jest/types@^29.6.3
+1386 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes cache-miss
+1387 http fetch GET 200 https://registry.npmjs.org/ci-info 70ms (cache hit)
+1388 silly packumentCache full:https://registry.npmjs.org/ci-info set size:80561 disposed:false
+1389 silly fetch manifest graceful-fs@^4.2.9
+1390 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-hit
+1391 silly fetch manifest has-flag@^4.0.0
+1392 silly packumentCache full:https://registry.npmjs.org/has-flag cache-hit
+1393 http fetch GET 200 https://registry.npmjs.org/picomatch 84ms (cache hit)
+1394 silly packumentCache full:https://registry.npmjs.org/picomatch set size:116191 disposed:false
+1395 http fetch GET 200 https://registry.npmjs.org/@jest%2ftypes 49ms (cache hit)
+1396 silly packumentCache full:https://registry.npmjs.org/@jest%2ftypes set size:270301 disposed:false
+1397 silly placeDep node_modules/@symfony/webpack-encore undici-types@6.19.8 OK for: @types/node@22.7.6 want: ~6.19.2
+1398 silly placeDep node_modules/@symfony/webpack-encore @jest/types@29.6.3 OK for: jest-util@29.7.0 want: ^29.6.3
+1399 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-util chalk@4.1.2 OK for: jest-util@29.7.0 want: ^4.0.0
+1400 silly placeDep node_modules/@symfony/webpack-encore ci-info@3.9.0 OK for: jest-util@29.7.0 want: ^3.2.0
+1401 silly placeDep node_modules/@symfony/webpack-encore graceful-fs@4.2.11 OK for: jest-util@29.7.0 want: ^4.2.9
+1402 silly placeDep node_modules/@symfony/webpack-encore picomatch@2.3.1 OK for: jest-util@29.7.0 want: ^2.2.3
+1403 silly fetch manifest @types/yargs@^17.0.8
+1404 silly packumentCache full:https://registry.npmjs.org/@types%2fyargs cache-miss
+1405 silly fetch manifest @jest/schemas@^29.6.3
+1406 silly packumentCache full:https://registry.npmjs.org/@jest%2fschemas cache-miss
+1407 silly fetch manifest @types/istanbul-reports@^3.0.0
+1408 silly packumentCache full:https://registry.npmjs.org/@types%2fistanbul-reports cache-miss
+1409 http fetch GET 200 https://registry.npmjs.org/@types%2fistanbul-reports 43ms (cache hit)
+1410 silly packumentCache full:https://registry.npmjs.org/@types%2fistanbul-reports set size:17559 disposed:false
+1411 silly fetch manifest @types/istanbul-lib-coverage@^2.0.0
+1412 silly packumentCache full:https://registry.npmjs.org/@types%2fistanbul-lib-coverage cache-miss
+1413 http fetch GET 200 https://registry.npmjs.org/@jest%2fschemas 54ms (cache hit)
+1414 silly packumentCache full:https://registry.npmjs.org/@jest%2fschemas set size:56414 disposed:false
+1415 silly fetch manifest ansi-styles@^4.1.0
+1416 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-hit
+1417 silly fetch manifest supports-color@^7.1.0
+1418 silly packumentCache full:https://registry.npmjs.org/supports-color cache-hit
+1419 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs 68ms (cache hit)
+1420 silly packumentCache full:https://registry.npmjs.org/@types%2fyargs set size:379140 disposed:false
+1421 http fetch GET 200 https://registry.npmjs.org/@types%2fistanbul-lib-coverage 65ms (cache hit)
+1422 silly packumentCache full:https://registry.npmjs.org/@types%2fistanbul-lib-coverage set size:18062 disposed:false
+1423 silly placeDep node_modules/@symfony/webpack-encore @jest/schemas@29.6.3 OK for: @jest/types@29.6.3 want: ^29.6.3
+1424 silly placeDep node_modules/@symfony/webpack-encore @types/istanbul-lib-coverage@2.0.6 OK for: @jest/types@29.6.3 want: ^2.0.0
+1425 silly placeDep node_modules/@symfony/webpack-encore @types/istanbul-reports@3.0.4 OK for: @jest/types@29.6.3 want: ^3.0.0
+1426 silly placeDep node_modules/@symfony/webpack-encore @types/yargs@17.0.33 OK for: @jest/types@29.6.3 want: ^17.0.8
+1427 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@jest/types chalk@4.1.2 OK for: @jest/types@29.6.3 want: ^4.0.0
+1428 silly fetch manifest @sinclair/typebox@^0.27.8
+1429 silly packumentCache full:https://registry.npmjs.org/@sinclair%2ftypebox cache-miss
+1430 silly fetch manifest @types/istanbul-lib-report@*
+1431 silly packumentCache full:https://registry.npmjs.org/@types%2fistanbul-lib-report cache-miss
+1432 silly fetch manifest @types/yargs-parser@*
+1433 silly packumentCache full:https://registry.npmjs.org/@types%2fyargs-parser cache-miss
+1434 http fetch GET 200 https://registry.npmjs.org/@sinclair%2ftypebox 31ms (cache hit)
+1435 silly packumentCache full:https://registry.npmjs.org/@sinclair%2ftypebox set size:1031526 disposed:false
+1436 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs-parser 61ms (cache hit)
+1437 silly packumentCache full:https://registry.npmjs.org/@types%2fyargs-parser set size:42700 disposed:false
+1438 http fetch GET 200 https://registry.npmjs.org/@types%2fistanbul-lib-report 66ms (cache hit)
+1439 silly packumentCache full:https://registry.npmjs.org/@types%2fistanbul-lib-report set size:12626 disposed:false
+1440 silly placeDep node_modules/@symfony/webpack-encore @sinclair/typebox@0.27.8 OK for: @jest/schemas@29.6.3 want: ^0.27.8
+1441 silly placeDep node_modules/@symfony/webpack-encore @types/istanbul-lib-report@3.0.3 OK for: @types/istanbul-reports@3.0.4 want: *
+1442 silly placeDep node_modules/@symfony/webpack-encore @types/yargs-parser@21.0.3 OK for: @types/yargs@17.0.33 want: *
+1443 silly placeDep node_modules/@symfony/webpack-encore yallist@3.1.1 OK for: lru-cache@5.1.1 want: ^3.0.2
+1444 silly placeDep node_modules/@symfony/webpack-encore find-up@6.3.0 OK for: pkg-dir@7.0.0 want: ^6.3.0
+1445 silly fetch manifest locate-path@^7.1.0
+1446 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+1447 silly fetch manifest path-exists@^5.0.0
+1448 silly packumentCache full:https://registry.npmjs.org/path-exists cache-miss
+1449 http fetch GET 200 https://registry.npmjs.org/locate-path 15ms (cache hit)
+1450 silly packumentCache full:https://registry.npmjs.org/locate-path set size:29792 disposed:false
+1451 http fetch GET 200 https://registry.npmjs.org/path-exists 16ms (cache hit)
+1452 silly packumentCache full:https://registry.npmjs.org/path-exists set size:13723 disposed:false
+1453 silly placeDep node_modules/@symfony/webpack-encore locate-path@7.2.0 OK for: find-up@6.3.0 want: ^7.1.0
+1454 silly placeDep node_modules/@symfony/webpack-encore path-exists@5.0.0 OK for: find-up@6.3.0 want: ^5.0.0
+1455 silly fetch manifest p-locate@^6.0.0
+1456 silly packumentCache full:https://registry.npmjs.org/p-locate cache-miss
+1457 http fetch GET 200 https://registry.npmjs.org/p-locate 8ms (cache hit)
+1458 silly packumentCache full:https://registry.npmjs.org/p-locate set size:20789 disposed:false
+1459 silly placeDep node_modules/@symfony/webpack-encore p-locate@6.0.0 OK for: locate-path@7.2.0 want: ^6.0.0
+1460 silly fetch manifest p-limit@^4.0.0
+1461 silly packumentCache full:https://registry.npmjs.org/p-limit cache-miss
+1462 http fetch GET 200 https://registry.npmjs.org/p-limit 12ms (cache hit)
+1463 silly packumentCache full:https://registry.npmjs.org/p-limit set size:47201 disposed:false
+1464 silly placeDep node_modules/@symfony/webpack-encore p-limit@4.0.0 OK for: p-locate@6.0.0 want: ^4.0.0
+1465 silly fetch manifest yocto-queue@^1.0.0
+1466 silly packumentCache full:https://registry.npmjs.org/yocto-queue cache-miss
+1467 http fetch GET 200 https://registry.npmjs.org/yocto-queue 10ms (cache hit)
+1468 silly packumentCache full:https://registry.npmjs.org/yocto-queue set size:14465 disposed:false
+1469 silly placeDep node_modules/@symfony/webpack-encore yocto-queue@1.1.1 OK for: p-limit@4.0.0 want: ^1.0.0
+1470 silly placeDep node_modules/@symfony/webpack-encore nanoid@3.3.7 OK for: postcss@8.4.47 want: ^3.3.7
+1471 silly placeDep node_modules/@symfony/webpack-encore source-map-js@1.2.1 OK for: postcss@8.4.47 want: ^1.2.1
+1472 silly placeDep node_modules/@symfony/webpack-encore postcss-selector-parser@6.1.2 OK for: postcss-calc@10.0.2 want: ^6.1.2
+1473 silly fetch manifest util-deprecate@^1.0.2
+1474 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+1475 http fetch GET 200 https://registry.npmjs.org/util-deprecate 11ms (cache hit)
+1476 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+1477 silly placeDep node_modules/@symfony/webpack-encore caniuse-api@3.0.0 OK for: postcss-colormin@7.0.2 want: ^3.0.0
+1478 silly placeDep node_modules/@symfony/webpack-encore colord@2.9.3 OK for: postcss-colormin@7.0.2 want: ^2.9.3
+1479 silly fetch manifest lodash.uniq@^4.5.0
+1480 silly packumentCache full:https://registry.npmjs.org/lodash.uniq cache-miss
+1481 silly fetch manifest lodash.memoize@^4.1.2
+1482 silly packumentCache full:https://registry.npmjs.org/lodash.memoize cache-miss
+1483 http fetch GET 200 https://registry.npmjs.org/lodash.uniq 14ms (cache hit)
+1484 silly packumentCache full:https://registry.npmjs.org/lodash.uniq set size:44173 disposed:false
+1485 http fetch GET 200 https://registry.npmjs.org/lodash.memoize 17ms (cache hit)
+1486 silly packumentCache full:https://registry.npmjs.org/lodash.memoize set size:41190 disposed:false
+1487 silly placeDep node_modules/@symfony/webpack-encore lodash.memoize@4.1.2 OK for: caniuse-api@3.0.0 want: ^4.1.2
+1488 silly placeDep node_modules/@symfony/webpack-encore lodash.uniq@4.5.0 OK for: caniuse-api@3.0.0 want: ^4.5.0
+1489 silly placeDep node_modules/@symfony/webpack-encore stylehacks@7.0.4 OK for: postcss-merge-longhand@7.0.4 want: ^7.0.4
+1490 silly placeDep node_modules/@symfony/webpack-encore cssesc@3.0.0 OK for: postcss-minify-selectors@7.0.4 want: ^3.0.0
+1491 silly placeDep node_modules/@symfony/webpack-encore util-deprecate@1.0.2 OK for: postcss-selector-parser@6.1.2 want: ^1.0.2
+1492 silly placeDep node_modules/@symfony/webpack-encore svgo@3.3.2 OK for: postcss-svgo@7.0.1 want: ^3.3.2
+1493 silly fetch manifest csso@^5.0.5
+1494 silly packumentCache full:https://registry.npmjs.org/csso cache-miss
+1495 silly fetch manifest css-tree@^2.3.1
+1496 silly packumentCache full:https://registry.npmjs.org/css-tree cache-miss
+1497 silly fetch manifest css-what@^6.1.0
+1498 silly packumentCache full:https://registry.npmjs.org/css-what cache-miss
+1499 http fetch GET 200 https://registry.npmjs.org/csso 67ms (cache hit)
+1500 silly packumentCache full:https://registry.npmjs.org/csso set size:202215 disposed:false
+1501 silly fetch manifest commander@^7.2.0
+1502 silly packumentCache full:https://registry.npmjs.org/commander cache-hit
+1503 silly fetch manifest css-select@^5.1.0
+1504 silly packumentCache full:https://registry.npmjs.org/css-select cache-miss
+1505 http fetch GET 200 https://registry.npmjs.org/css-what 93ms (cache hit)
+1506 silly packumentCache full:https://registry.npmjs.org/css-what set size:69087 disposed:false
+1507 silly fetch manifest @trysound/sax@0.2.0
+1508 silly packumentCache full:https://registry.npmjs.org/@trysound%2fsax cache-miss
+1509 http fetch GET 200 https://registry.npmjs.org/css-tree 104ms (cache hit)
+1510 silly packumentCache full:https://registry.npmjs.org/css-tree set size:212424 disposed:false
+1511 http fetch GET 200 https://registry.npmjs.org/css-select 48ms (cache hit)
+1512 silly packumentCache full:https://registry.npmjs.org/css-select set size:93710 disposed:false
+1513 http fetch GET 200 https://registry.npmjs.org/@trysound%2fsax 43ms (cache hit)
+1514 silly packumentCache full:https://registry.npmjs.org/@trysound%2fsax set size:16200 disposed:false
+1515 silly placeDep node_modules/@symfony/webpack-encore lodash@4.17.21 OK for: pretty-error@4.0.0 want: ^4.17.20
+1516 silly placeDep node_modules/@symfony/webpack-encore renderkid@3.0.0 OK for: pretty-error@4.0.0 want: ^3.0.0
+1517 silly fetch manifest css-select@^4.1.3
+1518 silly packumentCache full:https://registry.npmjs.org/css-select cache-hit
+1519 silly fetch manifest dom-converter@^0.2.0
+1520 silly packumentCache full:https://registry.npmjs.org/dom-converter cache-miss
+1521 silly fetch manifest htmlparser2@^6.1.0
+1522 silly packumentCache full:https://registry.npmjs.org/htmlparser2 cache-miss
+1523 http fetch GET 200 https://registry.npmjs.org/dom-converter 45ms (cache hit)
+1524 silly packumentCache full:https://registry.npmjs.org/dom-converter set size:9521 disposed:false
+1525 http fetch GET 200 https://registry.npmjs.org/htmlparser2 36ms (cache hit)
+1526 silly packumentCache full:https://registry.npmjs.org/htmlparser2 set size:159025 disposed:false
+1527 silly placeDep node_modules/@symfony/webpack-encore @babel/runtime@7.25.7 OK for: regenerator-transform@0.15.2 want: ^7.8.4
+1528 silly fetch manifest regenerator-runtime@^0.14.0
+1529 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime cache-miss
+1530 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 15ms (cache hit)
+1531 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime set size:59671 disposed:false
+1532 silly placeDep node_modules/@symfony/webpack-encore regenerator-runtime@0.14.1 OK for: @babel/runtime@7.25.7 want: ^0.14.0
+1533 silly placeDep node_modules/@symfony/webpack-encore regenerate@1.4.2 OK for: regexpu-core@6.1.1 want: ^1.4.2
+1534 silly placeDep node_modules/@symfony/webpack-encore regenerate-unicode-properties@10.2.0 OK for: regexpu-core@6.1.1 want: ^10.2.0
+1535 silly placeDep node_modules/@symfony/webpack-encore regjsgen@0.8.0 OK for: regexpu-core@6.1.1 want: ^0.8.0
+1536 silly placeDep node_modules/@symfony/webpack-encore regjsparser@0.11.1 OK for: regexpu-core@6.1.1 want: ^0.11.0
+1537 silly placeDep node_modules/@symfony/webpack-encore unicode-match-property-ecmascript@2.0.0 OK for: regexpu-core@6.1.1 want: ^2.0.0
+1538 silly placeDep node_modules/@symfony/webpack-encore unicode-match-property-value-ecmascript@2.2.0 OK for: regexpu-core@6.1.1 want: ^2.1.0
+1539 silly fetch manifest unicode-canonical-property-names-ecmascript@^2.0.0
+1540 silly packumentCache full:https://registry.npmjs.org/unicode-canonical-property-names-ecmascript cache-miss
+1541 silly fetch manifest unicode-property-aliases-ecmascript@^2.0.0
+1542 silly packumentCache full:https://registry.npmjs.org/unicode-property-aliases-ecmascript cache-miss
+1543 http fetch GET 200 https://registry.npmjs.org/unicode-canonical-property-names-ecmascript 18ms (cache hit)
+1544 silly packumentCache full:https://registry.npmjs.org/unicode-canonical-property-names-ecmascript set size:17227 disposed:false
+1545 http fetch GET 200 https://registry.npmjs.org/unicode-property-aliases-ecmascript 20ms (cache hit)
+1546 silly packumentCache full:https://registry.npmjs.org/unicode-property-aliases-ecmascript set size:25944 disposed:false
+1547 silly placeDep node_modules/@symfony/webpack-encore css-select@4.3.0 OK for: renderkid@3.0.0 want: ^4.1.3
+1548 silly placeDep node_modules/@symfony/webpack-encore dom-converter@0.2.0 OK for: renderkid@3.0.0 want: ^0.2.0
+1549 silly placeDep node_modules/@symfony/webpack-encore htmlparser2@6.1.0 OK for: renderkid@3.0.0 want: ^6.1.0
+1550 silly placeDep node_modules/@symfony/webpack-encore strip-ansi@6.0.1 OK for: renderkid@3.0.0 want: ^6.0.1
+1551 silly fetch manifest boolbase@^1.0.0
+1552 silly packumentCache full:https://registry.npmjs.org/boolbase cache-miss
+1553 silly fetch manifest css-what@^6.0.1
+1554 silly packumentCache full:https://registry.npmjs.org/css-what cache-hit
+1555 silly fetch manifest domhandler@^4.3.1
+1556 silly packumentCache full:https://registry.npmjs.org/domhandler cache-miss
+1557 silly fetch manifest domutils@^2.8.0
+1558 silly packumentCache full:https://registry.npmjs.org/domutils cache-miss
+1559 http fetch GET 200 https://registry.npmjs.org/boolbase 27ms (cache hit)
+1560 silly packumentCache full:https://registry.npmjs.org/boolbase set size:2158 disposed:false
+1561 silly fetch manifest nth-check@^2.0.1
+1562 silly packumentCache full:https://registry.npmjs.org/nth-check cache-miss
+1563 http fetch GET 200 https://registry.npmjs.org/domhandler 39ms (cache hit)
+1564 silly packumentCache full:https://registry.npmjs.org/domhandler set size:73302 disposed:false
+1565 silly fetch manifest utila@~0.4
+1566 silly packumentCache full:https://registry.npmjs.org/utila cache-miss
+1567 http fetch GET 200 https://registry.npmjs.org/domutils 55ms (cache hit)
+1568 silly packumentCache full:https://registry.npmjs.org/domutils set size:94012 disposed:false
+1569 silly fetch manifest domelementtype@^2.0.1
+1570 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-miss
+1571 http fetch GET 200 https://registry.npmjs.org/nth-check 66ms (cache hit)
+1572 silly packumentCache full:https://registry.npmjs.org/nth-check set size:22975 disposed:false
+1573 silly fetch manifest domhandler@^4.0.0
+1574 silly packumentCache full:https://registry.npmjs.org/domhandler cache-hit
+1575 silly fetch manifest domutils@^2.5.2
+1576 silly packumentCache full:https://registry.npmjs.org/domutils cache-hit
+1577 silly fetch manifest entities@^2.0.0
+1578 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+1579 http fetch GET 200 https://registry.npmjs.org/utila 77ms (cache hit)
+1580 silly packumentCache full:https://registry.npmjs.org/utila set size:12722 disposed:false
+1581 silly fetch manifest ansi-regex@^5.0.1
+1582 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+1583 http fetch GET 200 https://registry.npmjs.org/domelementtype 61ms (cache hit)
+1584 silly packumentCache full:https://registry.npmjs.org/domelementtype set size:30947 disposed:false
+1585 http fetch GET 200 https://registry.npmjs.org/ansi-regex 23ms (cache hit)
+1586 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:41869 disposed:false
+1587 http fetch GET 200 https://registry.npmjs.org/entities 43ms (cache hit)
+1588 silly packumentCache full:https://registry.npmjs.org/entities set size:84558 disposed:false
+1589 silly placeDep node_modules/@symfony/webpack-encore boolbase@1.0.0 OK for: css-select@4.3.0 want: ^1.0.0
+1590 silly placeDep node_modules/@symfony/webpack-encore css-what@6.1.0 OK for: css-select@4.3.0 want: ^6.0.1
+1591 silly placeDep node_modules/@symfony/webpack-encore domhandler@4.3.1 OK for: css-select@4.3.0 want: ^4.3.1
+1592 silly placeDep node_modules/@symfony/webpack-encore domutils@2.8.0 OK for: css-select@4.3.0 want: ^2.8.0
+1593 silly placeDep node_modules/@symfony/webpack-encore nth-check@2.1.1 OK for: css-select@4.3.0 want: ^2.0.1
+1594 silly fetch manifest domelementtype@^2.2.0
+1595 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-hit
+1596 silly fetch manifest dom-serializer@^1.0.1
+1597 silly packumentCache full:https://registry.npmjs.org/dom-serializer cache-miss
+1598 silly fetch manifest domelementtype@^2.2.0
+1599 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-hit
+1600 http fetch GET 200 https://registry.npmjs.org/dom-serializer 25ms (cache hit)
+1601 silly packumentCache full:https://registry.npmjs.org/dom-serializer set size:52163 disposed:false
+1602 silly placeDep node_modules/@symfony/webpack-encore utila@0.4.0 OK for: dom-converter@0.2.0 want: ~0.4
+1603 silly placeDep node_modules/@symfony/webpack-encore domelementtype@2.3.0 OK for: domhandler@4.3.1 want: ^2.2.0
+1604 silly placeDep node_modules/@symfony/webpack-encore dom-serializer@1.4.1 OK for: domutils@2.8.0 want: ^1.0.1
+1605 silly placeDep node_modules/@symfony/webpack-encore entities@2.2.0 OK for: dom-serializer@1.4.1 want: ^2.0.0
+1606 silly placeDep node_modules/@symfony/webpack-encore is-core-module@2.15.1 OK for: resolve@1.22.8 want: ^2.13.0
+1607 silly placeDep node_modules/@symfony/webpack-encore path-parse@1.0.7 OK for: resolve@1.22.8 want: ^1.0.7
+1608 silly placeDep node_modules/@symfony/webpack-encore supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.8 want: ^1.0.0
+1609 silly fetch manifest hasown@^2.0.2
+1610 silly packumentCache full:https://registry.npmjs.org/hasown cache-miss
+1611 http fetch GET 200 https://registry.npmjs.org/hasown 39ms (cache hit)
+1612 silly packumentCache full:https://registry.npmjs.org/hasown set size:12476 disposed:false
+1613 silly placeDep node_modules/@symfony/webpack-encore hasown@2.0.2 OK for: is-core-module@2.15.1 want: ^2.0.2
+1614 silly fetch manifest function-bind@^1.1.2
+1615 silly packumentCache full:https://registry.npmjs.org/function-bind cache-miss
+1616 http fetch GET 200 https://registry.npmjs.org/function-bind 10ms (cache hit)
+1617 silly packumentCache full:https://registry.npmjs.org/function-bind set size:15733 disposed:false
+1618 silly placeDep node_modules/@symfony/webpack-encore function-bind@1.1.2 OK for: hasown@2.0.2 want: ^1.1.2
+1619 silly placeDep node_modules/@symfony/webpack-encore adjust-sourcemap-loader@4.0.0 OK for: resolve-url-loader@5.0.0 want: ^4.0.0
+1620 silly placeDep node_modules/@symfony/webpack-encore/node_modules/resolve-url-loader convert-source-map@1.9.0 OK for: resolve-url-loader@5.0.0 want: ^1.7.0
+1621 silly placeDep node_modules/@symfony/webpack-encore loader-utils@2.0.4 OK for: resolve-url-loader@5.0.0 want: ^2.0.0
+1622 silly placeDep node_modules/@symfony/webpack-encore source-map@0.6.1 OK for: resolve-url-loader@5.0.0 want: 0.6.1
+1623 silly fetch manifest regex-parser@^2.2.11
+1624 silly packumentCache full:https://registry.npmjs.org/regex-parser cache-miss
+1625 silly fetch manifest big.js@^5.2.2
+1626 silly packumentCache full:https://registry.npmjs.org/big.js cache-miss
+1627 silly fetch manifest emojis-list@^3.0.0
+1628 silly packumentCache full:https://registry.npmjs.org/emojis-list cache-miss
+1629 http fetch GET 200 https://registry.npmjs.org/regex-parser 29ms (cache hit)
+1630 silly packumentCache full:https://registry.npmjs.org/regex-parser set size:36847 disposed:false
+1631 http fetch GET 200 https://registry.npmjs.org/big.js 32ms (cache hit)
+1632 silly packumentCache full:https://registry.npmjs.org/big.js set size:72070 disposed:false
+1633 http fetch GET 200 https://registry.npmjs.org/emojis-list 35ms (cache hit)
+1634 silly packumentCache full:https://registry.npmjs.org/emojis-list set size:17790 disposed:false
+1635 silly placeDep node_modules/@symfony/webpack-encore regex-parser@2.3.0 OK for: adjust-sourcemap-loader@4.0.0 want: ^2.2.11
+1636 silly placeDep node_modules/@symfony/webpack-encore big.js@5.2.2 OK for: loader-utils@2.0.4 want: ^5.2.2
+1637 silly placeDep node_modules/@symfony/webpack-encore emojis-list@3.0.0 OK for: loader-utils@2.0.4 want: ^3.0.0
+1638 silly placeDep node_modules/@symfony/webpack-encore @types/json-schema@7.0.15 OK for: schema-utils@4.2.0 want: ^7.0.9
+1639 silly placeDep node_modules/@symfony/webpack-encore ajv@8.17.1 OK for: schema-utils@4.2.0 want: ^8.9.0
+1640 silly placeDep node_modules/@symfony/webpack-encore ajv-formats@2.1.1 OK for: schema-utils@4.2.0 want: ^2.1.1
+1641 silly placeDep node_modules/@symfony/webpack-encore ajv-keywords@5.1.0 OK for: schema-utils@4.2.0 want: ^5.1.0
+1642 silly fetch manifest fast-deep-equal@^3.1.3
+1643 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+1644 silly fetch manifest fast-uri@^3.0.1
+1645 silly packumentCache full:https://registry.npmjs.org/fast-uri cache-miss
+1646 silly fetch manifest json-schema-traverse@^1.0.0
+1647 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse cache-miss
+1648 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 20ms (cache hit)
+1649 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:48634 disposed:false
+1650 silly fetch manifest require-from-string@^2.0.2
+1651 silly packumentCache full:https://registry.npmjs.org/require-from-string cache-miss
+1652 http fetch GET 200 https://registry.npmjs.org/fast-uri 24ms (cache hit)
+1653 silly packumentCache full:https://registry.npmjs.org/fast-uri set size:42592 disposed:false
+1654 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 28ms (cache hit)
+1655 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse set size:23537 disposed:false
+1656 http fetch GET 200 https://registry.npmjs.org/require-from-string 20ms (cache hit)
+1657 silly packumentCache full:https://registry.npmjs.org/require-from-string set size:15128 disposed:false
+1658 silly placeDep node_modules/@symfony/webpack-encore fast-deep-equal@3.1.3 OK for: ajv@8.17.1 want: ^3.1.3
+1659 silly placeDep node_modules/@symfony/webpack-encore fast-uri@3.0.3 OK for: ajv@8.17.1 want: ^3.0.1
+1660 silly placeDep node_modules/@symfony/webpack-encore json-schema-traverse@1.0.0 OK for: ajv@8.17.1 want: ^1.0.0
+1661 silly placeDep node_modules/@symfony/webpack-encore require-from-string@2.0.2 OK for: ajv@8.17.1 want: ^2.0.2
+1662 silly placeDep node_modules/@symfony/webpack-encore randombytes@2.1.0 OK for: serialize-javascript@6.0.2 want: ^2.1.0
+1663 silly fetch manifest safe-buffer@^5.1.0
+1664 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+1665 http fetch GET 200 https://registry.npmjs.org/safe-buffer 13ms (cache hit)
+1666 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+1667 silly placeDep node_modules/@symfony/webpack-encore safe-buffer@5.2.1 OK for: randombytes@2.1.0 want: ^5.1.0
+1668 silly placeDep node_modules/@symfony/webpack-encore emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+1669 silly placeDep node_modules/@symfony/webpack-encore is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+1670 silly placeDep node_modules/@symfony/webpack-encore ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+1671 silly placeDep node_modules/@symfony/webpack-encore has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+1672 silly placeDep node_modules/@symfony/webpack-encore @trysound/sax@0.2.0 OK for: svgo@3.3.2 want: 0.2.0
+1673 silly placeDep node_modules/@symfony/webpack-encore commander@7.2.0 OK for: svgo@3.3.2 want: ^7.2.0
+1674 silly placeDep node_modules/@symfony/webpack-encore/node_modules/svgo css-select@5.1.0 OK for: svgo@3.3.2 want: ^5.1.0
+1675 silly placeDep node_modules/@symfony/webpack-encore css-tree@2.3.1 OK for: svgo@3.3.2 want: ^2.3.1
+1676 silly placeDep node_modules/@symfony/webpack-encore csso@5.0.5 OK for: svgo@3.3.2 want: ^5.0.5
+1677 silly fetch manifest domhandler@^5.0.2
+1678 silly packumentCache full:https://registry.npmjs.org/domhandler cache-hit
+1679 silly fetch manifest domutils@^3.0.1
+1680 silly packumentCache full:https://registry.npmjs.org/domutils cache-hit
+1681 silly fetch manifest mdn-data@2.0.30
+1682 silly packumentCache full:https://registry.npmjs.org/mdn-data cache-miss
+1683 silly fetch manifest css-tree@~2.2.0
+1684 silly packumentCache full:https://registry.npmjs.org/css-tree cache-hit
+1685 http fetch GET 200 https://registry.npmjs.org/mdn-data 22ms (cache hit)
+1686 silly packumentCache full:https://registry.npmjs.org/mdn-data set size:137268 disposed:false
+1687 silly placeDep node_modules/@symfony/webpack-encore mdn-data@2.0.30 OK for: css-tree@2.3.1 want: 2.0.30
+1688 silly placeDep node_modules/@symfony/webpack-encore/node_modules/csso css-tree@2.2.1 OK for: csso@5.0.5 want: ~2.2.0
+1689 silly fetch manifest mdn-data@2.0.28
+1690 silly packumentCache full:https://registry.npmjs.org/mdn-data cache-hit
+1691 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin jest-worker@27.5.1 OK for: terser-webpack-plugin@5.3.10 want: ^27.4.5
+1692 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin schema-utils@3.3.0 OK for: terser-webpack-plugin@5.3.10 want: ^3.1.1
+1693 silly placeDep node_modules/@symfony/webpack-encore terser@5.36.0 OK for: terser-webpack-plugin@5.3.10 want: ^5.26.0
+1694 silly fetch manifest ajv@^6.12.5
+1695 silly packumentCache full:https://registry.npmjs.org/ajv cache-miss
+1696 silly fetch manifest ajv-keywords@^3.5.2
+1697 silly packumentCache full:https://registry.npmjs.org/ajv-keywords cache-hit
+1698 silly fetch manifest @jridgewell/source-map@^0.3.3
+1699 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsource-map cache-miss
+1700 silly fetch manifest acorn@^8.8.2
+1701 silly packumentCache full:https://registry.npmjs.org/acorn cache-hit
+1702 silly fetch manifest commander@^2.20.0
+1703 silly packumentCache full:https://registry.npmjs.org/commander cache-hit
+1704 silly fetch manifest source-map-support@~0.5.20
+1705 silly packumentCache full:https://registry.npmjs.org/source-map-support cache-miss
+1706 http fetch GET 200 https://registry.npmjs.org/ajv 67ms (cache hit)
+1707 silly packumentCache full:https://registry.npmjs.org/ajv set size:1126072 disposed:false
+1708 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsource-map 101ms (cache hit)
+1709 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsource-map set size:29713 disposed:false
+1710 http fetch GET 200 https://registry.npmjs.org/source-map-support 98ms (cache hit)
+1711 silly packumentCache full:https://registry.npmjs.org/source-map-support set size:125488 disposed:false
+1712 silly placeDep node_modules/@symfony/webpack-encore @jridgewell/source-map@0.3.6 OK for: terser@5.36.0 want: ^0.3.3
+1713 silly placeDep node_modules/@symfony/webpack-encore acorn@8.13.0 OK for: terser@5.36.0 want: ^8.8.2
+1714 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser commander@2.20.3 OK for: terser@5.36.0 want: ^2.20.0
+1715 silly placeDep node_modules/@symfony/webpack-encore source-map-support@0.5.21 OK for: terser@5.36.0 want: ~0.5.20
+1716 silly fetch manifest buffer-from@^1.0.0
+1717 silly packumentCache full:https://registry.npmjs.org/buffer-from cache-miss
+1718 http fetch GET 200 https://registry.npmjs.org/buffer-from 12ms (cache hit)
+1719 silly packumentCache full:https://registry.npmjs.org/buffer-from set size:15463 disposed:false
+1720 silly placeDep node_modules/@symfony/webpack-encore buffer-from@1.1.2 OK for: source-map-support@0.5.21 want: ^1.0.0
+1721 silly placeDep node_modules/@symfony/webpack-encore unicode-canonical-property-names-ecmascript@2.0.1 OK for: unicode-match-property-ecmascript@2.0.0 want: ^2.0.0
+1722 silly placeDep node_modules/@symfony/webpack-encore unicode-property-aliases-ecmascript@2.1.0 OK for: unicode-match-property-ecmascript@2.0.0 want: ^2.0.0
+1723 silly placeDep node_modules/@symfony/webpack-encore escalade@3.2.0 OK for: update-browserslist-db@1.1.1 want: ^3.2.0
+1724 silly placeDep node_modules/@symfony/webpack-encore @types/estree@1.0.6 OK for: webpack@5.95.0 want: ^1.0.5
+1725 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/ast@1.12.1 OK for: webpack@5.95.0 want: ^1.12.1
+1726 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/wasm-edit@1.12.1 OK for: webpack@5.95.0 want: ^1.12.1
+1727 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/wasm-parser@1.12.1 OK for: webpack@5.95.0 want: ^1.12.1
+1728 silly placeDep node_modules/@symfony/webpack-encore acorn-import-attributes@1.9.5 OK for: webpack@5.95.0 want: ^1.9.5
+1729 silly placeDep node_modules/@symfony/webpack-encore chrome-trace-event@1.0.4 OK for: webpack@5.95.0 want: ^1.0.2
+1730 silly placeDep node_modules/@symfony/webpack-encore enhanced-resolve@5.17.1 OK for: webpack@5.95.0 want: ^5.17.1
+1731 silly placeDep node_modules/@symfony/webpack-encore es-module-lexer@1.5.4 OK for: webpack@5.95.0 want: ^1.2.1
+1732 silly placeDep node_modules/@symfony/webpack-encore eslint-scope@5.1.1 OK for: webpack@5.95.0 want: 5.1.1
+1733 silly placeDep node_modules/@symfony/webpack-encore events@3.3.0 OK for: webpack@5.95.0 want: ^3.2.0
+1734 silly placeDep node_modules/@symfony/webpack-encore glob-to-regexp@0.4.1 OK for: webpack@5.95.0 want: ^0.4.1
+1735 silly placeDep node_modules/@symfony/webpack-encore json-parse-even-better-errors@2.3.1 OK for: webpack@5.95.0 want: ^2.3.1
+1736 silly placeDep node_modules/@symfony/webpack-encore loader-runner@4.3.0 OK for: webpack@5.95.0 want: ^4.2.0
+1737 silly placeDep node_modules/@symfony/webpack-encore mime-types@2.1.35 OK for: webpack@5.95.0 want: ^2.1.27
+1738 silly placeDep node_modules/@symfony/webpack-encore neo-async@2.6.2 OK for: webpack@5.95.0 want: ^2.6.2
+1739 silly placeDep node_modules/@symfony/webpack-encore/node_modules/webpack schema-utils@3.3.0 OK for: webpack@5.95.0 want: ^3.2.0
+1740 silly placeDep node_modules/@symfony/webpack-encore watchpack@2.4.2 OK for: webpack@5.95.0 want: ^2.4.1
+1741 silly placeDep node_modules/@symfony/webpack-encore webpack-sources@3.2.3 OK for: webpack@5.95.0 want: ^3.2.3
+1742 silly fetch manifest @webassemblyjs/helper-numbers@1.11.6
+1743 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-numbers cache-miss
+1744 silly fetch manifest @webassemblyjs/helper-wasm-bytecode@1.11.6
+1745 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode cache-miss
+1746 silly fetch manifest @webassemblyjs/helper-buffer@1.12.1
+1747 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-buffer cache-miss
+1748 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fhelper-numbers 32ms (cache hit)
+1749 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-numbers set size:19010 disposed:false
+1750 silly fetch manifest @webassemblyjs/helper-wasm-bytecode@1.11.6
+1751 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode cache-miss
+1752 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode 45ms (cache hit)
+1753 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode set size:171764 disposed:false
+1754 silly fetch manifest @webassemblyjs/helper-wasm-section@1.12.1
+1755 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-section cache-miss
+1756 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fhelper-buffer 54ms (cache hit)
+1757 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-buffer set size:173711 disposed:false
+1758 silly fetch manifest @webassemblyjs/wasm-gen@1.12.1
+1759 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-gen cache-miss
+1760 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode 56ms (cache hit)
+1761 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode set size:171764 disposed:false
+1762 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-bytecode dispose
+1763 silly fetch manifest @webassemblyjs/wasm-opt@1.12.1
+1764 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-opt cache-miss
+1765 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-section 47ms (cache hit)
+1766 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-wasm-section set size:186604 disposed:false
+1767 silly fetch manifest @webassemblyjs/wasm-parser@1.12.1
+1768 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-parser cache-hit
+1769 silly fetch manifest @webassemblyjs/wast-printer@1.12.1
+1770 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwast-printer cache-miss
+1771 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwasm-gen 56ms (cache hit)
+1772 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-gen set size:182980 disposed:false
+1773 silly fetch manifest @webassemblyjs/helper-api-error@1.11.6
+1774 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-api-error cache-miss
+1775 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwasm-opt 73ms (cache hit)
+1776 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwasm-opt set size:145704 disposed:false
+1777 silly fetch manifest @webassemblyjs/ieee754@1.11.6
+1778 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fieee754 cache-miss
+1779 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwast-printer 68ms (cache hit)
+1780 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fwast-printer set size:188606 disposed:false
+1781 silly fetch manifest @webassemblyjs/leb128@1.11.6
+1782 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fleb128 cache-miss
+1783 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fhelper-api-error 69ms (cache hit)
+1784 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fhelper-api-error set size:96452 disposed:false
+1785 silly fetch manifest @webassemblyjs/utf8@1.11.6
+1786 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2futf8 cache-miss
+1787 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fleb128 39ms (cache hit)
+1788 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fleb128 set size:241017 disposed:false
+1789 silly fetch manifest esrecurse@^4.3.0
+1790 silly packumentCache full:https://registry.npmjs.org/esrecurse cache-miss
+1791 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2futf8 38ms (cache hit)
+1792 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2futf8 set size:95141 disposed:false
+1793 silly fetch manifest estraverse@^4.1.1
+1794 silly packumentCache full:https://registry.npmjs.org/estraverse cache-miss
+1795 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fieee754 75ms (cache hit)
+1796 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2fieee754 set size:92003 disposed:false
+1797 silly fetch manifest mime-db@1.52.0
+1798 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+1799 http fetch GET 200 https://registry.npmjs.org/mime-db 22ms (cache hit)
+1800 silly packumentCache full:https://registry.npmjs.org/mime-db set size:162007 disposed:false
+1801 http fetch GET 200 https://registry.npmjs.org/esrecurse 54ms (cache hit)
+1802 silly packumentCache full:https://registry.npmjs.org/esrecurse set size:29005 disposed:false
+1803 http fetch GET 200 https://registry.npmjs.org/estraverse 49ms (cache hit)
+1804 silly packumentCache full:https://registry.npmjs.org/estraverse set size:62412 disposed:false
+1805 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/helper-numbers@1.11.6 OK for: @webassemblyjs/ast@1.12.1 want: 1.11.6
+1806 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/helper-wasm-bytecode@1.11.6 OK for: @webassemblyjs/ast@1.12.1 want: 1.11.6
+1807 silly fetch manifest @webassemblyjs/floating-point-hex-parser@1.11.6
+1808 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2ffloating-point-hex-parser cache-miss
+1809 silly fetch manifest @xtuc/long@4.2.2
+1810 silly packumentCache full:https://registry.npmjs.org/@xtuc%2flong cache-miss
+1811 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2ffloating-point-hex-parser 33ms (cache hit)
+1812 silly packumentCache full:https://registry.npmjs.org/@webassemblyjs%2ffloating-point-hex-parser set size:177470 disposed:false
+1813 http fetch GET 200 https://registry.npmjs.org/@xtuc%2flong 41ms (cache hit)
+1814 silly packumentCache full:https://registry.npmjs.org/@xtuc%2flong set size:23242 disposed:false
+1815 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/floating-point-hex-parser@1.11.6 OK for: @webassemblyjs/helper-numbers@1.11.6 want: 1.11.6
+1816 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/helper-api-error@1.11.6 OK for: @webassemblyjs/helper-numbers@1.11.6 want: 1.11.6
+1817 silly placeDep node_modules/@symfony/webpack-encore @xtuc/long@4.2.2 OK for: @webassemblyjs/helper-numbers@1.11.6 want: 4.2.2
+1818 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/helper-buffer@1.12.1 OK for: @webassemblyjs/wasm-edit@1.12.1 want: 1.12.1
+1819 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/helper-wasm-section@1.12.1 OK for: @webassemblyjs/wasm-edit@1.12.1 want: 1.12.1
+1820 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/wasm-gen@1.12.1 OK for: @webassemblyjs/wasm-edit@1.12.1 want: 1.12.1
+1821 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/wasm-opt@1.12.1 OK for: @webassemblyjs/wasm-edit@1.12.1 want: 1.12.1
+1822 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/wast-printer@1.12.1 OK for: @webassemblyjs/wasm-edit@1.12.1 want: 1.12.1
+1823 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/ieee754@1.11.6 OK for: @webassemblyjs/wasm-gen@1.12.1 want: 1.11.6
+1824 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/leb128@1.11.6 OK for: @webassemblyjs/wasm-gen@1.12.1 want: 1.11.6
+1825 silly placeDep node_modules/@symfony/webpack-encore @webassemblyjs/utf8@1.11.6 OK for: @webassemblyjs/wasm-gen@1.12.1 want: 1.11.6
+1826 silly fetch manifest @xtuc/ieee754@^1.2.0
+1827 silly packumentCache full:https://registry.npmjs.org/@xtuc%2fieee754 cache-miss
+1828 http fetch GET 200 https://registry.npmjs.org/@xtuc%2fieee754 9ms (cache hit)
+1829 silly packumentCache full:https://registry.npmjs.org/@xtuc%2fieee754 set size:5495 disposed:false
+1830 silly placeDep node_modules/@symfony/webpack-encore @xtuc/ieee754@1.2.0 OK for: @webassemblyjs/ieee754@1.11.6 want: ^1.2.0
+1831 silly placeDep node_modules/@symfony/webpack-encore esrecurse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.3.0
+1832 silly placeDep node_modules/@symfony/webpack-encore estraverse@4.3.0 OK for: eslint-scope@5.1.1 want: ^4.1.1
+1833 silly fetch manifest estraverse@^5.2.0
+1834 silly packumentCache full:https://registry.npmjs.org/estraverse cache-hit
+1835 silly placeDep node_modules/@symfony/webpack-encore/node_modules/esrecurse estraverse@5.3.0 OK for: esrecurse@4.3.0 want: ^5.2.0
+1836 silly placeDep node_modules/@symfony/webpack-encore mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+1837 silly fetch manifest webpack@5.x.x
+1838 silly packumentCache full:https://registry.npmjs.org/webpack cache-miss
+1839 http fetch GET 200 https://registry.npmjs.org/webpack 58ms (cache hit)
+1840 silly packumentCache full:https://registry.npmjs.org/webpack set size:4680522 disposed:false
+1841 silly fetch manifest webpack-cli@5.x.x
+1842 silly packumentCache full:https://registry.npmjs.org/webpack-cli cache-hit
+1843 silly placeDep node_modules/@symfony/webpack-encore @discoveryjs/json-ext@0.5.7 OK for: webpack-cli@5.1.4 want: ^0.5.0
+1844 silly placeDep node_modules/@symfony/webpack-encore @webpack-cli/configtest@2.1.1 OK for: webpack-cli@5.1.4 want: ^2.1.1
+1845 silly placeDep node_modules/@symfony/webpack-encore @webpack-cli/info@2.0.2 OK for: webpack-cli@5.1.4 want: ^2.0.2
+1846 silly placeDep node_modules/@symfony/webpack-encore @webpack-cli/serve@2.0.5 OK for: webpack-cli@5.1.4 want: ^2.0.5
+1847 silly placeDep node_modules/@symfony/webpack-encore colorette@2.0.20 OK for: webpack-cli@5.1.4 want: ^2.0.14
+1848 silly placeDep node_modules/@symfony/webpack-encore/node_modules/webpack-cli commander@10.0.1 OK for: webpack-cli@5.1.4 want: ^10.0.1
+1849 silly placeDep node_modules/@symfony/webpack-encore cross-spawn@7.0.3 OK for: webpack-cli@5.1.4 want: ^7.0.3
+1850 silly placeDep node_modules/@symfony/webpack-encore envinfo@7.14.0 OK for: webpack-cli@5.1.4 want: ^7.7.3
+1851 silly placeDep node_modules/@symfony/webpack-encore import-local@3.2.0 OK for: webpack-cli@5.1.4 want: ^3.0.2
+1852 silly placeDep node_modules/@symfony/webpack-encore interpret@3.1.1 OK for: webpack-cli@5.1.4 want: ^3.1.1
+1853 silly placeDep node_modules/@symfony/webpack-encore rechoir@0.8.0 OK for: webpack-cli@5.1.4 want: ^0.8.0
+1854 silly placeDep node_modules/@symfony/webpack-encore webpack-merge@5.10.0 OK for: webpack-cli@5.1.4 want: ^5.7.3
+1855 silly fetch manifest path-key@^3.1.0
+1856 silly packumentCache full:https://registry.npmjs.org/path-key cache-miss
+1857 silly fetch manifest shebang-command@^2.0.0
+1858 silly packumentCache full:https://registry.npmjs.org/shebang-command cache-miss
+1859 silly fetch manifest which@^2.0.1
+1860 silly packumentCache full:https://registry.npmjs.org/which cache-miss
+1861 http fetch GET 200 https://registry.npmjs.org/shebang-command 28ms (cache hit)
+1862 silly packumentCache full:https://registry.npmjs.org/shebang-command set size:8525 disposed:false
+1863 silly fetch manifest pkg-dir@^4.2.0
+1864 silly packumentCache full:https://registry.npmjs.org/pkg-dir cache-hit
+1865 silly fetch manifest resolve-cwd@^3.0.0
+1866 silly packumentCache full:https://registry.npmjs.org/resolve-cwd cache-miss
+1867 http fetch GET 200 https://registry.npmjs.org/path-key 41ms (cache hit)
+1868 silly packumentCache full:https://registry.npmjs.org/path-key set size:16975 disposed:false
+1869 silly fetch manifest flat@^5.0.2
+1870 silly packumentCache full:https://registry.npmjs.org/flat cache-miss
+1871 http fetch GET 200 https://registry.npmjs.org/which 44ms (cache hit)
+1872 silly packumentCache full:https://registry.npmjs.org/which set size:62712 disposed:false
+1873 silly fetch manifest wildcard@^2.0.0
+1874 silly packumentCache full:https://registry.npmjs.org/wildcard cache-miss
+1875 http fetch GET 200 https://registry.npmjs.org/resolve-cwd 37ms (cache hit)
+1876 silly packumentCache full:https://registry.npmjs.org/resolve-cwd set size:8449 disposed:false
+1877 silly fetch manifest clone-deep@^4.0.1
+1878 silly packumentCache full:https://registry.npmjs.org/clone-deep cache-miss
+1879 http fetch GET 200 https://registry.npmjs.org/wildcard 27ms (cache hit)
+1880 silly packumentCache full:https://registry.npmjs.org/wildcard set size:20813 disposed:false
+1881 http fetch GET 200 https://registry.npmjs.org/flat 43ms (cache hit)
+1882 silly packumentCache full:https://registry.npmjs.org/flat set size:56541 disposed:false
+1883 http fetch GET 200 https://registry.npmjs.org/clone-deep 38ms (cache hit)
+1884 silly packumentCache full:https://registry.npmjs.org/clone-deep set size:38043 disposed:false
+1885 silly placeDep node_modules/@symfony/webpack-encore path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+1886 silly placeDep node_modules/@symfony/webpack-encore shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+1887 silly placeDep node_modules/@symfony/webpack-encore which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+1888 silly fetch manifest shebang-regex@^3.0.0
+1889 silly packumentCache full:https://registry.npmjs.org/shebang-regex cache-miss
+1890 silly fetch manifest isexe@^2.0.0
+1891 silly packumentCache full:https://registry.npmjs.org/isexe cache-miss
+1892 http fetch GET 200 https://registry.npmjs.org/shebang-regex 34ms (cache hit)
+1893 silly packumentCache full:https://registry.npmjs.org/shebang-regex set size:9763 disposed:false
+1894 http fetch GET 200 https://registry.npmjs.org/isexe 33ms (cache hit)
+1895 silly packumentCache full:https://registry.npmjs.org/isexe set size:19340 disposed:false
+1896 silly placeDep node_modules/@symfony/webpack-encore/node_modules/import-local pkg-dir@4.2.0 OK for: import-local@3.2.0 want: ^4.2.0
+1897 silly placeDep node_modules/@symfony/webpack-encore resolve-cwd@3.0.0 OK for: import-local@3.2.0 want: ^3.0.0
+1898 silly fetch manifest find-up@^4.0.0
+1899 silly packumentCache full:https://registry.npmjs.org/find-up cache-hit
+1900 silly fetch manifest resolve-from@^5.0.0
+1901 silly packumentCache full:https://registry.npmjs.org/resolve-from cache-miss
+1902 http fetch GET 200 https://registry.npmjs.org/resolve-from 13ms (cache hit)
+1903 silly packumentCache full:https://registry.npmjs.org/resolve-from set size:12911 disposed:false
+1904 silly placeDep node_modules/@symfony/webpack-encore resolve-from@5.0.0 OK for: resolve-cwd@3.0.0 want: ^5.0.0
+1905 silly placeDep node_modules/@symfony/webpack-encore shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+1906 silly placeDep node_modules/@symfony/webpack-encore clone-deep@4.0.1 OK for: webpack-merge@5.10.0 want: ^4.0.1
+1907 silly placeDep node_modules/@symfony/webpack-encore flat@5.0.2 OK for: webpack-merge@5.10.0 want: ^5.0.2
+1908 silly placeDep node_modules/@symfony/webpack-encore wildcard@2.0.1 OK for: webpack-merge@5.10.0 want: ^2.0.0
+1909 silly fetch manifest is-plain-object@^2.0.4
+1910 silly packumentCache full:https://registry.npmjs.org/is-plain-object cache-miss
+1911 silly fetch manifest kind-of@^6.0.2
+1912 silly packumentCache full:https://registry.npmjs.org/kind-of cache-miss
+1913 silly fetch manifest shallow-clone@^3.0.0
+1914 silly packumentCache full:https://registry.npmjs.org/shallow-clone cache-miss
+1915 http fetch GET 200 https://registry.npmjs.org/kind-of 25ms (cache hit)
+1916 silly packumentCache full:https://registry.npmjs.org/kind-of set size:70901 disposed:false
+1917 http fetch GET 200 https://registry.npmjs.org/shallow-clone 38ms (cache hit)
+1918 silly packumentCache full:https://registry.npmjs.org/shallow-clone set size:24716 disposed:false
+1919 http fetch GET 200 https://registry.npmjs.org/is-plain-object 43ms (cache hit)
+1920 silly packumentCache full:https://registry.npmjs.org/is-plain-object set size:47016 disposed:false
+1921 silly placeDep node_modules/@symfony/webpack-encore is-plain-object@2.0.4 OK for: clone-deep@4.0.1 want: ^2.0.4
+1922 silly placeDep node_modules/@symfony/webpack-encore kind-of@6.0.3 OK for: clone-deep@4.0.1 want: ^6.0.2
+1923 silly placeDep node_modules/@symfony/webpack-encore shallow-clone@3.0.1 OK for: clone-deep@4.0.1 want: ^3.0.0
+1924 silly fetch manifest isobject@^3.0.1
+1925 silly packumentCache full:https://registry.npmjs.org/isobject cache-miss
+1926 http fetch GET 200 https://registry.npmjs.org/isobject 10ms (cache hit)
+1927 silly packumentCache full:https://registry.npmjs.org/isobject set size:26140 disposed:false
+1928 silly placeDep node_modules/@symfony/webpack-encore isobject@3.0.1 OK for: is-plain-object@2.0.4 want: ^3.0.1
+1929 silly placeDep node_modules/@symfony/webpack-encore isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+1930 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@jest/types ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+1931 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@jest/types supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+1932 silly fetch manifest color-convert@^2.0.1
+1933 silly packumentCache full:https://registry.npmjs.org/color-convert cache-hit
+1934 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@jest/types color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+1935 silly fetch manifest color-name@~1.1.4
+1936 silly packumentCache full:https://registry.npmjs.org/color-name cache-hit
+1937 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@jest/types color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+1938 silly placeDep node_modules/@symfony/webpack-encore/node_modules/@jest/types has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+1939 silly placeDep node_modules/@symfony/webpack-encore/node_modules/csso mdn-data@2.0.28 OK for: css-tree@2.2.1 want: 2.0.28
+1940 silly placeDep node_modules/@symfony/webpack-encore/node_modules/import-local find-up@4.1.0 OK for: pkg-dir@4.2.0 want: ^4.0.0
+1941 silly fetch manifest locate-path@^5.0.0
+1942 silly packumentCache full:https://registry.npmjs.org/locate-path cache-hit
+1943 silly fetch manifest path-exists@^4.0.0
+1944 silly packumentCache full:https://registry.npmjs.org/path-exists cache-hit
+1945 silly placeDep node_modules/@symfony/webpack-encore/node_modules/import-local locate-path@5.0.0 OK for: find-up@4.1.0 want: ^5.0.0
+1946 silly placeDep node_modules/@symfony/webpack-encore/node_modules/import-local path-exists@4.0.0 OK for: find-up@4.1.0 want: ^4.0.0
+1947 silly fetch manifest p-locate@^4.1.0
+1948 silly packumentCache full:https://registry.npmjs.org/p-locate cache-hit
+1949 silly placeDep node_modules/@symfony/webpack-encore/node_modules/import-local p-locate@4.1.0 OK for: locate-path@5.0.0 want: ^4.1.0
+1950 silly fetch manifest p-limit@^2.2.0
+1951 silly packumentCache full:https://registry.npmjs.org/p-limit cache-hit
+1952 silly placeDep node_modules/@symfony/webpack-encore/node_modules/import-local p-limit@2.3.0 OK for: p-locate@4.1.0 want: ^2.2.0
+1953 silly fetch manifest p-try@^2.0.0
+1954 silly packumentCache full:https://registry.npmjs.org/p-try cache-miss
+1955 http fetch GET 200 https://registry.npmjs.org/p-try 10ms (cache hit)
+1956 silly packumentCache full:https://registry.npmjs.org/p-try set size:13014 disposed:false
+1957 silly placeDep node_modules/@symfony/webpack-encore p-try@2.2.0 OK for: p-limit@2.3.0 want: ^2.0.0
+1958 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-util ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+1959 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-util supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+1960 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-util color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+1961 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-util color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+1962 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-util has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+1963 silly placeDep node_modules/@symfony/webpack-encore/node_modules/jest-worker has-flag@4.0.0 OK for: supports-color@8.1.1 want: ^4.0.0
+1964 silly placeDep node_modules/@symfony/webpack-encore/node_modules/svgo domhandler@5.0.3 OK for: css-select@5.1.0 want: ^5.0.2
+1965 silly placeDep node_modules/@symfony/webpack-encore/node_modules/svgo domutils@3.1.0 OK for: css-select@5.1.0 want: ^3.0.1
+1966 silly fetch manifest dom-serializer@^2.0.0
+1967 silly packumentCache full:https://registry.npmjs.org/dom-serializer cache-hit
+1968 silly placeDep node_modules/@symfony/webpack-encore/node_modules/svgo dom-serializer@2.0.0 OK for: domutils@3.1.0 want: ^2.0.0
+1969 silly fetch manifest entities@^4.2.0
+1970 silly packumentCache full:https://registry.npmjs.org/entities cache-hit
+1971 silly placeDep node_modules/@symfony/webpack-encore/node_modules/svgo entities@4.5.0 OK for: dom-serializer@2.0.0 want: ^4.2.0
+1972 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin supports-color@8.1.1 OK for: jest-worker@27.5.1 want: ^8.0.0
+1973 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin ajv@6.12.6 OK for: schema-utils@3.3.0 want: ^6.12.5
+1974 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin ajv-keywords@3.5.2 OK for: schema-utils@3.3.0 want: ^3.5.2
+1975 silly fetch manifest uri-js@^4.2.2
+1976 silly packumentCache full:https://registry.npmjs.org/uri-js cache-miss
+1977 silly fetch manifest json-schema-traverse@^0.4.1
+1978 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse cache-hit
+1979 silly fetch manifest fast-json-stable-stringify@^2.0.0
+1980 silly packumentCache full:https://registry.npmjs.org/fast-json-stable-stringify cache-miss
+1981 http fetch GET 200 https://registry.npmjs.org/uri-js 22ms (cache hit)
+1982 silly packumentCache full:https://registry.npmjs.org/uri-js set size:42559 disposed:false
+1983 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 24ms (cache hit)
+1984 silly packumentCache full:https://registry.npmjs.org/fast-json-stable-stringify set size:11337 disposed:false
+1985 silly placeDep node_modules/@symfony/webpack-encore fast-json-stable-stringify@2.1.0 OK for: ajv@6.12.6 want: ^2.0.0
+1986 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+1987 silly placeDep node_modules/@symfony/webpack-encore uri-js@4.4.1 OK for: ajv@6.12.6 want: ^4.2.2
+1988 silly fetch manifest punycode@^2.1.0
+1989 silly packumentCache full:https://registry.npmjs.org/punycode cache-miss
+1990 http fetch GET 200 https://registry.npmjs.org/punycode 23ms (cache hit)
+1991 silly packumentCache full:https://registry.npmjs.org/punycode set size:61302 disposed:false
+1992 silly placeDep node_modules/@symfony/webpack-encore punycode@2.3.1 OK for: uri-js@4.4.1 want: ^2.1.0
+1993 silly placeDep node_modules/@symfony/webpack-encore/node_modules/terser-webpack-plugin has-flag@4.0.0 OK for: supports-color@8.1.1 want: ^4.0.0
+1994 silly placeDep node_modules/@symfony/webpack-encore/node_modules/webpack ajv@6.12.6 OK for: schema-utils@3.3.0 want: ^6.12.5
+1995 silly placeDep node_modules/@symfony/webpack-encore/node_modules/webpack ajv-keywords@3.5.2 OK for: schema-utils@3.3.0 want: ^3.5.2
+1996 silly placeDep node_modules/@symfony/webpack-encore/node_modules/webpack json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+1997 silly reify moves {}
+1998 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/@symfony'
+1998 verbose stack     at async mkdir (node:internal/fs/promises:857:10)
+1998 verbose stack     at async /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+1998 verbose stack     at async Promise.allSettled (index 0)
+1998 verbose stack     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+1998 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+1998 verbose stack     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+1998 verbose stack     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+1998 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5)
+1999 error code EACCES
+2000 error syscall mkdir
+2001 error path /usr/lib/node_modules/@symfony
+2002 error errno -13
+2003 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/@symfony'
+2003 error     at async mkdir (node:internal/fs/promises:857:10)
+2003 error     at async /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+2003 error     at async Promise.allSettled (index 0)
+2003 error     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+2003 error     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+2003 error     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+2003 error     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+2003 error     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+2003 error   errno: -13,
+2003 error   code: 'EACCES',
+2003 error   syscall: 'mkdir',
+2003 error   path: '/usr/lib/node_modules/@symfony'
+2003 error }
+2004 error
+2004 error The operation was rejected by your operating system.
+2004 error It is likely you do not have the permissions to access this file as the current user
+2004 error
+2004 error If you believe this might be a permissions issue, please double-check the
+2004 error permissions of the file and its containing directories, or try running
+2004 error the command again as root/Administrator.
+2005 silly unfinished npm timer reify 1729242792338
+2006 silly unfinished npm timer reify:createSparse 1729242814178
+2007 verbose cwd /mnt/c/Users/bmd-tech/Downloads/boutiquedette
+2008 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+2009 verbose node v22.9.0
+2010 verbose npm  v10.9.0
+2011 verbose exit -13
+2012 verbose code -13
+2013 error A complete log of this run can be found in: /home/yafily/.npm/_logs/2024-10-18T09_13_08_886Z-debug-0.log

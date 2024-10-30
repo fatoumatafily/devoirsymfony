@@ -1,0 +1,16 @@
+{
+    "dir": "/mnt/c/Users/bmd-tech/documents/symfony/samaprojet",
+    "watch": null,
+    "pid": 2486,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "/usr/bin/php8.3",
+        "-S",
+        "127.0.0.1:34611",
+        "-d",
+        "variables_order=EGPCS",
+        "/home/yafily/.symfony5/php/c286c65414b615c1fde35ca70a7cd9063811cece-router.php"
+    ],
+    "name": "PHP"
+}

@@ -1,0 +1,10 @@
+[Fri Oct 18 02:43:15 2024] PHP 8.3.6 Development Server (http://127.0.0.1:44063) started
+[Fri Oct 18 02:43:25 2024] 127.0.0.1:44984 Accepted
+[Fri Oct 18 02:44:21 2024] 127.0.0.1:44984 [404]: GET /
+[Fri Oct 18 02:44:21 2024] 127.0.0.1:44984 Closing
+[Fri Oct 18 02:44:21 2024] 127.0.0.1:59072 Accepted
+[Fri Oct 18 02:44:49 2024] 127.0.0.1:59072 [500]: GET /client
+[Fri Oct 18 02:44:49 2024] 127.0.0.1:59072 Closing
+[Fri Oct 18 02:44:49 2024] 127.0.0.1:42386 Accepted
+[Fri Oct 18 02:45:02 2024] 127.0.0.1:42386 [200]: GET /_wdt/addd6b?XDEBUG_IGNORE=1
+[Fri Oct 18 02:45:02 2024] 127.0.0.1:42386 Closing

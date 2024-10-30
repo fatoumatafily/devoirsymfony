@@ -1,0 +1,14 @@
+2024-10-26 22:26:10.263 [info] 
+
+
+
+
+2024-10-26 22:26:10.291 [info] Extension host agent started.
+2024-10-26 22:26:10.517 [info] [127.0.0.1][f557f78c][ManagementConnection] New connection established.
+2024-10-26 22:26:11.895 [info] [127.0.0.1][1b9e255a][ExtensionHostConnection] New connection established.
+2024-10-26 22:26:11.939 [info] [127.0.0.1][1b9e255a][ExtensionHostConnection] <5306> Launched Extension Host Process.
+2024-10-26 22:26:12.352 [info] [127.0.0.1][1b9e255a][ExtensionHostConnection] <5306><stderr> Error reading NLS messages file /home/yafily/.vscode-server/data/clp/a93328785bf33663ccf08ed292ac7ce1.fr/384ff7382de624fb94dbaf6da11977bba1ecd427/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/yafily/.vscode-server/data/clp/a93328785bf33663ccf08ed292ac7ce1.fr/384ff7382de624fb94dbaf6da11977bba1ecd427/nls.messages.json'
+
+2024-10-26 22:28:51.398 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/yafily/Gestion-Dette-Boutiquier-Symfony-cour_3)
+2024-10-26 23:43:46.509 [info] [127.0.0.1][f557f78c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-26 23:43:47.289 [info] [127.0.0.1][1b9e255a][ExtensionHostConnection] <5306> Extension Host Process exited with code: 0, signal: null.

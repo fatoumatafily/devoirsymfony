@@ -1,0 +1,85 @@
+[Sat Oct 26 19:49:29 2024] PHP 8.3.6 Development Server (http://127.0.0.1:43361) started
+[Sat Oct 26 19:51:09 2024] 127.0.0.1:52430 Accepted
+[Sat Oct 26 19:53:19 2024] 127.0.0.1:52430 [404]: GET /
+[Sat Oct 26 19:53:19 2024] 127.0.0.1:52430 Closing
+[Sat Oct 26 19:53:19 2024] 127.0.0.1:39704 Accepted
+[Sat Oct 26 19:53:50 2024] 127.0.0.1:39704 [200]: GET /_wdt/1f667a?XDEBUG_IGNORE=1
+[Sat Oct 26 19:53:50 2024] 127.0.0.1:39704 Closing
+[Sat Oct 26 19:53:50 2024] 127.0.0.1:38154 Accepted
+[Sat Oct 26 19:55:54 2024] 127.0.0.1:38154 [200]: GET /client
+[Sat Oct 26 19:55:54 2024] 127.0.0.1:38154 Closing
+[Sat Oct 26 19:55:54 2024] 127.0.0.1:58330 Accepted
+[Sat Oct 26 19:55:54 2024] 127.0.0.1:58342 Accepted
+[Sat Oct 26 19:56:27 2024] 127.0.0.1:58330 Closing
+[Sat Oct 26 19:56:27 2024] 127.0.0.1:47928 Accepted
+[Sat Oct 26 19:56:43 2024] 127.0.0.1:58342 Closing
+[Sat Oct 26 19:56:43 2024] 127.0.0.1:46370 Accepted
+[Sat Oct 26 19:56:58 2024] 127.0.0.1:47928 Closing
+[Sat Oct 26 19:56:58 2024] 127.0.0.1:46378 Accepted
+[Sat Oct 26 19:57:09 2024] 127.0.0.1:46370 Closing
+[Sat Oct 26 19:57:40 2024] 127.0.0.1:46378 [200]: GET /_wdt/f78020?XDEBUG_IGNORE=1
+[Sat Oct 26 19:57:40 2024] 127.0.0.1:46378 Closing
+[Sat Oct 26 20:00:33 2024] 127.0.0.1:58348 Accepted
+[Sat Oct 26 20:01:07 2024] 127.0.0.1:58348 [200]: GET /dette/details/31%3F
+[Sat Oct 26 20:01:07 2024] 127.0.0.1:58348 Closing
+[Sat Oct 26 20:01:07 2024] 127.0.0.1:54802 Accepted
+[Sat Oct 26 20:01:20 2024] 127.0.0.1:54802 [200]: GET /_wdt/9fa02e?XDEBUG_IGNORE=1
+[Sat Oct 26 20:01:20 2024] 127.0.0.1:54802 Closing
+[Sat Oct 26 20:02:08 2024] 127.0.0.1:38702 Accepted
+[Sat Oct 26 20:02:25 2024] 127.0.0.1:38702 [200]: GET /client
+[Sat Oct 26 20:02:25 2024] 127.0.0.1:38702 Closing
+[Sat Oct 26 20:02:25 2024] 127.0.0.1:44736 Accepted
+[Sat Oct 26 20:02:34 2024] 127.0.0.1:44736 [200]: GET /_wdt/bbcee1?XDEBUG_IGNORE=1
+[Sat Oct 26 20:02:34 2024] 127.0.0.1:44736 Closing
+[Sat Oct 26 20:02:51 2024] 127.0.0.1:40626 Accepted
+[Sat Oct 26 20:03:16 2024] 127.0.0.1:40626 [200]: GET /dette/details/25%3F
+[Sat Oct 26 20:03:16 2024] 127.0.0.1:40626 Closing
+[Sat Oct 26 20:03:16 2024] 127.0.0.1:58188 Accepted
+[Sat Oct 26 20:03:28 2024] 127.0.0.1:58188 [200]: GET /_wdt/4104a1?XDEBUG_IGNORE=1
+[Sat Oct 26 20:03:28 2024] 127.0.0.1:58188 Closing
+[Sat Oct 26 20:05:32 2024] 127.0.0.1:48330 Accepted
+[Sat Oct 26 20:06:20 2024] 127.0.0.1:48330 [500]: GET /dette/details/25%3F
+[Sat Oct 26 20:06:20 2024] 127.0.0.1:48330 Closing
+[Sat Oct 26 20:06:20 2024] 127.0.0.1:59940 Accepted
+[Sat Oct 26 20:06:40 2024] 127.0.0.1:59940 [200]: GET /_wdt/adc8ab?XDEBUG_IGNORE=1
+[Sat Oct 26 20:06:40 2024] 127.0.0.1:59940 Closing
+[Sat Oct 26 20:18:05 2024] 127.0.0.1:39722 Accepted
+[Sat Oct 26 20:21:57 2024] 127.0.0.1:39722 [500]: GET /dette/details/25%3F
+[Sat Oct 26 20:21:57 2024] 127.0.0.1:39722 Closing
+[Sat Oct 26 20:21:57 2024] 127.0.0.1:40712 Accepted
+[Sat Oct 26 20:22:12 2024] 127.0.0.1:40712 [200]: GET /_wdt/1f1542?XDEBUG_IGNORE=1
+[Sat Oct 26 20:22:12 2024] 127.0.0.1:40712 Closing
+[Sat Oct 26 20:28:46 2024] 127.0.0.1:57536 Accepted
+[Sat Oct 26 20:29:10 2024] 127.0.0.1:57536 [500]: GET /dette/details/25%3F
+[Sat Oct 26 20:29:10 2024] 127.0.0.1:57536 Closing
+[Sat Oct 26 20:29:10 2024] 127.0.0.1:56982 Accepted
+[Sat Oct 26 20:29:24 2024] 127.0.0.1:56982 [200]: GET /_wdt/724f4c?XDEBUG_IGNORE=1
+[Sat Oct 26 20:29:24 2024] 127.0.0.1:56982 Closing
+[Sat Oct 26 20:31:00 2024] 127.0.0.1:46910 Accepted
+[Sat Oct 26 20:33:19 2024] 127.0.0.1:46910 [404]: GET /dette/details/25%3F
+[Sat Oct 26 20:33:19 2024] 127.0.0.1:46910 Closing
+[Sat Oct 26 20:33:19 2024] 127.0.0.1:39792 Accepted
+[Sat Oct 26 20:33:34 2024] 127.0.0.1:39792 [200]: GET /_wdt/f71cb4?XDEBUG_IGNORE=1
+[Sat Oct 26 20:33:34 2024] 127.0.0.1:39792 Closing
+[Sat Oct 26 21:26:31 2024] 127.0.0.1:42910 Accepted
+[Sat Oct 26 21:26:55 2024] 127.0.0.1:42910 [500]: GET /dette/details/25%3F
+[Sat Oct 26 21:26:55 2024] 2024-10-26T21:26:55+00:00 [critical] Uncaught Error: syntax error, unexpected token "}", expecting ";"
+[Sat Oct 26 21:26:55 2024] 127.0.0.1:42910 Closing
+[Sat Oct 26 21:28:07 2024] 127.0.0.1:54006 Accepted
+[Sat Oct 26 21:28:31 2024] 127.0.0.1:54006 [404]: GET /dette/details/25%3F
+[Sat Oct 26 21:28:31 2024] 127.0.0.1:54006 Closing
+[Sat Oct 26 21:28:31 2024] 127.0.0.1:53870 Accepted
+[Sat Oct 26 21:28:48 2024] 127.0.0.1:53870 [200]: GET /_wdt/dff8c0?XDEBUG_IGNORE=1
+[Sat Oct 26 21:28:48 2024] 127.0.0.1:53870 Closing
+[Sat Oct 26 21:28:48 2024] 127.0.0.1:39774 Accepted
+[Sat Oct 26 21:29:07 2024] 127.0.0.1:39774 [404]: GET /dette/details/25%3F
+[Sat Oct 26 21:29:07 2024] 127.0.0.1:39774 Closing
+[Sat Oct 26 21:29:07 2024] 127.0.0.1:53560 Accepted
+[Sat Oct 26 21:29:19 2024] 127.0.0.1:53560 [200]: GET /_wdt/4e99f8?XDEBUG_IGNORE=1
+[Sat Oct 26 21:29:19 2024] 127.0.0.1:53560 Closing
+[Sat Oct 26 21:37:10 2024] 127.0.0.1:58116 Accepted
+[Sat Oct 26 21:37:30 2024] 127.0.0.1:58116 [404]: GET /dette/details/25%3F
+[Sat Oct 26 21:37:30 2024] 127.0.0.1:58116 Closing
+[Sat Oct 26 21:37:30 2024] 127.0.0.1:46220 Accepted
+[Sat Oct 26 21:37:41 2024] 127.0.0.1:46220 [200]: GET /_wdt/6b3b18?XDEBUG_IGNORE=1
+[Sat Oct 26 21:37:41 2024] 127.0.0.1:46220 Closing

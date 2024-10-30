@@ -1,0 +1,16 @@
+[Sat Oct 26 22:30:12 2024] PHP 8.3.6 Development Server (http://127.0.0.1:43421) started
+[Sat Oct 26 22:30:26 2024] 127.0.0.1:55834 Accepted
+[Sat Oct 26 22:30:26 2024] PHP Warning:  require_once(/home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload.php on line 23
+[Sat Oct 26 22:30:26 2024] PHP Fatal error:  Uncaught Error: Failed opening required '/home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php') in /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload.php:23
+Stack trace:
+#0 /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload_runtime.php(5): require_once()
+#1 /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/public/index.php(5): require_once('...')
+#2 {main}
+  thrown in /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload.php on line 23
+[Sat Oct 26 22:30:26 2024] 127.0.0.1:55834 [500]: GET / - Uncaught Error: Failed opening required '/home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php') in /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload.php:23
+Stack trace:
+#0 /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload_runtime.php(5): require_once()
+#1 /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/public/index.php(5): require_once('...')
+#2 {main}
+  thrown in /home/yafily/.symfony5/Gestion-Dette-Boutiquier-Symfony-cour_3/vendor/autoload.php on line 23
+[Sat Oct 26 22:30:26 2024] 127.0.0.1:55834 Closing

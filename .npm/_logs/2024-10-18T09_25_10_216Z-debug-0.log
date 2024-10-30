@@ -1,0 +1,19 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.9.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/c/Users/bmd-tech/Downloads/boutiquedette/.npmrc
+5 silly config load:file:/home/yafily/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:/home/yafily/.npm/_logs/2024-10-18T09_25_10_216Z-
+10 verbose logfile /home/yafily/.npm/_logs/2024-10-18T09_25_10_216Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /mnt/c/Users/bmd-tech/Downloads/boutiquedette
+14 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+15 verbose node v22.9.0
+16 verbose npm  v10.9.0
+17 verbose exit 0
+18 info ok

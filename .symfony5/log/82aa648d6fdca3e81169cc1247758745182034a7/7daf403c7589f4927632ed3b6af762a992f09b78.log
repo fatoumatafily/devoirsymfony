@@ -1,0 +1,167 @@
+[Sat Oct 26 22:48:16 2024] PHP 8.3.6 Development Server (http://127.0.0.1:37747) started
+[Sat Oct 26 22:48:23 2024] 127.0.0.1:47492 Accepted
+[Sat Oct 26 22:48:26 2024] 127.0.0.1:47492 [404]: GET /
+[Sat Oct 26 22:48:26 2024] 127.0.0.1:47492 Closing
+[Sat Oct 26 22:48:26 2024] 127.0.0.1:47504 Accepted
+[Sat Oct 26 22:48:28 2024] 127.0.0.1:47504 [200]: GET /_wdt/bf403f?XDEBUG_IGNORE=1
+[Sat Oct 26 22:48:28 2024] 127.0.0.1:47504 Closing
+[Sat Oct 26 22:48:38 2024] 127.0.0.1:38264 Accepted
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:38264 [200]: GET /client
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:38264 Closing
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59258 Accepted
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59258 Closing
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59266 Accepted
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59276 Accepted
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59266 Closing
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59286 Accepted
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59276 Closing
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59288 Accepted
+[Sat Oct 26 22:48:41 2024] 127.0.0.1:59286 Closing
+[Sat Oct 26 22:48:42 2024] 127.0.0.1:59288 [200]: GET /_wdt/b2bd1d?XDEBUG_IGNORE=1
+[Sat Oct 26 22:48:42 2024] 127.0.0.1:59288 Closing
+[Sat Oct 26 22:48:42 2024] 127.0.0.1:59302 Accepted
+[Sat Oct 26 22:48:42 2024] 127.0.0.1:59302 Closing
+[Sat Oct 26 22:48:48 2024] 127.0.0.1:59312 Accepted
+[Sat Oct 26 22:48:49 2024] 127.0.0.1:59312 [200]: GET /dette/details/31%3F
+[Sat Oct 26 22:48:49 2024] 127.0.0.1:59312 Closing
+[Sat Oct 26 22:48:49 2024] 127.0.0.1:59318 Accepted
+[Sat Oct 26 22:48:50 2024] 127.0.0.1:59318 [200]: GET /_wdt/938ce5?XDEBUG_IGNORE=1
+[Sat Oct 26 22:48:50 2024] 127.0.0.1:59318 Closing
+[Sat Oct 26 22:52:09 2024] 127.0.0.1:36808 Accepted
+[Sat Oct 26 22:52:11 2024] 127.0.0.1:36808 [500]: POST /client
+[Sat Oct 26 22:52:11 2024] 127.0.0.1:36808 Closing
+[Sat Oct 26 22:52:11 2024] 127.0.0.1:43218 Accepted
+[Sat Oct 26 22:52:11 2024] 127.0.0.1:43224 Accepted
+[Sat Oct 26 22:52:11 2024] 127.0.0.1:43218 [500]: POST /client
+[Sat Oct 26 22:52:11 2024] 127.0.0.1:43218 Closing
+[Sat Oct 26 22:52:13 2024] 127.0.0.1:43224 [500]: POST /client
+[Sat Oct 26 22:52:13 2024] 127.0.0.1:43224 Closing
+[Sat Oct 26 22:52:15 2024] 127.0.0.1:43238 Accepted
+[Sat Oct 26 22:52:16 2024] 127.0.0.1:43238 [200]: GET /_profiler/6c4fc1
+[Sat Oct 26 22:52:16 2024] 127.0.0.1:43238 Closing
+[Sat Oct 26 22:55:40 2024] 127.0.0.1:41068 Accepted
+[Sat Oct 26 22:55:41 2024] 127.0.0.1:41068 [200]: GET /_profiler/6c4fc1
+[Sat Oct 26 22:55:41 2024] 127.0.0.1:41068 Closing
+[Sat Oct 26 23:02:02 2024] 127.0.0.1:35884 Accepted
+[Sat Oct 26 23:02:03 2024] 127.0.0.1:35884 [200]: GET /_profiler/6c4fc1
+[Sat Oct 26 23:02:03 2024] 127.0.0.1:35884 Closing
+[Sat Oct 26 23:02:07 2024] 127.0.0.1:43194 Accepted
+[Sat Oct 26 23:02:07 2024] 127.0.0.1:43194 [200]: GET /_profiler/6c4fc1?panel=form&type=request
+[Sat Oct 26 23:02:07 2024] 127.0.0.1:43194 Closing
+[Sat Oct 26 23:02:10 2024] 127.0.0.1:43200 Accepted
+[Sat Oct 26 23:02:11 2024] 127.0.0.1:43200 [200]: GET /_profiler/6c4fc1?panel=exception&type=request
+[Sat Oct 26 23:02:11 2024] 127.0.0.1:43200 Closing
+[Sat Oct 26 23:02:13 2024] 127.0.0.1:43206 Accepted
+[Sat Oct 26 23:02:14 2024] 127.0.0.1:43206 [200]: GET /_profiler/6c4fc1?panel=form&type=request
+[Sat Oct 26 23:02:14 2024] 127.0.0.1:43206 Closing
+[Sat Oct 26 23:02:16 2024] 127.0.0.1:32988 Accepted
+[Sat Oct 26 23:02:16 2024] 127.0.0.1:32988 [200]: GET /_profiler/6c4fc1?panel=exception&type=request
+[Sat Oct 26 23:02:16 2024] 127.0.0.1:32988 Closing
+[Sat Oct 26 23:05:57 2024] 127.0.0.1:52748 Accepted
+[Sat Oct 26 23:05:58 2024] 127.0.0.1:52748 [200]: GET /_profiler/6c4fc1?panel=exception&type=request
+[Sat Oct 26 23:05:58 2024] 127.0.0.1:52748 Closing
+[Sat Oct 26 23:10:01 2024] 127.0.0.1:35334 Accepted
+[Sat Oct 26 23:10:01 2024] 127.0.0.1:35334 [200]: GET /_profiler/6c4fc1?panel=exception&type=request
+[Sat Oct 26 23:10:01 2024] 127.0.0.1:35334 Closing
+[Sat Oct 26 23:23:04 2024] 127.0.0.1:43894 Accepted
+[Sat Oct 26 23:23:04 2024] 127.0.0.1:43894 [200]: GET /_profiler/6c4fc1?panel=exception&type=request
+[Sat Oct 26 23:23:04 2024] 127.0.0.1:43894 Closing
+[Sat Oct 26 23:23:07 2024] 127.0.0.1:43908 Accepted
+[Sat Oct 26 23:23:08 2024] 127.0.0.1:43908 [200]: GET /_profiler/6c4fc1?panel=exception&type=request
+[Sat Oct 26 23:23:08 2024] 127.0.0.1:43908 Closing
+[Sat Oct 26 23:23:23 2024] 127.0.0.1:60446 Accepted
+[Sat Oct 26 23:23:24 2024] 127.0.0.1:60446 [500]: POST /client
+[Sat Oct 26 23:23:24 2024] 127.0.0.1:60446 Closing
+[Sat Oct 26 23:23:33 2024] 127.0.0.1:48232 Accepted
+[Sat Oct 26 23:23:33 2024] 127.0.0.1:48232 [200]: GET /_profiler/dc88df
+[Sat Oct 26 23:23:33 2024] 127.0.0.1:48232 Closing
+[Sat Oct 26 23:25:20 2024] 127.0.0.1:35210 Accepted
+[Sat Oct 26 23:25:20 2024] 127.0.0.1:35210 [200]: GET /_profiler/dc88df
+[Sat Oct 26 23:25:20 2024] 127.0.0.1:35210 Closing
+[Sat Oct 26 23:25:23 2024] 127.0.0.1:40408 Accepted
+[Sat Oct 26 23:25:23 2024] 127.0.0.1:40408 [200]: GET /_profiler/dc88df
+[Sat Oct 26 23:25:23 2024] 127.0.0.1:40408 Closing
+[Sat Oct 26 23:25:33 2024] 127.0.0.1:47416 Accepted
+[Sat Oct 26 23:25:33 2024] 127.0.0.1:47416 [200]: POST /client
+[Sat Oct 26 23:25:33 2024] 127.0.0.1:47416 Closing
+[Sat Oct 26 23:25:37 2024] 127.0.0.1:47432 Accepted
+[Sat Oct 26 23:25:38 2024] 127.0.0.1:47432 [200]: GET /_profiler/f6e8ef
+[Sat Oct 26 23:25:38 2024] 127.0.0.1:47432 Closing
+[Sat Oct 26 23:28:00 2024] 127.0.0.1:39810 Accepted
+[Sat Oct 26 23:28:02 2024] 127.0.0.1:39810 [500]: GET /client
+[Sat Oct 26 23:28:02 2024] 127.0.0.1:39810 Closing
+[Sat Oct 26 23:28:03 2024] 127.0.0.1:38592 Accepted
+[Sat Oct 26 23:28:03 2024] 127.0.0.1:38592 [200]: GET /_wdt/bad55b?XDEBUG_IGNORE=1
+[Sat Oct 26 23:28:03 2024] 127.0.0.1:38592 Closing
+[Sat Oct 26 23:30:45 2024] 127.0.0.1:48252 Accepted
+[Sat Oct 26 23:30:46 2024] 127.0.0.1:48252 [500]: GET /client
+[Sat Oct 26 23:30:46 2024] 127.0.0.1:48252 Closing
+[Sat Oct 26 23:30:45 2024] 127.0.0.1:48266 Accepted
+[Sat Oct 26 23:30:45 2024] 127.0.0.1:48266 [200]: GET /_wdt/23f778?XDEBUG_IGNORE=1
+[Sat Oct 26 23:30:45 2024] 127.0.0.1:48266 Closing
+[Sat Oct 26 23:33:20 2024] 127.0.0.1:35132 Accepted
+[Sat Oct 26 23:33:21 2024] 127.0.0.1:35132 [500]: GET /client
+[Sat Oct 26 23:33:21 2024] 127.0.0.1:35132 Closing
+[Sat Oct 26 23:33:22 2024] 127.0.0.1:35140 Accepted
+[Sat Oct 26 23:33:22 2024] 127.0.0.1:35140 [200]: GET /_wdt/ac8d15?XDEBUG_IGNORE=1
+[Sat Oct 26 23:33:22 2024] 127.0.0.1:35140 Closing
+[Sat Oct 26 23:34:17 2024] 127.0.0.1:58880 Accepted
+[Sat Oct 26 23:34:19 2024] 127.0.0.1:58880 [500]: GET /client
+[Sat Oct 26 23:34:19 2024] 127.0.0.1:58880 Closing
+[Sat Oct 26 23:34:19 2024] 127.0.0.1:58888 Accepted
+[Sat Oct 26 23:34:19 2024] 127.0.0.1:58888 [200]: GET /_wdt/1d308d?XDEBUG_IGNORE=1
+[Sat Oct 26 23:34:19 2024] 127.0.0.1:58888 Closing
+[Sat Oct 26 23:38:23 2024] 127.0.0.1:45716 Accepted
+[Sat Oct 26 23:38:24 2024] 127.0.0.1:45716 [200]: GET /client
+[Sat Oct 26 23:38:24 2024] 127.0.0.1:45716 Closing
+[Sat Oct 26 23:38:24 2024] 127.0.0.1:45732 Accepted
+[Sat Oct 26 23:38:24 2024] 127.0.0.1:45732 [200]: GET /_wdt/9cda81?XDEBUG_IGNORE=1
+[Sat Oct 26 23:38:24 2024] 127.0.0.1:45732 Closing
+[Sat Oct 26 23:38:30 2024] 127.0.0.1:42058 Accepted
+[Sat Oct 26 23:38:31 2024] 127.0.0.1:42058 [200]: GET /client?page=3
+[Sat Oct 26 23:38:31 2024] 127.0.0.1:42058 Closing
+[Sat Oct 26 23:38:31 2024] 127.0.0.1:42070 Accepted
+[Sat Oct 26 23:38:31 2024] 127.0.0.1:42070 [200]: GET /_wdt/5444ab?XDEBUG_IGNORE=1
+[Sat Oct 26 23:38:31 2024] 127.0.0.1:42070 Closing
+[Sat Oct 26 23:38:40 2024] 127.0.0.1:44036 Accepted
+[Sat Oct 26 23:38:40 2024] 127.0.0.1:44036 [200]: GET /client?page=1
+[Sat Oct 26 23:38:40 2024] 127.0.0.1:44036 Closing
+[Sat Oct 26 23:38:40 2024] 127.0.0.1:44050 Accepted
+[Sat Oct 26 23:38:40 2024] 127.0.0.1:44050 [200]: GET /_wdt/3605ed?XDEBUG_IGNORE=1
+[Sat Oct 26 23:38:40 2024] 127.0.0.1:44050 Closing
+[Sat Oct 26 23:39:05 2024] 127.0.0.1:35032 Accepted
+[Sat Oct 26 23:39:06 2024] 127.0.0.1:35032 [200]: GET /dette/details/32%3F
+[Sat Oct 26 23:39:06 2024] 127.0.0.1:35032 Closing
+[Sat Oct 26 23:39:06 2024] 127.0.0.1:35048 Accepted
+[Sat Oct 26 23:39:06 2024] 127.0.0.1:35048 [200]: GET /_wdt/db751e?XDEBUG_IGNORE=1
+[Sat Oct 26 23:39:06 2024] 127.0.0.1:35048 Closing
+[Sat Oct 26 23:39:34 2024] 127.0.0.1:54510 Accepted
+[Sat Oct 26 23:39:35 2024] 127.0.0.1:54510 [200]: GET /client
+[Sat Oct 26 23:39:35 2024] 127.0.0.1:54510 Closing
+[Sat Oct 26 23:39:35 2024] 127.0.0.1:54526 Accepted
+[Sat Oct 26 23:39:35 2024] 127.0.0.1:54526 [200]: GET /_wdt/13a160?XDEBUG_IGNORE=1
+[Sat Oct 26 23:39:35 2024] 127.0.0.1:54526 Closing
+[Sat Oct 26 23:40:52 2024] 127.0.0.1:44958 Accepted
+[Sat Oct 26 23:40:53 2024] 127.0.0.1:44958 [200]: GET /client
+[Sat Oct 26 23:40:53 2024] 127.0.0.1:44958 Closing
+[Sat Oct 26 23:40:53 2024] 127.0.0.1:44970 Accepted
+[Sat Oct 26 23:40:53 2024] 127.0.0.1:44970 [200]: GET /_wdt/3f79d7?XDEBUG_IGNORE=1
+[Sat Oct 26 23:40:53 2024] 127.0.0.1:44970 Closing
+[Sat Oct 26 23:42:55 2024] 127.0.0.1:50582 Accepted
+[Sat Oct 26 23:42:56 2024] 127.0.0.1:50582 [200]: GET /client
+[Sat Oct 26 23:42:56 2024] 127.0.0.1:50582 Closing
+[Sat Oct 26 23:42:56 2024] 127.0.0.1:50584 Accepted
+[Sat Oct 26 23:42:56 2024] 127.0.0.1:50584 [200]: GET /_wdt/dfe284?XDEBUG_IGNORE=1
+[Sat Oct 26 23:42:56 2024] 127.0.0.1:50584 Closing
+[Sat Oct 26 23:43:13 2024] 127.0.0.1:50126 Accepted
+[Sat Oct 26 23:43:13 2024] 127.0.0.1:50126 [200]: GET /client
+[Sat Oct 26 23:43:13 2024] 127.0.0.1:50126 Closing
+[Sat Oct 26 23:43:13 2024] 127.0.0.1:50130 Accepted
+[Sat Oct 26 23:43:13 2024] 127.0.0.1:50130 [200]: GET /_wdt/e3c746?XDEBUG_IGNORE=1
+[Sat Oct 26 23:43:13 2024] 127.0.0.1:50130 Closing
+[Sat Oct 26 23:43:33 2024] 127.0.0.1:48026 Accepted
+[Sat Oct 26 23:43:33 2024] 127.0.0.1:48026 [200]: GET /dette/details/31%3F
+[Sat Oct 26 23:43:33 2024] 127.0.0.1:48026 Closing
+[Sat Oct 26 23:43:33 2024] 127.0.0.1:48034 Accepted
+[Sat Oct 26 23:43:33 2024] 127.0.0.1:48034 [200]: GET /_wdt/73a8ec?XDEBUG_IGNORE=1
+[Sat Oct 26 23:43:33 2024] 127.0.0.1:48034 Closing

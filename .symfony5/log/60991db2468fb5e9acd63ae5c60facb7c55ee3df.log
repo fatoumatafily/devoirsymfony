@@ -1,0 +1,4 @@
+{"level":"warn","source":"server","source":"HTTP","error":"Passthru script \"/index.php\" does not exist under /home/yafily/: stat /home/yafily/index.php: no such file or directory","time":"2024-10-26T22:14:30Z","message":"unable to detect the front controller, disabling the PHP server"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8001","time":"2024-10-26T22:14:42Z","message":"/"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8001","time":"2024-10-26T22:14:56Z","message":"/client"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8001","time":"2024-10-26T22:24:03Z","message":"/"}

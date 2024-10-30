@@ -1,0 +1,38 @@
+2024-10-26 22:23:40.102 [info] [main] Niveau du journal : Info
+2024-10-26 22:23:40.102 [info] [main] Validation du git trouvé dans : «git»
+2024-10-26 22:23:40.102 [info] [main] Utilisation de git "2.43.0" de "git»
+2024-10-26 22:23:40.102 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-26 22:23:40.102 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-26 22:23:40.102 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-10-26 22:23:40.102 [info] [Model][openRepository] Opened repository: /home/yafily/Gestion-Dette-Boutiquier-Symfony-cour_3/Gestion-Dette-Boutiquier-Symfony-cour_3
+2024-10-26 22:23:40.103 [info] > git config --get commit.template [10ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-26 22:23:40.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-26 22:23:40.103 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+2024-10-26 22:23:40.103 [info] > git status -z -uall [60ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [31ms]
+2024-10-26 22:23:40.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2024-10-26 22:23:40.103 [info] > git config --local branch.main.vscode-merge-base [76ms]
+2024-10-26 22:23:40.103 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-26 22:23:40.103 [info] > git config --get commit.template [122ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [141ms]
+2024-10-26 22:23:40.103 [info] > git reflog main --grep-reflog=branch: Created from *. [27ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [58ms]
+2024-10-26 22:23:40.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2024-10-26 22:23:40.103 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [76ms]
+2024-10-26 22:23:40.103 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-26 22:23:40.103 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [48ms]
+2024-10-26 22:23:40.103 [info] > git merge-base refs/heads/main refs/remotes/origin/main [53ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-26 22:23:40.103 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2024-10-26 22:23:40.103 [info] > git diff --name-status -z --diff-filter=ADMR d7da7d2ff037147afde39fbf5b4fb0c8b765402c...refs/remotes/origin/main [49ms]
+2024-10-26 22:23:40.103 [info] > git status -z -uall [55ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [52ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-26 22:23:40.103 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-26 22:23:40.103 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-26 22:23:41.583 [info] > git check-ignore -v -z --stdin [15ms]
