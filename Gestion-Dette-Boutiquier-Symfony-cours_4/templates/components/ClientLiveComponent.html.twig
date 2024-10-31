@@ -1,0 +1,138 @@
+<div {{ attributes }}>
+	<!-- component html -->
+	{{
+		form_start(clientForm, {
+			attr: {
+				class: "space-y-4 flex w-auto flex-col",
+				id: "client-form"
+			}
+		})
+	}}
+	{{
+		form_widget(clientForm.surname, {
+			attr: {
+				class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			}
+		})
+	}}
+	{% set errors = form_errors(clientForm.surname) %} {% if errors|length > 0
+	%}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %}
+	{{
+		form_widget(clientForm.tel, {
+			attr: {
+				class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			}
+		})
+	}}
+	{% set errors = form_errors(clientForm.tel) %} {% if errors|length > 0 %}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %}
+	{{
+		form_widget(clientForm.address, {
+			attr: {
+				class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			}
+		})
+	}}
+	{% set errors = form_errors(clientForm.tel) %} {% if errors|length > 0 %}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %}
+	{{
+		form_widget(clientForm.cumulMontantDu, {
+			attr: {
+				class: "input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+			}
+		})
+	}}
+	{% set errors = form_errors(clientForm.cumulMontantDu) %} {% if
+	errors|length > 0 %}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %}
+    <!-- Checkbox user -->
+	<label for="client_createUser" class="flex item-center gap-2.5">
+		Créer un compte utilisateur
+        <input type="checkbox" class="checkbox" name="choice" id="client_createUser" data-action="live#update">
+	</label>
+    <!-- Form Utilisateur -->
+	{% if clientForm.utilisateur is defined %}
+	<label
+		class="input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+	>
+		Email
+		{{
+			form_widget(clientForm.utilisateur.email, {
+				attr: {
+					class: "grow"
+				}
+			})
+		}}
+	</label>
+	{% set errors = form_errors(clientForm.utilisateur.email) %} {% if
+	errors|length > 0 %}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %}
+	<label
+		class="input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+	>
+		Login
+		{{
+			form_widget(clientForm.utilisateur.login, {
+				attr: {
+					class: "grow"
+				}
+			})
+		}}
+	</label>
+	{% set errors = form_errors(clientForm.utilisateur.email) %} {% if
+	errors|length > 0 %}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %}
+	<label
+		class="input input-bordered flex items-center gap-2 bg-gray-100 shadow-inner shadow-gray-300"
+	>
+		Password
+		{{
+			form_widget(clientForm.utilisateur.password, {
+				attr: {
+					class: "grow"
+				}
+			})
+		}}
+	</label>
+	{% set errors = form_errors(clientForm.utilisateur.email) %} {% if
+	errors|length > 0 %}
+	<div
+		id="error-alert"
+		data-errors="{{ errors|json_encode|e('html_attr') }}"
+	></div>
+	{% endif %} {% endif %}
+    <!-- Fin Form Utilisateur -->
+	{{
+		form_widget(clientForm.Enregistrer, {
+			attr: {
+				class: "btn btn-active bg-first border-first text-gray-100"
+			}
+		})
+	}}
+	{{ form_end(clientForm) }}
+</div>
